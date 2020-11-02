@@ -10,6 +10,15 @@ The game developed started in 2015 and it will be released in December 2020.
 
 ### Buy
 
+Steam:
+
+GOG:
+
 ### Screenshots
 
-### Help
+### Manual, howtos
+
+[Game Manual](https://greengolem.github.io/StructuraHowtos)
+
+For a list of howtos articles:
+[Howtos](https://greengolem.github.io/StructuraHowtos)
