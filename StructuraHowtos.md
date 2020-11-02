@@ -1,6 +1,4 @@
-### Howtos
-
-How to do some usual operations in the game
+### Howtos<br><br>
 
 
 [Howto attach components to the unit](https://greengolem.github.io/StructuraHowtos/Attach)
