@@ -1,4 +1,6 @@
-Howto start the powerplant
+[Back](https://greengolem.github.io/StructuraHowtos)
+
+**Howto start the powerplant**
 
 Attach a powerplant:
 Attach a socket,tunnel,powerplant in this order

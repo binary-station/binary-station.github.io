@@ -1,4 +1,6 @@
-Howto mine resources
+[Back](https://greengolem.github.io/StructuraHowtos)
+
+**Howto mine resources**
 
 Sentinel mining:
 Main > Sentinel > Modules > Mid > Miner
