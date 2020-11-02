@@ -1,6 +1,7 @@
 [Back](https://greengolem.github.io/StructuraHowtos)
+<hr>
 
-**Howto expand the unit**
+**Howto expand the unit**<br><br>
 
 Components and other units can be attached to the initial unit
 
@@ -11,6 +12,7 @@ Main > Unit > Mods > Attach
 Left,Right,Up,Down keys to navigate
 
 Right or Enter key to execute command
+<br><br>
 
 To add another unit you first need to attach an adapter.
 
