@@ -1,6 +1,7 @@
 [Back](https://greengolem.github.io/StructuraHowtos)
-
+<hr>
 **Howto attach components to the unit**
+<br><br>
 
 Requirements:
 
@@ -12,6 +13,7 @@ Operations:
 Open main menu by using Tab key.
 
 Main > Unit > Mods > Attach
+<br><br>
 
 Select the direction and type of component:
 
