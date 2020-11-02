@@ -1,7 +1,7 @@
 [Back](https://greengolem.github.io/StructuraHowtos)
 <hr>
-**Howto attach components to the unit**
-<br><br>
+
+**Howto attach components to the unit**<br><br>
 
 Requirements:
 

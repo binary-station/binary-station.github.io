@@ -1,6 +1,7 @@
 [Back](https://greengolem.github.io/StructuraHowtos)
+<hr>
 
-**Howto use the logistic center**
+**Howto use the logistic center**<br><br>
 
 
 To put online the component a logistic center is needed

@@ -1,4 +1,5 @@
 [Back](https://greengolem.github.io/StructuraHowtos)
+<hr>
 
 Howto kernel<br><br>
 

@@ -1,8 +1,7 @@
 [Back](https://greengolem.github.io/StructuraHowtos)
 <hr>
 
-**Howto get antimatter, accelerator usage**
-<br><br>
+**Howto get antimatter, accelerator usage**<br><br>
 
 Attach a socket,tunnel,accelerator in this order.
 

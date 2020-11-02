@@ -1,6 +1,7 @@
 [Back](https://greengolem.github.io/StructuraHowtos)
+<hr>
 
-**Howto mine resources** <br><br>
+**Howto mine resources**<br><br>
 
 Sentinel mining:
 
