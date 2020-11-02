@@ -18,7 +18,7 @@ GOG:
 
 ### Manual, howtos
 
-[Game Manual](https://greengolem.github.io/StructuraHowtos)
+[Game Manual](https://greengolem.github.io/StructuraManual)
 
 For a list of howtos articles:
 

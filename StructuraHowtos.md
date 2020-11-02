@@ -18,3 +18,7 @@ How to do some usual operations in the game
 [Howto kernel](https://greengolem.github.io/StructuraHowtos/Kernel)
 
 [Howto expand the unit](https://greengolem.github.io/StructuraHowtos/ExpandUnit)
+
+[Howto use the unit stacks](https://greengolem.github.io/StructuraHowtos/UnitStacks)
+
+[Howto mine](https://greengolem.github.io/StructuraHowtos/Mine)

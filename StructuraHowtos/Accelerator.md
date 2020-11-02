@@ -9,11 +9,15 @@ Main > Unit > Mods > Attach
 The accelerator is inactive by default, is not producing antimatter.
 
 Resources are needed on the socket attached to the accelerator.
+
 To add resources to socket:
 
 Main > Components > Socket > Storage fill
 
-Start the accelerator: Main > Components > Accelerator > Online
+Start the accelerator: 
+
+Main > Components > Accelerator > Online
+
 It will consume the resources from that socket.
 
 Once resources are finished it automatically shuts down.
