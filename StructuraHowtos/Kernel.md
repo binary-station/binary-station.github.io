@@ -1,7 +1,6 @@
 [Back](https://greengolem.github.io/StructuraHowtos)
-<hr>
-**Howto kernel**<br><br>
 
+Howto kernel<br><br>
 
 The kernel is an AI/hardware that hosts the uploaded humans.
 
