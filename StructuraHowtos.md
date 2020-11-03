@@ -1,7 +1,7 @@
 [Back](https://greengolem.github.io/StructuraHowtos)
 <hr>
 
-### Howtos
+### Howtos<br><br>
 
 Usual operations in the game:
 <br><br>
