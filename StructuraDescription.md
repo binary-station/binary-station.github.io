@@ -18,6 +18,7 @@ explore, expand and survive the savage waves of enemies attacks.
 
 Scan and destroy enemies, plan your defenses, jump the unit to safety.
 
+<br><br>
 **Core features**
 
 Single player open world gameplay
@@ -59,6 +60,7 @@ HRF Structura , your ship, contains the simulated personalities of about 300 hum
 
 Your story begins here
 <br><br>
+
 **Gameplay**
 
 Fight for survival.
