@@ -17,8 +17,6 @@ Scan and destroy enemies, plan your defenses, jump the unit to safety.
 
 The game developed started in 2015 and it will be released in December 2020.
 
-<br><br>
-
 ## Details
 
 [Game description](https://greengolem.github.io/StructuraDescription)
