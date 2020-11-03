@@ -1,4 +1,4 @@
-[Back](https://greengolem.github.io/StructuraHowtos)
+[Back](https://greengolem.github.io/Structura)
 <hr>
 
 ### Howtos<br><br>
