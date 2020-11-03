@@ -1,5 +1,10 @@
-### Howtos<br><br>
+[Back](https://greengolem.github.io/StructuraHowtos)
+<hr>
 
+### Howtos
+
+Usual operations in the game:
+<br><br>
 
 [Howto attach components to the unit](https://greengolem.github.io/StructuraHowtos/Attach)
 
@@ -20,3 +25,11 @@
 [Howto use the unit stacks](https://greengolem.github.io/StructuraHowtos/UnitStacks)
 
 [Howto mine](https://greengolem.github.io/StructuraHowtos/Mine)
+
+[Howto fly the sentinel](https://greengolem.github.io/StructuraHowtos/SentinelNavigation)
+
+[Howto use the sentinel scanner](https://greengolem.github.io/StructuraHowtos/SentinelScanner)
+
+[Howto sentinel resource management](https://greengolem.github.io/StructuraHowtos/SentinelResourceManagement)
+
+[Sentinel operations howto](https://greengolem.github.io/StructuraHowtos/SentinelOperations)
