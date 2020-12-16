@@ -19,13 +19,13 @@ The game developed started in 2015 and it will be released in December 2020.
 
 ### Details
 
-[Game description](https://greengolem.github.io/StructuraDescription)
+&nbsp;&nbsp;&nbsp;&nbsp;[Game description](https://greengolem.github.io/StructuraDescription)
 
 ### Buy
 
 Steam:
 
-[Structura page](https://store.steampowered.com/app/1422980/Structura/)
+&nbsp;&nbsp;&nbsp;&nbsp;[Structura page](https://store.steampowered.com/app/1422980/Structura/)
 
 GOG:
 
@@ -33,12 +33,12 @@ GOG:
 
 ### Manual, howtos
 
-[Game Manual](https://greengolem.github.io/StructuraManual)
+&nbsp;&nbsp;&nbsp;&nbsp;[Game Manual](https://greengolem.github.io/StructuraManual)
 
-[Howtos](https://greengolem.github.io/StructuraHowtos)
+&nbsp;&nbsp;&nbsp;&nbsp;[Howtos](https://greengolem.github.io/StructuraHowtos)
 
 ### News about the game
 
-[Steam page](https://store.steampowered.com/app/1422980/Structura)
-[YouTube](https://www.youtube.com/channel/UCaoG7whhN8mylWobhWUByVw)
-[Twitter](https://twitter.com/StructuraGame)
+&nbsp;&nbsp;&nbsp;&nbsp;[Steam page](https://store.steampowered.com/app/1422980/Structura)
+&nbsp;&nbsp;&nbsp;&nbsp;[YouTube](https://www.youtube.com/channel/UCaoG7whhN8mylWobhWUByVw)
+&nbsp;&nbsp;&nbsp;&nbsp;[Twitter](https://twitter.com/StructuraGame)
