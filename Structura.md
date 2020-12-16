@@ -25,6 +25,8 @@ The game developed started in 2015 and it will be released in December 2020.
 
 Steam:
 
+[Structura page](https://store.steampowered.com/app/1422980/Structura/)
+
 GOG:
 
 ### Screenshots
@@ -34,3 +36,9 @@ GOG:
 [Game Manual](https://greengolem.github.io/StructuraManual)
 
 [Howtos](https://greengolem.github.io/StructuraHowtos)
+
+### News about the game
+
+[Steam page](https://store.steampowered.com/app/1422980/Structura)
+[YouTube](https://www.youtube.com/channel/UCaoG7whhN8mylWobhWUByVw)
+[Twitter](https://twitter.com/StructuraGame)

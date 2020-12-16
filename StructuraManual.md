@@ -6,11 +6,19 @@
 
 ----------
 
-Structura is a single player real time strategy computer game with some unique features.
+Structura is a rather unique sci-fi real time strategy set in space.
 
-You command the unit , a cube like spacecraft that can be expanded by using components.
+Its a hybrid of rts and fps, emphasis on combat and survival
 
-Fight for survival against an unknown and implacable enemy. 
+, the economy is important for the war effort.
+
+You are the commander of a combat unit of the Human Resistance Fleet.
+
+Build your economy for war, modify the unit by adding components,
+
+explore, expand and survive the savage waves of enemies attacks.
+
+Scan and destroy enemies, plan your defenses, jump the unit to safety.
 
 
 ----------
@@ -44,7 +52,6 @@ As priest commander you still believe in the Book of Horrors prophecies.The holy
 **Interface**
 
 ----------
-![ui parts](https://paper-attachments.dropbox.com/s_DFDC494CC1DB98857D17B95633D996FCA4A15A14309C3C1FF4DE5466C5327B5E_1590473739592_uiexp.png)
 
 ----------
 
@@ -309,7 +316,7 @@ Main > System > Help
 
 A game by Afrasinei Alexandru
 Contact:
-AlexandruAfrasinei@gmail.com
+greengolem.net@gmail.com
 
 
 
