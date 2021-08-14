@@ -2,7 +2,7 @@
 
 GreenGolem is a one man game development shop.
 
-Im Alexandru Afrasinei, a programmer by trade,
+Im a programmer by trade,
 with a very old hobby for game development.
 
 My first introduction to programming was on a z80 clone from my country (Romania),
@@ -15,6 +15,8 @@ My belief is that games should be meaningful experiences, used to learn things a
 ### Games
 
 [Structura](https://greengolem.github.io/Structura)
+
+[Stack Desktop Edition](https://greengolem.github.io/StackyDesktopEdition)
 
 ### Contact
 

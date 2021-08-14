@@ -27,18 +27,14 @@ Steam:
 
 &nbsp;&nbsp;&nbsp;&nbsp;[Structura page](https://store.steampowered.com/app/1422980/Structura/)
 
-GOG:
+### Trailers
+
+[Early access trailer](https://www.youtube.com/watch?v=JTso0rOedjA&t=12s)
 
 ### Screenshots
 
-### Manual, howtos
+### Manual, Howtos
 
 &nbsp;&nbsp;&nbsp;&nbsp;[Game Manual](https://greengolem.github.io/StructuraManual)
-
 &nbsp;&nbsp;&nbsp;&nbsp;[Howtos](https://greengolem.github.io/StructuraHowtos)
 
-### News about the game
-
-&nbsp;&nbsp;&nbsp;&nbsp;[Steam page](https://store.steampowered.com/app/1422980/Structura)
-&nbsp;&nbsp;&nbsp;&nbsp;[YouTube](https://www.youtube.com/channel/UCaoG7whhN8mylWobhWUByVw)
-&nbsp;&nbsp;&nbsp;&nbsp;[Twitter](https://twitter.com/StructuraGame)
