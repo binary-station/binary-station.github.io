@@ -1,5 +1,6 @@
 ## Welcome to GreenGolem Gaming
 
+
 GreenGolem is a one man game development shop.
 
 Im a programmer by trade,
@@ -14,11 +15,14 @@ My belief is that games should be meaningful experiences, used to learn things a
 
 ### Games
 
-[Structura](https://greengolem.github.io/Structura)
 
-[Stack Desktop Edition](https://greengolem.github.io/StackyDesktopEdition)
+&nbsp;&nbsp;&nbsp;&nbsp;[Structura](https://greengolem.github.io/Structura)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[Stacky Desktop Edition](https://greengolem.github.io/StackyDesktopEdition)
+
 
 ### Contact
+
 
 greengolem.net@gmail.com
 
