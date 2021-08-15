@@ -1,6 +1,6 @@
-## Welcome to GreenGolem Gaming
+## Welcome to GreenGolem Games
 
-
+<br>
 GreenGolem is a one man game development shop.
 
 Im a programmer by trade,
@@ -13,6 +13,7 @@ I created this site to show my work, and hope some people will find my creations
 
 My belief is that games should be meaningful experiences, used to learn things and tell stories.
 
+<br>
 ### Games
 
 
@@ -20,7 +21,7 @@ My belief is that games should be meaningful experiences, used to learn things a
 
 &nbsp;&nbsp;&nbsp;&nbsp;[Stacky Desktop Edition](https://greengolem.github.io/StackyDesktopEdition)
 
-
+<br>
 ### Contact
 
 

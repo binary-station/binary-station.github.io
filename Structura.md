@@ -1,3 +1,6 @@
+[Back](https://greengolem.github.io)
+<hr>
+
 ## Structura
 
 Structura is a rather unique sci-fi real time strategy set in space.
@@ -23,13 +26,11 @@ The game developed started in 2015 and it will be released in December 2020.
 
 ### Buy
 
-Steam:
-
-&nbsp;&nbsp;&nbsp;&nbsp;[Structura page](https://store.steampowered.com/app/1422980/Structura/)
+&nbsp;&nbsp;&nbsp;&nbsp;[Structura steam page](https://store.steampowered.com/app/1422980/Structura/)
 
 ### Trailers
 
-[Early access trailer](https://www.youtube.com/watch?v=JTso0rOedjA&t=12s)
+&nbsp;&nbsp;&nbsp;&nbsp;[Early access trailer](https://www.youtube.com/watch?v=JTso0rOedjA&t=12s)
 
 ### Screenshots
 
