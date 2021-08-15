@@ -15,10 +15,11 @@ My belief is that games should be meaningful experiences, used to learn things a
 
 ### Games
 
-&nbsp;&nbsp;&nbsp;&nbsp;[Structura](https://greengolem.github.io/Structura)
-![image](images/structura_library.jpg)
+&nbsp;&nbsp;&nbsp;&nbsp;[Structura](https://greengolem.github.io/Structura)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;![image](images/structura_library.jpg)
 
-&nbsp;&nbsp;&nbsp;&nbsp;[Stacky Desktop Edition](https://greengolem.github.io/StackyDesktopEdition)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Stacky Desktop Edition](https://greengolem.github.io/StackyDesktopEdition)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![image](images/stackydesktopedition_library.jpg)
 
 ### Contact
 
