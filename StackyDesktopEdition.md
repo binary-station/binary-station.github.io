@@ -1,6 +1,6 @@
 [Back](https://greengolem.github.io)
 <hr>
-
+<br>
 ## Stacky Desktop Edition
 
 A puzzle game about stacks
@@ -12,8 +12,6 @@ Scope is to recreate the right stack arrangement.
 
 There are several puzzle generators of different difficulty.
 So will not run out of puzzles. 
-
-<br>
 
 ### Buy
 

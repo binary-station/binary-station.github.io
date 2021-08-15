@@ -1,6 +1,6 @@
 [Back](https://greengolem.github.io)
 <hr>
-
+<br>
 ## Structura
 
 Structura is a rather unique sci-fi real time strategy set in space.

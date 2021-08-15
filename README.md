@@ -13,17 +13,13 @@ I created this site to show my work, and hope some people will find my creations
 
 My belief is that games should be meaningful experiences, used to learn things and tell stories.
 
-<br>
 ### Games
-
 
 &nbsp;&nbsp;&nbsp;&nbsp;[Structura](https://greengolem.github.io/Structura)
 
 &nbsp;&nbsp;&nbsp;&nbsp;[Stacky Desktop Edition](https://greengolem.github.io/StackyDesktopEdition)
 
-<br>
 ### Contact
 
-
-greengolem.net@gmail.com
+&nbsp;&nbsp;&nbsp;&nbsp;greengolem.net@gmail.com
 

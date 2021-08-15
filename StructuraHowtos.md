@@ -1,6 +1,6 @@
 [Back](https://greengolem.github.io/Structura)
 <hr>
-
+<br>
 ### Howtos<br><br>
 
 Usual operations in the game:
