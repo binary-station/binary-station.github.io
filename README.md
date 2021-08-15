@@ -1,4 +1,4 @@
-## Welcome to GreenGolem Games
+## Welcome
 
 <br>
 GreenGolem is a one man game development shop.
