@@ -38,17 +38,12 @@ We never seen an enemy or capture one, only intelligence is on their technology,
 The Resistance fleet was created.The unit is the main combat vessel , an ark, storing couple of hundreds human personalities in a cybernetic simulation.
 Nobody seen a real human in hundreds of years.
 
-You are commander of the unit 1237. As the endless war rages, your mission is clear you do not forgive or forget after all the horrors seen.
-
-The Book of Horrors says there are still real humans alive in the galaxy you didn't see one, but you believe and continue the search.
+You are commander of the unit 1237. As the endless war rages, your mission is clear you do not forgive or forget.
 
 Survival is taking a heavy toll, especially when units are lost.After a unit is destroyed some human shards can be recovered.And later recomposed into the simulation.But a part of the personality is lost forever.
 
 The destruction continues and the remains of humanity barely survives.
 Its just a matter of time…
-
-As priest commander you still believe in the Book of Horrors prophecies.The holy mission will continue …
-
 
 ----------
 
@@ -76,9 +71,9 @@ composite resources:
 - shards
 
 Initial resources available at game start:
-matter          100
-antimatter   100
-energy          100
+matter          0
+antimatter   0
+energy          200
 Check resource costs for components.
 Its important to have a stable economy.
 
@@ -123,9 +118,9 @@ For an description on how to attach components to the unit check the “Attach c
 
 ----------
 
-The multi function defender of the sentinel, can be only used by the priest commander.
+The multi function defender of the sentinel.
 Sentinel can carry a limited amount of resources:
-m: 100, am: 100, e: 100
+m: 0, am: 0, e: 200
 Can be used for sentinel operations or as cargo ship.
 
 The sentinel starts as docked to the unit.
@@ -317,7 +312,7 @@ Main > System > Help
 
 ----------
 
-A game by Afrasinei Alexandru
+A game by GreenGolem Games
 Contact:
 greengolem.net@gmail.com
 
