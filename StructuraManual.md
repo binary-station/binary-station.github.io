@@ -22,7 +22,7 @@ Build your economy for war, modify the unit by adding components,
 explore, expand and survive the savage waves of enemies attacks.
 
 Scan and destroy enemies, plan your defenses, jump the unit to safety.
-
+<br>
 
 ----------
 
@@ -44,13 +44,14 @@ Survival is taking a heavy toll, especially when units are lost.After a unit is 
 
 The destruction continues and the remains of humanity barely survives.
 Its just a matter of time…
+<br>
 
 ----------
 
 **Interface**
 
 ----------
-
+<br>
 ----------
 
 **Resources**
@@ -77,14 +78,14 @@ energy          200
 Check resource costs for components.
 Its important to have a stable economy.
 
-
+<br>
 ----------
 
 **Economy**
 
 ----------
 
-
+<br>
 ----------
 
 **Unit**
@@ -112,6 +113,7 @@ adapters available: standard, fortress, recon, deathstar
 
 For an description on how to attach components to the unit check the “Attach components howto”.
 
+<br>
 ----------
 
 **Sentinel**
@@ -143,7 +145,7 @@ Core:
 Back:
 1x left slot, 1x right slot
 
-
+<br>
 ----------
 
 **Kernel**
@@ -166,6 +168,7 @@ The kernel can be  moved from unit to unit in case of danger.
 To access Kernel facilities use the menu:
 Main > Kernel
 
+<br>
 ----------
 
 **Components**
@@ -180,6 +183,7 @@ So a socket and a tunnel attached on the same direction is needed to be able to 
 
 List of all components with resources cost:
 
+<br>
 - sockets
 
 Basic component is directly linked to the unit.
@@ -198,7 +202,7 @@ Main > Components > Sockets
 
 ( cost m: 10 am: 5 e: 5 )
 
-
+<br>
 - tunnel
 
 Can only be attached to a socket.
@@ -217,7 +221,7 @@ Main > Components > Socket > Storage fill
 
 The components will produce its output and shutdown automatically if no resources left on the socket.
 
-
+<br>
 - power plant
 
 One of the most important components, having a stable economy is key.
@@ -233,7 +237,7 @@ Main > Components > Powerplant > Online
 (cost m: 50 am: 50 e: 10)
 (output m: 0 am: 0 e: +9)
 
-
+<br>
 - mine
 
 Mine matter from asteroids.
@@ -248,7 +252,7 @@ The transporter will bring in matter until the asteroid is depleted and destroye
 
 (cost m: 10 am: 0 e: 5)
 
-
+<br>
 - accelerator
 
 Generates antimatter.
@@ -261,7 +265,7 @@ Main > Components > Mine > Online
 (cost m: 10 am: 0 e: 5)
 (output m: 0 am: +1 e: -1)
 
-
+<br>
 - battery
 
 Can store energy for the unit.Max energy per battery 500.
@@ -276,7 +280,7 @@ Main > Components > Battery >
 
 (cost m: 10 am: 20 e: 50)
 
-
+<br>
 - recycler
 
 Input matter, antimatter and energy and it creates a monolith.
@@ -313,6 +317,7 @@ Main > System > Help
 ----------
 
 A game by GreenGolem Games
+<br>
 Contact:
 greengolem.net@gmail.com
 
