@@ -3,8 +3,6 @@
 <br>
 ## Structura manual<br><br>
 
-----------
-
 **Introduction**
 
 ----------
@@ -22,9 +20,9 @@ Build your economy for war, modify the unit by adding components,
 explore, expand and survive the savage waves of enemies attacks.
 
 Scan and destroy enemies, plan your defenses, jump the unit to safety.
+
 <br>
 
-----------
 
 **Story**
 
@@ -44,15 +42,14 @@ Survival is taking a heavy toll, especially when units are lost.After a unit is 
 
 The destruction continues and the remains of humanity barely survives.
 Its just a matter of time…
-<br>
 
-----------
+<br>
 
 **Interface**
 
 ----------
+
 <br>
-----------
 
 **Resources**
 
@@ -79,14 +76,12 @@ Check resource costs for components.
 Its important to have a stable economy.
 
 <br>
-----------
 
 **Economy**
 
 ----------
 
 <br>
-----------
 
 **Unit**
 
@@ -114,7 +109,6 @@ adapters available: standard, fortress, recon, deathstar
 For an description on how to attach components to the unit check the “Attach components howto”.
 
 <br>
-----------
 
 **Sentinel**
 
@@ -146,7 +140,6 @@ Back:
 1x left slot, 1x right slot
 
 <br>
-----------
 
 **Kernel**
 
@@ -169,7 +162,6 @@ To access Kernel facilities use the menu:
 Main > Kernel
 
 <br>
-----------
 
 **Components**
 
@@ -294,8 +286,7 @@ Main > Components > Recycler >
 
 (cost m: 20 am: 20 e: 20)
 
-
-----------
+<br>
 
 **Howtos, help**
 
@@ -310,7 +301,7 @@ This replaces the tutorial so i advise to read them they show how to do useful o
 For general information:
 Main > System > Help
 
-----------
+<br>
 
 **Credits**
 
