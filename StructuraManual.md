@@ -3,8 +3,6 @@
 <br>
 ## Structura manual<br><br>
 
-----------
-
 **Introduction**
 
 ----------
@@ -23,7 +21,8 @@ explore, expand and survive the savage waves of enemies attacks.
 
 Scan and destroy enemies, plan your defenses, jump the unit to safety.
 
-----------
+<br>
+
 
 **Story**
 
@@ -31,25 +30,26 @@ Scan and destroy enemies, plan your defenses, jump the unit to safety.
 
 The remains of the human race is scattered across the galaxy. 
 
-Humanity fights for survival against an unknown and implacable enemy.
+As the enemy destroyed our worlds mercilessly, humans had to adapt.This war is known as the endless war.
+We never seen an enemy or capture one, only intelligence is on their technology, and after all this time we have no answer to why …
 
-The human race as we know it doesn't exist anymore.
+The Resistance fleet was created.The unit is the main combat vessel , an ark, storing couple of hundreds human personalities in a cybernetic simulation.
+Nobody seen a real human in hundreds of years.
 
-Humans survived as cybernetic simulations inside their combat vessels.
+You are commander of the unit 1237. As the endless war rages, your mission is clear you do not forgive or forget.
 
-You are the commander of such unit (part of the Human Resistance Fleet).
+Survival is taking a heavy toll, especially when units are lost.After a unit is destroyed some human shards can be recovered.And later recomposed into the simulation.But a part of the personality is lost forever.
 
-HRF Structura , your ship, contains the simulated personalities of about 300 humans.
+The destruction continues and the remains of humanity barely survives.
+Its just a matter of time…
 
-Your story begins here
-
-----------
+<br>
 
 **Interface**
 
 ----------
 
-----------
+<br>
 
 **Resources**
 
@@ -75,21 +75,19 @@ energy          200
 Check resource costs for components.
 Its important to have a stable economy.
 
-
-----------
+<br>
 
 **Economy**
 
 ----------
 
-
-----------
+<br>
 
 **Unit**
 
 ----------
 
-The main base of operations , stores resources and components can be attached.
+The ship , stores resources and components can be attached.
 
 The sentinel and the kernel are important parts of the unit.
 Check:
@@ -110,18 +108,15 @@ adapters available: standard, fortress, recon, deathstar
 
 For an description on how to attach components to the unit check the “Attach components howto”.
 
-----------
+<br>
 
 **Sentinel**
 
 ----------
 
-Multi function craft.
-Has advanced strike capabilities with 2 laser turrets and bombs/mine payloads.
-Used also for mining asteroids, cargo trasport. 
-
-The sentinel can carry a limited amount of resources:
-m: 100, am: 100, e: 100
+The multi function defender of the sentinel.
+Sentinel can carry a limited amount of resources:
+m: 0, am: 0, e: 200
 Can be used for sentinel operations or as cargo ship.
 
 The sentinel starts as docked to the unit.
@@ -144,8 +139,7 @@ Core:
 Back:
 1x left slot, 1x right slot
 
-
-----------
+<br>
 
 **Kernel**
 
@@ -167,7 +161,7 @@ The kernel can be  moved from unit to unit in case of danger.
 To access Kernel facilities use the menu:
 Main > Kernel
 
-----------
+<br>
 
 **Components**
 
@@ -181,6 +175,7 @@ So a socket and a tunnel attached on the same direction is needed to be able to 
 
 List of all components with resources cost:
 
+<br>
 - sockets
 
 Basic component is directly linked to the unit.
@@ -199,7 +194,7 @@ Main > Components > Sockets
 
 ( cost m: 10 am: 5 e: 5 )
 
-
+<br>
 - tunnel
 
 Can only be attached to a socket.
@@ -218,7 +213,7 @@ Main > Components > Socket > Storage fill
 
 The components will produce its output and shutdown automatically if no resources left on the socket.
 
-
+<br>
 - power plant
 
 One of the most important components, having a stable economy is key.
@@ -234,7 +229,7 @@ Main > Components > Powerplant > Online
 (cost m: 50 am: 50 e: 10)
 (output m: 0 am: 0 e: +9)
 
-
+<br>
 - mine
 
 Mine matter from asteroids.
@@ -249,7 +244,7 @@ The transporter will bring in matter until the asteroid is depleted and destroye
 
 (cost m: 10 am: 0 e: 5)
 
-
+<br>
 - accelerator
 
 Generates antimatter.
@@ -262,7 +257,7 @@ Main > Components > Mine > Online
 (cost m: 10 am: 0 e: 5)
 (output m: 0 am: +1 e: -1)
 
-
+<br>
 - battery
 
 Can store energy for the unit.Max energy per battery 500.
@@ -277,7 +272,7 @@ Main > Components > Battery >
 
 (cost m: 10 am: 20 e: 50)
 
-
+<br>
 - recycler
 
 Input matter, antimatter and energy and it creates a monolith.
@@ -291,8 +286,7 @@ Main > Components > Recycler >
 
 (cost m: 20 am: 20 e: 20)
 
-
-----------
+<br>
 
 **Howtos, help**
 
@@ -307,19 +301,13 @@ This replaces the tutorial so i advise to read them they show how to do useful o
 For general information:
 Main > System > Help
 
-----------
+<br>
 
 **Credits**
 
 ----------
 
 A game by GreenGolem Games
+<br>
 Contact:
 greengolem.net@gmail.com
-
-
-
-
-
-
-
