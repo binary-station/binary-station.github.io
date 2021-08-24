@@ -23,7 +23,6 @@ explore, expand and survive the savage waves of enemies attacks.
 
 Scan and destroy enemies, plan your defenses, jump the unit to safety.
 
-
 ----------
 
 **Story**
@@ -32,23 +31,17 @@ Scan and destroy enemies, plan your defenses, jump the unit to safety.
 
 The remains of the human race is scattered across the galaxy. 
 
-As the enemy destroyed our worlds mercilessly, humans had to adapt.This war is known as the endless war.
-We never seen an enemy or capture one, only intelligence is on their technology, and after all this time we have no answer to why …
+Humanity fights for survival against an unknown and implacable enemy.
 
-The Resistance fleet was created.The unit is the main combat vessel , an ark, storing couple of hundreds human personalities in a cybernetic simulation.
-Nobody seen a real human in hundreds of years.
+The human race as we know it doesn't exist anymore.
 
-You are commander of the unit 1237. As the endless war rages, your mission is clear you do not forgive or forget after all the horrors seen.
+Humans survived as cybernetic simulations inside their combat vessels.
 
-The Book of Horrors says there are still real humans alive in the galaxy you didn't see one, but you believe and continue the search.
+You are the commander of such unit (part of the Human Resistance Fleet).
 
-Survival is taking a heavy toll, especially when units are lost.After a unit is destroyed some human shards can be recovered.And later recomposed into the simulation.But a part of the personality is lost forever.
+HRF Structura , your ship, contains the simulated personalities of about 300 humans.
 
-The destruction continues and the remains of humanity barely survives.
-Its just a matter of time…
-
-As priest commander you still believe in the Book of Horrors prophecies.The holy mission will continue …
-
+Your story begins here
 
 ----------
 
@@ -76,9 +69,9 @@ composite resources:
 - shards
 
 Initial resources available at game start:
-matter          100
-antimatter   100
-energy          100
+matter          0
+antimatter   0
+energy          200
 Check resource costs for components.
 Its important to have a stable economy.
 
@@ -96,7 +89,7 @@ Its important to have a stable economy.
 
 ----------
 
-The ship , stores resources and components can be attached.
+The main base of operations , stores resources and components can be attached.
 
 The sentinel and the kernel are important parts of the unit.
 Check:
@@ -123,8 +116,11 @@ For an description on how to attach components to the unit check the “Attach c
 
 ----------
 
-The multi function defender of the sentinel, can be only used by the priest commander.
-Sentinel can carry a limited amount of resources:
+Multi function craft.
+Has advanced strike capabilities with 2 laser turrets and bombs/mine payloads.
+Used also for mining asteroids, cargo trasport. 
+
+The sentinel can carry a limited amount of resources:
 m: 100, am: 100, e: 100
 Can be used for sentinel operations or as cargo ship.
 
@@ -317,7 +313,7 @@ Main > System > Help
 
 ----------
 
-A game by Afrasinei Alexandru
+A game by GreenGolem Games
 Contact:
 greengolem.net@gmail.com
 

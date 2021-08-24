@@ -25,5 +25,5 @@ So will not run out of puzzles.
 
 ### Manual
 
-&nbsp;&nbsp;&nbsp;&nbsp;[Game Manual](https://greengolem.github.io/StructuraManual)
+&nbsp;&nbsp;&nbsp;&nbsp;[Game Manual](https://greengolem.github.io/StackyDesktopEditionManual)
 

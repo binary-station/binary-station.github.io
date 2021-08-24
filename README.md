@@ -17,7 +17,7 @@ My belief is that games should be meaningful experiences, used to learn things a
 
 | [Structura](https://greengolem.github.io/Structura) | [Stacky Desktop Edition](https://greengolem.github.io/StackyDesktopEdition) |
 | --- | --- |
-| ![image](images/structura_library.jpg) | ![image](images/stackydesktopedition_library.jpg) |
+| ![image](images/structura_library.jpg) | ![image](images/stackydesktopedition_library.png) |
 
 ### Contact
 
