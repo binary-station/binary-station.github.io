@@ -10,6 +10,7 @@
 ----------
 
 Welcome to Stacky Desktop Edition
+<br>
 A puzzle game about stacks
 
 There are 2 panels each containing a stack.
@@ -29,7 +30,7 @@ So will not run out of puzzles.
 Stack notation explained:
 <br>
 operation (initial stack -- after operation stack)
-<br>
+<br><br>
 Single cell operations:
 
 dup   ( n -- n n )
