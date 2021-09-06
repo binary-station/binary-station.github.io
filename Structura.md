@@ -30,10 +30,10 @@ The game developed started in 2015 and it will be released in December 2020.
 
 ### Trailers
 
-&nbsp;&nbsp;&nbsp;&nbsp;[Early access trailer](https://www.youtube.com/watch?v=JTso0rOedjA&t=12s)
-&nbsp;&nbsp;&nbsp;&nbsp;[Standard tutorial play through](https://youtu.be/QyBNwY2LrFs)
-&nbsp;&nbsp;&nbsp;&nbsp;[Advanced tutorial play through](https://youtu.be/bSoLLzaFHoI)
-&nbsp;&nbsp;&nbsp;&nbsp;[Early game example](https://youtu.be/j-KBN6iLRf0)
+&nbsp;&nbsp;&nbsp;&nbsp;[Early access trailer](https://www.youtube.com/watch?v=JTso0rOedjA&t=12s)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[Standard tutorial play through](https://youtu.be/QyBNwY2LrFs)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[Advanced tutorial play through](https://youtu.be/bSoLLzaFHoI)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[Early game example](https://youtu.be/j-KBN6iLRf0)<br>
 
 ### Screenshots
 
