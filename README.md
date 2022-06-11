@@ -17,7 +17,13 @@ My belief is that games should be meaningful experiences, used to learn things a
 
 | [Structura](https://greengolem.github.io/Structura) | [Stacky Desktop Edition](https://greengolem.github.io/StackyDesktopEdition) |
 | --- | --- |
-| ![image](images/structura_library.jpg) | ![image](images/stackydesktopedition_library.png) |
+| [![image](images/structura_library.jpg)](https://greengolem.github.io/Structura)  | [![image](images/stackydesktopedition_library.png)](https://greengolem.github.io/StackyDesktopEdition) |
+
+### Apps/Libs
+
+| [Pace Engine](https://greengolem.github.io/PaceEngine) |
+| --- |
+| [![image](images/structura_library.jpg)](https://greengolem.github.io/PaceEngine) |
 
 ### Contact
 

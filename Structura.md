@@ -35,8 +35,6 @@ The game developed started in 2015 and it will be released in December 2020.
 &nbsp;&nbsp;&nbsp;&nbsp;[Advanced tutorial play through](https://youtu.be/bSoLLzaFHoI)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[Early game example](https://youtu.be/j-KBN6iLRf0)<br>
 
-### Screenshots
-
 ### Manual, Howtos
 
 &nbsp;&nbsp;&nbsp;&nbsp;[Game Manual](https://greengolem.github.io/StructuraManual)<br>

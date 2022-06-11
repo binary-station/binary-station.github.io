@@ -21,8 +21,6 @@ So will not run out of puzzles.
 
 &nbsp;&nbsp;&nbsp;&nbsp;[Release 1.0.0 trailer](https://www.youtube.com/watch?v=0CMYOKpUy5o)
 
-### Screenshots
-
 ### Manual
 
 &nbsp;&nbsp;&nbsp;&nbsp;[Game Manual](https://greengolem.github.io/StackyDesktopEditionManual)
