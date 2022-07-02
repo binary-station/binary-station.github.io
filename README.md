@@ -21,9 +21,9 @@ My belief is that games should be meaningful experiences, used to learn things a
 
 ### Apps/Libs
 
-| [Pace Engine](https://greengolem.github.io/PaceEngine) |
+| [Pace Lib](https://greengolem.github.io/PaceLib) |
 | --- |
-| [![image](images/PaceEngine_library.png)](https://greengolem.github.io/PaceEngine) |
+| [![image](images/pacelib_library.png)](https://greengolem.github.io/PaceLib) |
 
 ### Contact
 
