@@ -15,9 +15,9 @@ I created this site to show my work, and hope people will find my creations inte
 
 ### Games
 
-| [Structura](https://greengolem.github.io/Structura) | [Stacky Desktop Edition](https://greengolem.github.io/StackyDesktopEdition) | [Binary Station](https://greengolem.github.io/StackyDesktopEdition) |
+| [Structura](https://greengolem.github.io/Structura) | [Stacky Desktop Edition](https://greengolem.github.io/StackyDesktopEdition) | [Binary Station](https://greengolem.github.io/BinaryStation) |
 | --- | --- | --- |
-| [![image](images/structura_library.jpg)](https://greengolem.github.io/Structura)  | [![image](images/stackydesktopedition_library.png)](https://greengolem.github.io/StackyDesktopEdition) | [![image](images/binarystation_library.jpg)](https://greengolem.github.io/Structura)  |
+| [![image](images/structura_library.jpg)](https://greengolem.github.io/Structura)  | [![image](images/stackydesktopedition_library.png)](https://greengolem.github.io/StackyDesktopEdition) | [![image](images/binarystation_library.png)](https://greengolem.github.io/BinaryStation)  |
 
 ### Apps/Libs
 

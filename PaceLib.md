@@ -19,4 +19,4 @@ Good documentation
 
 ### Manual
 
-[Code documention](https://greengolem.github.io/PaceLib/html/index.html)
+&nbsp;&nbsp;&nbsp;&nbsp;[Code documention](https://greengolem.github.io/PaceLib/html/index.html)
