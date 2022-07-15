@@ -3,18 +3,20 @@
 <br>
 ## Pace Lib
 
-2d c++ graphics library.
+2d c++ graphics library (based on SDL2).
 
 Focus on easy to use API.
 
-Flexible widget system (json configuration).
+Flexible widget system (json configuration or code).
 
 Good documentation
 
-### Details
+### Usage
+
+### Code
 
 ### Buy
 
-### Examples
-
 ### Manual
+
+[Code documention](https://greengolem.github.io/PaceLib/html/index.html)
