@@ -1,4 +1,4 @@
-[Back](https://greengolem.github.io)
+[Back](https://binary-station.github.io)
 <hr>
 <br>
 ## Structura manual<br><br>
@@ -66,4 +66,4 @@ Main > System > Help
 A game by GreenGolem Games
 <br>
 Contact:
-greengolem.net@gmail.com
+binary-station.net@gmail.com

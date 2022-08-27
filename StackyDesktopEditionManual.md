@@ -1,4 +1,4 @@
-[Back](https://greengolem.github.io)
+[Back](https://binary-station.github.io)
 <hr>
 <br>
 ## Stacky Desktop Edition manual<br><br>
@@ -81,5 +81,5 @@ d means 2 stack elements next to each other
 
 A game by GreenGolem Games
 Contact:
-greengolem.net@gmail.com
+binary-station.net@gmail.com
 
