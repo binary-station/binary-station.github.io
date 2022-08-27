@@ -1,7 +1,7 @@
 ## Welcome
 
 <br>
-GreenGolem is a one man game development shop.
+BinaryStation is a one man game development shop.
 
 Im a programmer by trade,
 with a very old hobby for game development.
