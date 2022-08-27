@@ -16,7 +16,7 @@ Good documentation
 ### Usage
 
 Check the available examples:
-blank, main_menu, graphics, gui, point_and_click, sdl2
+blank, main_menu, graphics, gui, tictactoe, sdl2
 
 After the initialization:
 
@@ -64,4 +64,4 @@ Open source version:
 
 ### Manual
 
-&nbsp;&nbsp;&nbsp;&nbsp;[Code documention](https://greengolem.github.io/PaceLib/html/index.html)
+&nbsp;&nbsp;&nbsp;&nbsp;[Code documention](https://binary-station.github.io/PaceLib/html/index.html)

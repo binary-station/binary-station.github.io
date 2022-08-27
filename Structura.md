@@ -1,4 +1,4 @@
-[Back](https://greengolem.github.io)
+[Back](https://binary-station.github.io)
 <hr>
 <br>
 ## Structura
@@ -22,7 +22,7 @@ The game developed started in 2015 and it will be released in December 2020.
 
 ### Details
 
-&nbsp;&nbsp;&nbsp;&nbsp;[Game description](https://greengolem.github.io/StructuraDescription)
+&nbsp;&nbsp;&nbsp;&nbsp;[Game description](https://binary-station.github.io/StructuraDescription)
 
 ### Buy
 
@@ -37,6 +37,6 @@ The game developed started in 2015 and it will be released in December 2020.
 
 ### Manual, Howtos
 
-&nbsp;&nbsp;&nbsp;&nbsp;[Game Manual](https://greengolem.github.io/StructuraManual)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[Howtos](https://greengolem.github.io/StructuraHowtos)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[Game Manual](https://binary-station.github.io/StructuraManual)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[Howtos](https://binary-station.github.io/StructuraHowtos)<br>
 
