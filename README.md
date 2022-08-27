@@ -19,9 +19,9 @@ I created this site to show my work, and hope people will find my creations inte
 | --- | --- |
 | [![image](images/structura_library.jpg)](https://binary-station.github.io/Structura)  | [![image](images/stackydesktopedition_library.png)](https://binary-station.github.io/StackyDesktopEdition) |
 
-| [Binary Station](https://binary-station.github.io/BinaryStation) | 
-| --- |
-| [![image](images/binarystation_library.png)](https://binary-station.github.io/BinaryStation) |
+| [Logos Island](https://binary-station.github.io/LogosIsland) | [Unknown](https://binary-station.github.io/LogosIsland)
+| --- | --- |
+| [![image](images/logosisland_library.png)](https://binary-station.github.io/LogosIsland) | [![image](images/logosisland_library.png)](https://binary-station.github.io/LogosIsland)
 
 ### Apps/Libs
 

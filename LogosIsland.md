@@ -1,7 +1,7 @@
 [Back](https://binary-station.github.io)
 <hr>
 <br>
-## Binary Station
+## Logos Island
 
 WIP
 
