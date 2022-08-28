@@ -15,6 +15,13 @@ Examples
 
 Good documentation
 
+### Screenshots
+
+| gui | tictactoe |
+| --- | --- |
+| ![gui](images/s1_PaceLib.png) | ![tictactoe](images/s2_PaceLib.png) |
+| ![graphis](images/s3_PaceLib.png) | |
+
 ### Prerequisites
 
 &nbsp;&nbsp;&nbsp;&nbsp;Linux/Windows/MacOs
@@ -95,12 +102,6 @@ Good documentation
     Text::Begin({root, "text"},
         {root->GetScene("Default")->GetFont("lazy_font"), "some text"},
         600, 100, {50, 50, 50, 255});
-
-### Screenshots
-
-| gui | tictactoe |
-| --- | --- |
-| ![gui](images/s1_PaceLib.png) | ![tictactoe](images/s2_PaceLib.png) |
 
 ### Get
 
