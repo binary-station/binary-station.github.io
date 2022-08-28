@@ -39,62 +39,68 @@ Good documentation
 
 &nbsp;&nbsp;&nbsp;&nbsp;After the PaceLib initialization:
 
-        Text::Create("title_txt");
-        Button::Create("new_btn");
+    Text::Create("title_txt");
+    Button::Create("new_btn");
     
 &nbsp;&nbsp;&nbsp;&nbsp;In the wconfs folder the corresponding json configurations:
 
-        title_txt.wconf:
+    title_txt.wconf:
 
-        {
-	        "scene" : "Default",
-	        "font" : "font_title",
-	        "text" : "Game",
-	        "pos" : ["W_2%", "H_1%"],
-	        "text_color" : [140, 190, 140, 255]
-        }
+    {
+        "scene" : "Default",
+        "font" : "font_title",
+        "text" : "Game",
+        "pos" : ["W_2%", "H_1%"],
+        "text_color" : [140, 190, 140, 255]
+    }
 
-        new_btn.wconf:
+    new_btn.wconf:
 
-        {
-	        "dim" : ["W_2%", "H_10%", "W_7.5%", "H_3%"],
-	        "color" : [40, 40, 40, 255],
-	        "scene" : "Default",
-	        "font" : "default",
-	        "text" : "New",
-	        "text_color" : [140, 170, 140, 255],
-	        "align" : ["mid", "mid"]
-        }
+    {
+        "dim" : ["W_2%", "H_10%", "W_7.5%", "H_3%"],
+	"color" : [40, 40, 40, 255],
+	"scene" : "Default",
+	"font" : "default",
+	"text" : "New",
+	"text_color" : [140, 170, 140, 255],
+	"align" : ["mid", "mid"]
+    }
 
 &nbsp;&nbsp;&nbsp;&nbsp;Widgets can have child elements example:
 
-        Tab::BeginBlock("second_tab");
-	        Text::Begin("text");
-	        Label::BeginBlock("out_lbl");
-		        DefaultTooltip::Begin("out_tooltip");
-	        Label::EndBlock();
-	        TextArea::Begin("text_ta");
-	        TextInput::Begin("tinput");
-	        CheckBox::Begin("cb");
-        Tab::EndBlock();
+    Tab::BeginBlock("second_tab");
+        Text::Begin("text");
+	 Label::BeginBlock("out_lbl");
+             DefaultTooltip::Begin("out_tooltip");
+	 Label::EndBlock();
+	 TextArea::Begin("text_ta");
+	 TextInput::Begin("tinput");
+	 CheckBox::Begin("cb");
+    Tab::EndBlock();
 
 &nbsp;&nbsp;&nbsp;&nbsp;Event handling:
 
-        Tab::BeginBlock("first_tab");
-	        Label::Begin("label_lbl");
-	        Button::Begin("start_btn");
-	        Button::Begin("exit_btn");
-	Tab::EndBlock();
+    Tab::BeginBlock("first_tab");
+        Label::Begin("label_lbl");
+	Button::Begin("start_btn");
+	Button::Begin("exit_btn");
+    Tab::EndBlock();
 			
-	root->GetTab("first_tab")->GetButton("exit_btn")->onClickCallback = []() {
-	    Window::running = false;
-	};
+    root->GetTab("first_tab")->GetButton("exit_btn")->onClickCallback = []() {
+         Window::running = false;
+    };
 	   
 &nbsp;&nbsp;&nbsp;&nbsp;The other option is to use the programatic api:
 
-        Text::Begin({root, "text"},
-		{root->GetScene("Default")->GetFont("lazy_font"), "some text"},
-		600, 100, {50, 50, 50, 255});
+    Text::Begin({root, "text"},
+        {root->GetScene("Default")->GetFont("lazy_font"), "some text"},
+        600, 100, {50, 50, 50, 255});
+
+### Screenshots
+
+| gui | tictactoe |
+| --- | --- |
+| [image](images/s1_PaceLib.jpg) | [image](images/s2_PaceLib.png) |
 
 ### Get
 
