@@ -58,32 +58,32 @@ Good documentation
 
     {
         "dim" : ["W_2%", "H_10%", "W_7.5%", "H_3%"],
-	"color" : [40, 40, 40, 255],
-	"scene" : "Default",
-	"font" : "default",
-	"text" : "New",
-	"text_color" : [140, 170, 140, 255],
-	"align" : ["mid", "mid"]
+        "color" : [40, 40, 40, 255],
+        "scene" : "Default",
+        "font" : "default",
+        "text" : "New",
+        "text_color" : [140, 170, 140, 255],
+        "align" : ["mid", "mid"]
     }
 
 &nbsp;&nbsp;&nbsp;&nbsp;Widgets can have child elements example:
 
     Tab::BeginBlock("second_tab");
         Text::Begin("text");
-	 Label::BeginBlock("out_lbl");
-             DefaultTooltip::Begin("out_tooltip");
-	 Label::EndBlock();
-	 TextArea::Begin("text_ta");
-	 TextInput::Begin("tinput");
-	 CheckBox::Begin("cb");
+        Label::BeginBlock("out_lbl");
+            DefaultTooltip::Begin("out_tooltip");
+        Label::EndBlock();
+        TextArea::Begin("text_ta");
+        TextInput::Begin("tinput");
+        CheckBox::Begin("cb");
     Tab::EndBlock();
 
 &nbsp;&nbsp;&nbsp;&nbsp;Event handling:
 
     Tab::BeginBlock("first_tab");
         Label::Begin("label_lbl");
-	Button::Begin("start_btn");
-	Button::Begin("exit_btn");
+        Button::Begin("start_btn");
+        Button::Begin("exit_btn");
     Tab::EndBlock();
 			
     root->GetTab("first_tab")->GetButton("exit_btn")->onClickCallback = []() {
@@ -100,7 +100,7 @@ Good documentation
 
 | gui | tictactoe |
 | --- | --- |
-| [image](images/s1_PaceLib.jpg) | [image](images/s2_PaceLib.png) |
+| ![gui](images/s1_PaceLib.png) | ![tictactoe](images/s2_PaceLib.png) |
 
 ### Get
 
