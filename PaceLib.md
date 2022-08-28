@@ -20,7 +20,6 @@ Good documentation
 | gui | tictactoe |
 | --- | --- |
 | ![gui](images/s1_PaceLib.png) | ![tictactoe](images/s2_PaceLib.png) |
-| ![graphis](images/s3_PaceLib.png) | |
 
 ### Prerequisites
 
