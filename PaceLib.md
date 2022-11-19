@@ -5,25 +5,26 @@
 
 ### Features
 
-- Open source 2d c++ graphics library (based on SDL2)
+Open source 2d c++ graphics library (based on SDL2)
 
-- Easy to use!
+Easy to use!
 
-- Flexible widget system (json configuration or code)
+Flexible widget system (json configuration or code)
 
-- Widgets (label, button, tooltip, checkbox, combobox, textinput, textarea, tabber, tab)
+Widgets (label, button, tooltip, checkbox, combobox, textinput, textarea, tabber, tab)
 
-- Custom widgets are easy to add
+Custom widgets are easy to add
 
-- Designed for 2d games
+Designed for 2d games
 
-- Works on Linux/Windows/MacOS
+Works on Linux/Windows/MacOS
 
-- Examples and good documentation
+Examples and good documentation
+<br><br>
 
 ### Examples
 
-&nbsp;&nbsp;&nbsp;&nbsp;[Examples](https://github.com/aiafrasinei/PaceLib/examples)
+&nbsp;&nbsp;&nbsp;&nbsp;[Examples](https://github.com/aiafrasinei/PaceLib/tree/main/examples)
 
 ### Get
 
