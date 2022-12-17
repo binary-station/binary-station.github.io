@@ -79,7 +79,9 @@ d means 2 stack elements next to each other
 
 ----------
 
-A game by GreenGolem Games
+A game by Binary Station
+<br>
 Contact:
-binary-station.net@gmail.com
+
+greengolem.net@gmail.com
 
