@@ -22,8 +22,8 @@
 
     Videos for the in game tutorials:
 
-&nbsp;&nbsp;&nbsp;&nbsp;[Standard tutorial play through](https://youtu.be/QyBNwY2LrFs)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[Advanced tutorial play through](https://youtu.be/bSoLLzaFHoI)<br>
+[Standard tutorial play through](https://youtu.be/QyBNwY2LrFs)<br>
+[Advanced tutorial play through](https://youtu.be/bSoLLzaFHoI)<br>
 
     Dont try to play the game without finishing boths tutorials.
     It will just be confusing.

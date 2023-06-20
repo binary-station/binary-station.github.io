@@ -20,7 +20,8 @@
   
 ## Scope/Story
 
-    In Tomis, two fleet commanders engage in a space battle. The objective is to utilize the available structures and ships to defeat the enemy and destroy their base.
+    In Tomis, two fleet commanders engage in a space battle.
+    The objective is to utilize the available structures and ships to defeat the enemy and destroy their base.
 
 ## Initial placement
 

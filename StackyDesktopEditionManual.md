@@ -6,7 +6,7 @@
 ## Introduction
 
     Welcome to Stacky Desktop Edition
-    <br>
+
     A puzzle game about stacks
 
     There are 2 panels each containing a stack.
@@ -46,8 +46,6 @@
 
     n means 1 stack element
     d means 2 stack elements next to each other
-
-----------
 
 **Credits**
 
