@@ -126,4 +126,4 @@ A game by Binary Station
 <br>
 Contact:
 
-<greengolem.net@gmail.com>
+<alexandruafrasinei@gmail.com>
