@@ -49,13 +49,19 @@
     The base has no attack points.
     Frigates, Sentries, Towers, Flagship (1 AP).
 
+    Attack Range:
+
+    The attack happens every turn for all pieces.
+    Frigates 1 step
+    Sentries,Towers and Flagship any nr of steps.
+
     Attack effects:
     
     A stalemate occurs when the attacker and defender have the same APs (no effects).
     An attack is successful if the number of APs is larger than the target's APs.
     After a successful attack, a piece is removed from the board.
     
-    Frigate Attacks (1 step):
+    Frigate Attacks:
 
       \ | /
         #
@@ -84,13 +90,13 @@
     Jump Gate
         The default jump range is 2 (horizontal, vertical, or diagonal movement).
         Rotate the marker to determine the direction of the jump.
-        To destroy a jump gate, 2 APs are required during a jump if the target is also a jump gate.
+        2 APs are required o destroy a jump gate.
     Frigates
         Move 1 step forward or sideways (no backward movement).
         Can attack the front, left, or right.
         Each frigate has one AP.
         To capture a piece, two APs are required.
-        Once on a gate, a frigate can choose to activate or deactivate it (replace the pieces accordingly).
+        Once on a gate, a frigate can choose to activate or deactivate it (replace the pieces).
         Gate Jump:
             Jump to the next or previous active gate (only 1 step).
             If the target gate has an enemy frigate, 2 APs are required to capture it by gate jump.
