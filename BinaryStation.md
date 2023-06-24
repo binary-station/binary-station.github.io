@@ -3,7 +3,7 @@
 <br>
 ## Binary Station
 
-WIP
+Text game
 
 ### Details
 
