@@ -45,19 +45,19 @@ The base can be placed anywhere on the back row.
 
 **Gates**
 
-The inactive gates are placed first.
+The inactive gates are placed first,
 
-One gate is placed per row, one per turn, starting from the back row.
-
-Gates must be positioned at least one step away from the base.
+One gate is placed per row, following a sequential order starting from the back row and moving up.
 
 Only one gate can exist per row.
 
+On the back row, the gate must be positioned at least one step away from the base.
+
 **Frigates, Sentries, Towers, Flagship**
 
-These pieces can be placed anywhere on the back row,
+These pieces can be placed anywhere in the back row, with the exception of directly on a gate.
 
-except directly on a gate.
+Sentries and towers can be placed once all eight gates have been deployed.
 
 **Flagship**
 
@@ -115,6 +115,8 @@ Tower Attacks:
 ## Actions
 
 **Base**
+
+No actions.
 
 **Gate**
 
@@ -182,9 +184,9 @@ Move similar to a queen in chess.
 
 ## Win condition
 
-The game is won when the enemy base is destroyed.
+The game is won by destroying the enemy base.
 
-A base is considered destroyed when it comes under attack by 3 pieces.
+An enemy base is considered destroyed when three Attack Points (APs) are simultaneously applied to it.
 
 <br>
 
