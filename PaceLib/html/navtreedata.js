@@ -25,14 +25,46 @@
 var NAVTREE =
 [
   [ "My Project", "index.html", [
-    [ "INSTALL", "md_INSTALL.html", null ],
-    [ "PaceLib 1.0.6", "md_README.html", null ]
+    [ "Namespaces", "namespaces.html", [
+      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
+      [ "Namespace Members", "namespacemembers.html", [
+        [ "All", "namespacemembers.html", null ],
+        [ "Functions", "namespacemembers_func.html", null ],
+        [ "Enumerations", "namespacemembers_enum.html", null ]
+      ] ]
+    ] ],
+    [ "Classes", "annotated.html", [
+      [ "Class List", "annotated.html", "annotated_dup" ],
+      [ "Class Index", "classes.html", null ],
+      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
+      [ "Class Members", "functions.html", [
+        [ "All", "functions.html", "functions_dup" ],
+        [ "Functions", "functions_func.html", "functions_func" ],
+        [ "Variables", "functions_vars.html", null ]
+      ] ]
+    ] ],
+    [ "Files", "files.html", [
+      [ "File List", "files.html", "files_dup" ],
+      [ "File Members", "globals.html", [
+        [ "All", "globals.html", null ],
+        [ "Functions", "globals_func.html", null ],
+        [ "Typedefs", "globals_type.html", null ],
+        [ "Enumerations", "globals_enum.html", null ],
+        [ "Enumerator", "globals_eval.html", null ],
+        [ "Macros", "globals_defs.html", null ]
+      ] ]
+    ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"index.html"
+"ButtonTex_8cpp.html",
+"SDL__FontCache_8h.html#a8392ac5cde9aecbe515a593180274f46",
+"classPaceLib_1_1Hotspot.html#acdf742c044c7b791f3eb6837a650835c",
+"classPaceLib_1_1Shape.html#ad3a2eb05cfd077d1834da7e6b12e078c",
+"dir_9939b09658ea162a9120d50c2298ca63.html",
+"structPaceLib_1_1SpriteProp.html#a1ca93453e0ba48560d8166f4d547a2f1"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
