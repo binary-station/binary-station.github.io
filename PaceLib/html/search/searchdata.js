@@ -1,18 +1,18 @@
 var indexSectionsWithContent =
 {
-  0: "bcdfhilmprstuw",
-  1: "bcdfhilmprstuw"
+  0: "ip",
+  1: "ip"
 };
 
 var indexSectionNames =
 {
   0: "all",
-  1: "classes"
+  1: "pages"
 };
 
 var indexSectionLabels =
 {
   0: "All",
-  1: "Classes"
+  1: "Pages"
 };
 

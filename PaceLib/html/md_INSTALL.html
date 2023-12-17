@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.7"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: Main Page</title>
+<title>My Project: INSTALL</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -63,7 +63,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('index.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('md_INSTALL.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -88,11 +88,34 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 </div>
 </div>
 
-<div class="header">
-  <div class="headertitle"><div class="title">My Project Documentation</div></div>
+<div><div class="header">
+  <div class="headertitle"><div class="title">INSTALL</div></div>
 </div><!--header-->
 <div class="contents">
-</div><!-- contents -->
+<div class="textblock"><p>How to install</p>
+<hr  />
+<p>This is the recomended way to use PaceLib.</p>
+<p>Can be used in other ways but your on your own there.</p>
+<p>Prerequisites:</p><ul>
+<li>c++23 compiler</li>
+<li>SDL2, SDL2_image, SDL2_ttf</li>
+<li>cmake</li>
+</ul>
+<p><b>Linux</b>:</p>
+<p>Install the prerequisites using you own distro install system.</p>
+<p>fedora: </p><pre class="fragment">dnf install SDL2 SDL2-devel SDL2_image SDL2_image-devel SDL2_ttf SDL2_ttf-devel
+</pre><p> ubuntu: </p><pre class="fragment">apt install libsdl libsdl2-dev libsdl2_image libsdl2_image-dev libsdl2_ttf libsdl2_ttf-dev
+</pre><p> <b>Windows</b>:</p>
+<p>Install msys2</p>
+<p><a href="https://www.msys2.org/">https://www.msys2.org/</a></p>
+<p>Open msys terminal: </p><pre class="fragment">pacman -S mingw-w64-ucrt-x86_64-gcc
+
+pacman -S mingw-w64-x86_64-SDL2 mingw-w64-x86_64-SDL2_ttf mingw-w64-x86_64-SDL2_image
+</pre><p> <b>MacOS</b>:</p>
+<p>Install brew</p>
+<p><a href="https://brew.sh/">https://brew.sh/</a> </p><pre class="fragment">brew install sdl2 sdl2_image sdl2_ttf
+</pre> </div></div><!-- contents -->
+</div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
