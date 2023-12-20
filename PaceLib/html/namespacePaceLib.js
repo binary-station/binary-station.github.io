@@ -48,6 +48,7 @@ var namespacePaceLib =
     [ "TooltipProp", "structPaceLib_1_1TooltipProp.html", "structPaceLib_1_1TooltipProp" ],
     [ "Triangle", "classPaceLib_1_1Triangle.html", "classPaceLib_1_1Triangle" ],
     [ "TriangleProp", "structPaceLib_1_1TriangleProp.html", "structPaceLib_1_1TriangleProp" ],
+    [ "TtfContainer", "classPaceLib_1_1TtfContainer.html", "classPaceLib_1_1TtfContainer" ],
     [ "Widget", "classPaceLib_1_1Widget.html", "classPaceLib_1_1Widget" ],
     [ "DrawTypes", "namespacePaceLib.html#a26b393463844c5ac5a8beecdfd86cb03", [
       [ "FILLED", "namespacePaceLib.html#a26b393463844c5ac5a8beecdfd86cb03a5b053ae8b6dc09eed2aa8c3a07163a7a", null ],

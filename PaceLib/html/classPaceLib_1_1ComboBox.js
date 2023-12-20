@@ -9,6 +9,5 @@ var classPaceLib_1_1ComboBox =
     [ "GetSelected", "classPaceLib_1_1ComboBox.html#adb364e99bc9a4ab67d0cd418e1a89fad", null ],
     [ "ReplaceItems", "classPaceLib_1_1ComboBox.html#a607faed346147b18536df4cddd6d01f3", null ],
     [ "SetSelection", "classPaceLib_1_1ComboBox.html#a55479eceb29f1009106a2bcfff949efc", null ],
-    [ "Update", "classPaceLib_1_1ComboBox.html#ab534c6f309675122824038f949dafa11", null ],
-    [ "onClickCallback", "classPaceLib_1_1ComboBox.html#ac867e7b1cae38d01bdec042702ee4abd", null ]
+    [ "Update", "classPaceLib_1_1ComboBox.html#ab534c6f309675122824038f949dafa11", null ]
 ];

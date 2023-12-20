@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.7"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: include/PaceLib/graphics/gui/ButtonTex.h Source File</title>
+<title>PaceLib: include/PaceLib/graphics/gui/ButtonTex.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,7 +25,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">PaceLib
    </div>
   </td>
  </tr>
@@ -136,44 +136,41 @@ $(document).ready(function(){initNavTree('ButtonTex_8h_source.html',''); initRes
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="classPaceLib_1_1ButtonTex.html#a289b36807336579b7cb87f9c32cfadde">Update</a>(SDL_Event *e);</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="classPaceLib_1_1ButtonTex.html#a288324bf0f371860920cd91f78f2db96">   45</a></span>  std::function&lt;void(<span class="keywordtype">void</span>)&gt; <a class="code hl_variable" href="classPaceLib_1_1ButtonTex.html#a288324bf0f371860920cd91f78f2db96">onClickCallback</a>;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="classPaceLib_1_1ButtonTex.html#a24f26dd15cbc283b083cf02c35fdb2f3">   45</a></span>  <a class="code hl_struct" href="structPaceLib_1_1ButtonTexProp.html">ButtonTexProp</a> *<a class="code hl_function" href="classPaceLib_1_1ButtonTex.html#a24f26dd15cbc283b083cf02c35fdb2f3">GetProp</a>() { <span class="keywordflow">return</span> &amp;prop; }</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="classPaceLib_1_1ButtonTex.html#a24f26dd15cbc283b083cf02c35fdb2f3">   47</a></span>  <a class="code hl_struct" href="structPaceLib_1_1ButtonTexProp.html">ButtonTexProp</a> *<a class="code hl_function" href="classPaceLib_1_1ButtonTex.html#a24f26dd15cbc283b083cf02c35fdb2f3">GetProp</a>() { <span class="keywordflow">return</span> &amp;prop; }</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>  <a class="code hl_function" href="classPaceLib_1_1ButtonTex.html#a7d0c142066cd3b83ffc0274b7a29f6d1">~ButtonTex</a>();</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>  <a class="code hl_function" href="classPaceLib_1_1ButtonTex.html#a7d0c142066cd3b83ffc0274b7a29f6d1">~ButtonTex</a>();</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>  <span class="keywordtype">bool</span> mouseOver;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>  <span class="keywordtype">bool</span> mouseOver;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>  <span class="keywordtype">bool</span> highlight;</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>  <span class="keywordtype">bool</span> highlight;</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>  <a class="code hl_struct" href="structPaceLib_1_1ButtonTexProp.html">ButtonTexProp</a> prop;</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  <a class="code hl_struct" href="structPaceLib_1_1ButtonTexProp.html">ButtonTexProp</a> prop;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  <span class="keyword">static</span> <a class="code hl_struct" href="structPaceLib_1_1ButtonTexProp.html">ButtonTexProp</a> LoadButtonTexProp(<a class="code hl_class" href="classConfiguration.html">Configuration</a> *<a class="code hl_variable" href="classPaceLib_1_1Shape.html#a11f96e7df5b6894e463ae40aa4cc1c6b">conf</a>);</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>  <span class="keyword">static</span> <a class="code hl_struct" href="structPaceLib_1_1ButtonTexProp.html">ButtonTexProp</a> LoadButtonTexProp(<a class="code hl_class" href="classConfiguration.html">Configuration</a> *<a class="code hl_variable" href="classPaceLib_1_1Shape.html#a11f96e7df5b6894e463ae40aa4cc1c6b">conf</a>);</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>  <a class="code hl_class" href="classPaceLib_1_1ButtonTex.html">ButtonTex</a>(<a class="code hl_struct" href="structPaceLib_1_1ShapeId.html">ShapeId</a> sid, <a class="code hl_struct" href="structPaceLib_1_1ButtonTexProp.html">ButtonTexProp</a> prop);</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>};</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>} <span class="comment">// namespace PaceLib</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>  <a class="code hl_class" href="classPaceLib_1_1ButtonTex.html">ButtonTex</a>(<a class="code hl_struct" href="structPaceLib_1_1ShapeId.html">ShapeId</a> sid, <a class="code hl_struct" href="structPaceLib_1_1ButtonTexProp.html">ButtonTexProp</a> prop);</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>};</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>} <span class="comment">// namespace PaceLib</span></div>
 <div class="ttc" id="aText_8h_html"><div class="ttname"><a href="Text_8h.html">Text.h</a></div></div>
 <div class="ttc" id="aWidget_8h_html"><div class="ttname"><a href="Widget_8h.html">Widget.h</a></div></div>
 <div class="ttc" id="aclassConfiguration_html"><div class="ttname"><a href="classConfiguration.html">Configuration</a></div><div class="ttdef"><b>Definition</b> <a href="Configuration_8hpp_source.html#l00010">Configuration.hpp:10</a></div></div>
 <div class="ttc" id="aclassPaceLib_1_1ButtonTex_html"><div class="ttname"><a href="classPaceLib_1_1ButtonTex.html">PaceLib::ButtonTex</a></div><div class="ttdef"><b>Definition</b> <a href="ButtonTex_8h_source.html#l00010">ButtonTex.h:10</a></div></div>
 <div class="ttc" id="aclassPaceLib_1_1ButtonTex_html_a0a70f785acf496c9f68d452bc83126fa"><div class="ttname"><a href="classPaceLib_1_1ButtonTex.html#a0a70f785acf496c9f68d452bc83126fa">PaceLib::ButtonTex::BeginBlock</a></div><div class="ttdeci">static void BeginBlock(std::string name)</div><div class="ttdef"><b>Definition</b> <a href="ButtonTex_8cpp_source.html#l00067">ButtonTex.cpp:67</a></div></div>
-<div class="ttc" id="aclassPaceLib_1_1ButtonTex_html_a24f26dd15cbc283b083cf02c35fdb2f3"><div class="ttname"><a href="classPaceLib_1_1ButtonTex.html#a24f26dd15cbc283b083cf02c35fdb2f3">PaceLib::ButtonTex::GetProp</a></div><div class="ttdeci">ButtonTexProp * GetProp()</div><div class="ttdef"><b>Definition</b> <a href="ButtonTex_8h_source.html#l00047">ButtonTex.h:47</a></div></div>
-<div class="ttc" id="aclassPaceLib_1_1ButtonTex_html_a288324bf0f371860920cd91f78f2db96"><div class="ttname"><a href="classPaceLib_1_1ButtonTex.html#a288324bf0f371860920cd91f78f2db96">PaceLib::ButtonTex::onClickCallback</a></div><div class="ttdeci">std::function&lt; void(void)&gt; onClickCallback</div><div class="ttdef"><b>Definition</b> <a href="ButtonTex_8h_source.html#l00045">ButtonTex.h:45</a></div></div>
+<div class="ttc" id="aclassPaceLib_1_1ButtonTex_html_a24f26dd15cbc283b083cf02c35fdb2f3"><div class="ttname"><a href="classPaceLib_1_1ButtonTex.html#a24f26dd15cbc283b083cf02c35fdb2f3">PaceLib::ButtonTex::GetProp</a></div><div class="ttdeci">ButtonTexProp * GetProp()</div><div class="ttdef"><b>Definition</b> <a href="ButtonTex_8h_source.html#l00045">ButtonTex.h:45</a></div></div>
 <div class="ttc" id="aclassPaceLib_1_1ButtonTex_html_a289b36807336579b7cb87f9c32cfadde"><div class="ttname"><a href="classPaceLib_1_1ButtonTex.html#a289b36807336579b7cb87f9c32cfadde">PaceLib::ButtonTex::Update</a></div><div class="ttdeci">void Update(SDL_Event *e)</div><div class="ttdef"><b>Definition</b> <a href="ButtonTex_8cpp_source.html#l00139">ButtonTex.cpp:139</a></div></div>
 <div class="ttc" id="aclassPaceLib_1_1ButtonTex_html_a6af731e367d3131668ed07058b304eab"><div class="ttname"><a href="classPaceLib_1_1ButtonTex.html#a6af731e367d3131668ed07058b304eab">PaceLib::ButtonTex::EndBlock</a></div><div class="ttdeci">static void EndBlock()</div><div class="ttdef"><b>Definition</b> <a href="ButtonTex_8cpp_source.html#l00079">ButtonTex.cpp:79</a></div></div>
 <div class="ttc" id="aclassPaceLib_1_1ButtonTex_html_a7d0c142066cd3b83ffc0274b7a29f6d1"><div class="ttname"><a href="classPaceLib_1_1ButtonTex.html#a7d0c142066cd3b83ffc0274b7a29f6d1">PaceLib::ButtonTex::~ButtonTex</a></div><div class="ttdeci">~ButtonTex()</div><div class="ttdef"><b>Definition</b> <a href="ButtonTex_8cpp_source.html#l00029">ButtonTex.cpp:29</a></div></div>
 <div class="ttc" id="aclassPaceLib_1_1ButtonTex_html_a837e048fda9f0f07e7cacc70cf5eb3b6"><div class="ttname"><a href="classPaceLib_1_1ButtonTex.html#a837e048fda9f0f07e7cacc70cf5eb3b6">PaceLib::ButtonTex::Begin</a></div><div class="ttdeci">static void Begin(ShapeId sid)</div><div class="ttdef"><b>Definition</b> <a href="ButtonTex_8cpp_source.html#l00031">ButtonTex.cpp:31</a></div></div>
-<div class="ttc" id="aclassPaceLib_1_1ButtonTex_html_a9131529f0498a1b43bf89833c8316269"><div class="ttname"><a href="classPaceLib_1_1ButtonTex.html#a9131529f0498a1b43bf89833c8316269">PaceLib::ButtonTex::SetHighlight</a></div><div class="ttdeci">void SetHighlight(bool state)</div><div class="ttdef"><b>Definition</b> <a href="ButtonTex_8cpp_source.html#l00163">ButtonTex.cpp:163</a></div></div>
+<div class="ttc" id="aclassPaceLib_1_1ButtonTex_html_a9131529f0498a1b43bf89833c8316269"><div class="ttname"><a href="classPaceLib_1_1ButtonTex.html#a9131529f0498a1b43bf89833c8316269">PaceLib::ButtonTex::SetHighlight</a></div><div class="ttdeci">void SetHighlight(bool state)</div><div class="ttdef"><b>Definition</b> <a href="ButtonTex_8cpp_source.html#l00156">ButtonTex.cpp:156</a></div></div>
 <div class="ttc" id="aclassPaceLib_1_1ButtonTex_html_ad4be77da6d2006847d84553e5ff29875"><div class="ttname"><a href="classPaceLib_1_1ButtonTex.html#ad4be77da6d2006847d84553e5ff29875">PaceLib::ButtonTex::Draw</a></div><div class="ttdeci">void Draw()</div><div class="ttdef"><b>Definition</b> <a href="ButtonTex_8cpp_source.html#l00092">ButtonTex.cpp:92</a></div></div>
-<div class="ttc" id="aclassPaceLib_1_1Shape_html_a11f96e7df5b6894e463ae40aa4cc1c6b"><div class="ttname"><a href="classPaceLib_1_1Shape.html#a11f96e7df5b6894e463ae40aa4cc1c6b">PaceLib::Shape::conf</a></div><div class="ttdeci">Configuration * conf</div><div class="ttdef"><b>Definition</b> <a href="Shape_8hpp_source.html#l00086">Shape.hpp:86</a></div></div>
-<div class="ttc" id="aclassPaceLib_1_1Shape_html_ae34fda2ff3e6deeb164a6a7bb3bfa53a"><div class="ttname"><a href="classPaceLib_1_1Shape.html#ae34fda2ff3e6deeb164a6a7bb3bfa53a">PaceLib::Shape::name</a></div><div class="ttdeci">std::string name</div><div class="ttdef"><b>Definition</b> <a href="Shape_8hpp_source.html#l00031">Shape.hpp:31</a></div></div>
+<div class="ttc" id="aclassPaceLib_1_1Shape_html_a11f96e7df5b6894e463ae40aa4cc1c6b"><div class="ttname"><a href="classPaceLib_1_1Shape.html#a11f96e7df5b6894e463ae40aa4cc1c6b">PaceLib::Shape::conf</a></div><div class="ttdeci">Configuration * conf</div><div class="ttdef"><b>Definition</b> <a href="Shape_8hpp_source.html#l00099">Shape.hpp:99</a></div></div>
+<div class="ttc" id="aclassPaceLib_1_1Shape_html_ae34fda2ff3e6deeb164a6a7bb3bfa53a"><div class="ttname"><a href="classPaceLib_1_1Shape.html#ae34fda2ff3e6deeb164a6a7bb3bfa53a">PaceLib::Shape::name</a></div><div class="ttdeci">std::string name</div><div class="ttdef"><b>Definition</b> <a href="Shape_8hpp_source.html#l00037">Shape.hpp:37</a></div></div>
 <div class="ttc" id="aclassPaceLib_1_1Widget_html"><div class="ttname"><a href="classPaceLib_1_1Widget.html">PaceLib::Widget</a></div><div class="ttdef"><b>Definition</b> <a href="Widget_8h_source.html#l00010">Widget.h:10</a></div></div>
 <div class="ttc" id="anamespacePaceLib_html"><div class="ttname"><a href="namespacePaceLib.html">PaceLib</a></div><div class="ttdef"><b>Definition</b> <a href="Init_8hpp_source.html#l00005">Init.hpp:5</a></div></div>
 <div class="ttc" id="astructPaceLib_1_1ButtonTexProp_html"><div class="ttname"><a href="structPaceLib_1_1ButtonTexProp.html">PaceLib::ButtonTexProp</a></div><div class="ttdef"><b>Definition</b> <a href="Props_8h_source.html#l00140">Props.h:140</a></div></div>
-<div class="ttc" id="astructPaceLib_1_1ShapeId_html"><div class="ttname"><a href="structPaceLib_1_1ShapeId.html">PaceLib::ShapeId</a></div><div class="ttdef"><b>Definition</b> <a href="Widget_8h_source.html#l00071">Widget.h:71</a></div></div>
+<div class="ttc" id="astructPaceLib_1_1ShapeId_html"><div class="ttname"><a href="structPaceLib_1_1ShapeId.html">PaceLib::ShapeId</a></div><div class="ttdef"><b>Definition</b> <a href="Widget_8h_source.html#l00064">Widget.h:64</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

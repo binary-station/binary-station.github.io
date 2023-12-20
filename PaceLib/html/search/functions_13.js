@@ -33,5 +33,6 @@ var searchData=
   ['_7etexture_30',['~Texture',['../classPaceLib_1_1Texture.html#a09c4bcb7462f64c1d20fa69dba3cee8a',1,'PaceLib::Texture']]],
   ['_7etimer_31',['~Timer',['../classPaceLib_1_1Timer.html#a14fa469c4c295c5fa6e66a4ad1092146',1,'PaceLib::Timer']]],
   ['_7etriangle_32',['~Triangle',['../classPaceLib_1_1Triangle.html#a5199760a17454f4dc94c855a57e3a152',1,'PaceLib::Triangle']]],
-  ['_7ewindow_33',['~Window',['../classWindow.html#a245d821e6016fa1f6970ccbbedd635f6',1,'Window']]]
+  ['_7ettfcontainer_33',['~TtfContainer',['../classPaceLib_1_1TtfContainer.html#a9f7ef4e6005529985140af2e4bfc1a30',1,'PaceLib::TtfContainer']]],
+  ['_7ewindow_34',['~Window',['../classWindow.html#a245d821e6016fa1f6970ccbbedd635f6',1,'Window']]]
 ];

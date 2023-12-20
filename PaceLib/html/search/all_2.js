@@ -1,7 +1,7 @@
 var searchData=
 [
   ['cache_5flevel_0',['cache_level',['../structFC__GlyphData.html#a32f7e3db3e97fa937ff0ba4e599ba1d3',1,'FC_GlyphData']]],
-  ['changename_1',['ChangeName',['../classPaceLib_1_1TexContainer.html#a6ce7ab2f61b9b85412b14e86024157f2',1,'PaceLib::TexContainer::ChangeName()'],['../classPaceLib_1_1FontContainer.html#a68175ef7bd5191e86e1f7a68b631ed1b',1,'PaceLib::FontContainer::ChangeName()']]],
+  ['changename_1',['ChangeName',['../classPaceLib_1_1TtfContainer.html#ae887c214af9cfd1737d156054b018e17',1,'PaceLib::TtfContainer::ChangeName()'],['../classPaceLib_1_1TexContainer.html#a6ce7ab2f61b9b85412b14e86024157f2',1,'PaceLib::TexContainer::ChangeName()'],['../classPaceLib_1_1FontContainer.html#a68175ef7bd5191e86e1f7a68b631ed1b',1,'PaceLib::FontContainer::ChangeName()']]],
   ['checkbox_2',['CHECKBOX',['../namespacePaceLib.html#a1390ffbe2746dddd2d99a9d4dc822d04a22ab9eebdf3d8e32268c02e577520333',1,'PaceLib']]],
   ['checkbox_3',['CheckBox',['../classPaceLib_1_1CheckBox.html#a31943cf3ce97efac88355176c3849fc5',1,'PaceLib::CheckBox::CheckBox()'],['../classPaceLib_1_1CheckBox.html',1,'PaceLib::CheckBox']]],
   ['checkbox_2ecpp_4',['CheckBox.cpp',['../CheckBox_8cpp.html',1,'']]],

@@ -9,7 +9,7 @@ var searchData=
   ['rectangle_2ecpp_6',['Rectangle.cpp',['../Rectangle_8cpp.html',1,'']]],
   ['rectangle_2eh_7',['Rectangle.h',['../Rectangle_8h.html',1,'']]],
   ['reload_8',['Reload',['../classConfiguration.html#a67fc502741b329e7257479e5b41cb506',1,'Configuration']]],
-  ['remove_9',['Remove',['../classPaceLib_1_1FontContainer.html#a65eec045b2d48ed4ca378f193c626aa7',1,'PaceLib::FontContainer::Remove()'],['../classPaceLib_1_1TexContainer.html#a7a242296167ea07aada7633471a49abb',1,'PaceLib::TexContainer::Remove()']]],
+  ['remove_9',['Remove',['../classPaceLib_1_1FontContainer.html#a65eec045b2d48ed4ca378f193c626aa7',1,'PaceLib::FontContainer::Remove()'],['../classPaceLib_1_1TexContainer.html#a7a242296167ea07aada7633471a49abb',1,'PaceLib::TexContainer::Remove()'],['../classPaceLib_1_1TtfContainer.html#a2886e57b24390e7727ab2ad82ec51b5d',1,'PaceLib::TtfContainer::Remove()']]],
   ['removescene_10',['RemoveScene',['../classPaceLib_1_1Root.html#a5005b3873de856905711c26bd233d8b8',1,'PaceLib::Root']]],
   ['renderer_11',['renderer',['../structFC__Font.html#ab0645dd730253670627ffd5bbeabe396',1,'FC_Font']]],
   ['replaceitems_12',['ReplaceItems',['../classPaceLib_1_1ComboBox.html#a607faed346147b18536df4cddd6d01f3',1,'PaceLib::ComboBox']]],

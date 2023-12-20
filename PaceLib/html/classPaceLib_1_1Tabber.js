@@ -9,6 +9,7 @@ var classPaceLib_1_1Tabber =
     [ "GetTab", "classPaceLib_1_1Tabber.html#a251a59f67d67d6824a9052e8ab0d3195", null ],
     [ "GetTab", "classPaceLib_1_1Tabber.html#a9aaaa00607fb4df541364a437645dd27", null ],
     [ "SelectTab", "classPaceLib_1_1Tabber.html#af960e550088a0c1a3d386baa68de88b7", null ],
+    [ "SelectTab", "classPaceLib_1_1Tabber.html#adfc7283ba43928f58c24438868a64450", null ],
     [ "SetTextColor", "classPaceLib_1_1Tabber.html#a4c33e6ea2490525d0f149c8f22b9cd27", null ],
     [ "Update", "classPaceLib_1_1Tabber.html#aff20cdf89250f4a664b0a39dd948b9e5", null ]
 ];

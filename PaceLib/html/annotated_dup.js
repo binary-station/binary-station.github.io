@@ -49,6 +49,7 @@ var annotated_dup =
       [ "TooltipProp", "structPaceLib_1_1TooltipProp.html", "structPaceLib_1_1TooltipProp" ],
       [ "Triangle", "classPaceLib_1_1Triangle.html", "classPaceLib_1_1Triangle" ],
       [ "TriangleProp", "structPaceLib_1_1TriangleProp.html", "structPaceLib_1_1TriangleProp" ],
+      [ "TtfContainer", "classPaceLib_1_1TtfContainer.html", "classPaceLib_1_1TtfContainer" ],
       [ "Widget", "classPaceLib_1_1Widget.html", "classPaceLib_1_1Widget" ]
     ] ],
     [ "Configuration", "classConfiguration.html", "classConfiguration" ],
@@ -63,6 +64,7 @@ var annotated_dup =
     [ "FC_StringList", "structFC__StringList.html", "structFC__StringList" ],
     [ "Focusable", "classFocusable.html", "classFocusable" ],
     [ "Hidable", "classHidable.html", "classHidable" ],
+    [ "Mouseable", "classMouseable.html", "classMouseable" ],
     [ "Random", "classRandom.html", "classRandom" ],
     [ "State", "classState.html", "classState" ],
     [ "Updateable", "classUpdateable.html", "classUpdateable" ],

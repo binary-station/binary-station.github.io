@@ -15,7 +15,7 @@ var searchData=
   ['place_2ecpp_12',['Place.cpp',['../Place_8cpp.html',1,'']]],
   ['place_2ehpp_13',['Place.hpp',['../Place_8hpp.html',1,'']]],
   ['platform_2ehpp_14',['Platform.hpp',['../Platform_8hpp.html',1,'']]],
-  ['pointinrect_15',['PointInRect',['../classPaceLib_1_1Widget.html#a2486a464288642021de5393eca8d5926',1,'PaceLib::Widget']]],
+  ['pointinrect_15',['PointInRect',['../classPaceLib_1_1Shape.html#ad180ad5193522fa6b0f5fd2f51fc0f3b',1,'PaceLib::Shape']]],
   ['polygon_16',['Polygon',['../classPaceLib_1_1Polygon.html',1,'PaceLib']]],
   ['polygon_2ecpp_17',['Polygon.cpp',['../Polygon_8cpp.html',1,'']]],
   ['polygon_2eh_18',['Polygon.h',['../Polygon_8h.html',1,'']]],

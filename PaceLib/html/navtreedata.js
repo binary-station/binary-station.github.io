@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "My Project", "index.html", [
+  [ "PaceLib", "index.html", [
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -60,11 +60,11 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "ButtonTex_8cpp.html",
-"SDL__FontCache_8h.html#a8392ac5cde9aecbe515a593180274f46",
-"classPaceLib_1_1Hotspot.html#acdf742c044c7b791f3eb6837a650835c",
-"classPaceLib_1_1Shape.html#ad3a2eb05cfd077d1834da7e6b12e078c",
-"dir_9939b09658ea162a9120d50c2298ca63.html",
-"structPaceLib_1_1SpriteProp.html#a1ca93453e0ba48560d8166f4d547a2f1"
+"SDL__FontCache_8h.html#a7f99a0c3a8cd7dfdd68890f4e7cd62b7",
+"classPaceLib_1_1Hotspot.html#a909a16dd9019f4052715b10c910a3906",
+"classPaceLib_1_1Shape.html#ad092b6add317ed0f59040e5e02112525",
+"classState.html#a4820e12c6ea4d1bb03bfaea8b10c99e6",
+"structPaceLib_1_1PropDimColor.html#a1c5b6dab2816133d530a347272290909"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -69,6 +69,8 @@ var NAVTREEINDEX0 =
 "Map_8cpp_source.html":[2,0,1,13],
 "Map_8hpp.html":[2,0,0,0,4,0],
 "Map_8hpp_source.html":[2,0,0,0,4,0],
+"Mouseable_8hpp.html":[2,0,0,0,1,0,3],
+"Mouseable_8hpp_source.html":[2,0,0,0,1,0,3],
 "PaceLib_8h.html":[2,0,0,0,6],
 "PaceLib_8h_source.html":[2,0,0,0,6],
 "Place_8cpp.html":[2,0,1,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX0 =
 "SDL__FontCache_8h.html#a6e0276c30310d8d836df4b05d14d7ad7":[2,0,0,0,5,0,0,15],
 "SDL__FontCache_8h.html#a6ff505d6e11ab52848dfc2a6c25b18ba":[2,0,0,0,5,0,0,48],
 "SDL__FontCache_8h.html#a7229d257d3b8a40a9478cde291191a31":[2,0,0,0,5,0,0,69],
-"SDL__FontCache_8h.html#a7dc8ea611279c1e844400d8288aa26c6":[2,0,0,0,5,0,0,27],
-"SDL__FontCache_8h.html#a7f99a0c3a8cd7dfdd68890f4e7cd62b7":[2,0,0,0,5,0,0,56],
-"SDL__FontCache_8h.html#a7fe898cf023112746fc480d8f2a8c7cb":[2,0,0,0,5,0,0,24]
+"SDL__FontCache_8h.html#a7dc8ea611279c1e844400d8288aa26c6":[2,0,0,0,5,0,0,27]
 };

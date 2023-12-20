@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.7"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: include/PaceLib/graphics/gui/Hotspot.h Source File</title>
+<title>PaceLib: include/PaceLib/graphics/gui/Hotspot.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,7 +25,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">PaceLib
    </div>
   </td>
  </tr>
@@ -142,47 +142,44 @@ $(document).ready(function(){initNavTree('Hotspot_8h_source.html',''); initResiz
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="classPaceLib_1_1Hotspot.html#a1ff463a20a1b8a7ff975f1a47e83b4ef">   49</a></span>  <a class="code hl_struct" href="structPaceLib_1_1HotspotProp.html">HotspotProp</a> *<a class="code hl_function" href="classPaceLib_1_1Hotspot.html#a1ff463a20a1b8a7ff975f1a47e83b4ef">GetProp</a>() { <span class="keywordflow">return</span> &amp;prop; }</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="classPaceLib_1_1Hotspot.html#acdf742c044c7b791f3eb6837a650835c">   51</a></span>  std::function&lt;void(<span class="keywordtype">void</span>)&gt; <a class="code hl_variable" href="classPaceLib_1_1Hotspot.html#acdf742c044c7b791f3eb6837a650835c">onClickCallback</a>;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>  <a class="code hl_function" href="classPaceLib_1_1Hotspot.html#ae645cd1a596055b2952cc887d7d2ccc9">~Hotspot</a>();</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>  <a class="code hl_function" href="classPaceLib_1_1Hotspot.html#ae645cd1a596055b2952cc887d7d2ccc9">~Hotspot</a>();</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  <a class="code hl_class" href="classPaceLib_1_1Hotspot.html">Hotspot</a>(<a class="code hl_struct" href="structPaceLib_1_1ShapeId.html">ShapeId</a> sid, <a class="code hl_struct" href="structPaceLib_1_1HotspotProp.html">HotspotProp</a> prop);</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>  <a class="code hl_class" href="classPaceLib_1_1Hotspot.html">Hotspot</a>(<a class="code hl_struct" href="structPaceLib_1_1ShapeId.html">ShapeId</a> sid, <a class="code hl_struct" href="structPaceLib_1_1HotspotProp.html">HotspotProp</a> prop);</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  <a class="code hl_struct" href="structPaceLib_1_1HotspotProp.html">HotspotProp</a> prop;</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>  <a class="code hl_struct" href="structPaceLib_1_1HotspotProp.html">HotspotProp</a> prop;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>  <span class="keywordtype">bool</span> mouseOver;</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>  <span class="keywordtype">bool</span> mouseOver;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>  <span class="keywordtype">bool</span> isHighlight;</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>  <span class="keywordtype">bool</span> isHighlight;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>  SDL_Color highlightColor;</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>  SDL_Color highlightColor;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>  SDL_Texture *tex;</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>  SDL_Texture *tex;</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>  <span class="keyword">static</span> <a class="code hl_struct" href="structPaceLib_1_1HotspotProp.html">HotspotProp</a> LoadHotspotProp(<a class="code hl_class" href="classConfiguration.html">Configuration</a> *<a class="code hl_variable" href="classPaceLib_1_1Shape.html#a11f96e7df5b6894e463ae40aa4cc1c6b">conf</a>);</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>};</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>} <span class="comment">// namespace PaceLib</span></div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>  <span class="keyword">static</span> <a class="code hl_struct" href="structPaceLib_1_1HotspotProp.html">HotspotProp</a> LoadHotspotProp(<a class="code hl_class" href="classConfiguration.html">Configuration</a> *<a class="code hl_variable" href="classPaceLib_1_1Shape.html#a11f96e7df5b6894e463ae40aa4cc1c6b">conf</a>);</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>};</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>} <span class="comment">// namespace PaceLib</span></div>
 <div class="ttc" id="aText_8h_html"><div class="ttname"><a href="Text_8h.html">Text.h</a></div></div>
 <div class="ttc" id="aWidget_8h_html"><div class="ttname"><a href="Widget_8h.html">Widget.h</a></div></div>
 <div class="ttc" id="aclassConfiguration_html"><div class="ttname"><a href="classConfiguration.html">Configuration</a></div><div class="ttdef"><b>Definition</b> <a href="Configuration_8hpp_source.html#l00010">Configuration.hpp:10</a></div></div>
 <div class="ttc" id="aclassPaceLib_1_1Hotspot_html"><div class="ttname"><a href="classPaceLib_1_1Hotspot.html">PaceLib::Hotspot</a></div><div class="ttdef"><b>Definition</b> <a href="Hotspot_8h_source.html#l00009">Hotspot.h:9</a></div></div>
-<div class="ttc" id="aclassPaceLib_1_1Hotspot_html_a1a5c5ac52cee337ae231db4f49a41565"><div class="ttname"><a href="classPaceLib_1_1Hotspot.html#a1a5c5ac52cee337ae231db4f49a41565">PaceLib::Hotspot::BeginBlock</a></div><div class="ttdeci">static void BeginBlock(std::string name)</div><div class="ttdef"><b>Definition</b> <a href="Hotspot_8cpp_source.html#l00056">Hotspot.cpp:56</a></div></div>
+<div class="ttc" id="aclassPaceLib_1_1Hotspot_html_a1a5c5ac52cee337ae231db4f49a41565"><div class="ttname"><a href="classPaceLib_1_1Hotspot.html#a1a5c5ac52cee337ae231db4f49a41565">PaceLib::Hotspot::BeginBlock</a></div><div class="ttdeci">static void BeginBlock(std::string name)</div><div class="ttdef"><b>Definition</b> <a href="Hotspot_8cpp_source.html#l00055">Hotspot.cpp:55</a></div></div>
 <div class="ttc" id="aclassPaceLib_1_1Hotspot_html_a1ff463a20a1b8a7ff975f1a47e83b4ef"><div class="ttname"><a href="classPaceLib_1_1Hotspot.html#a1ff463a20a1b8a7ff975f1a47e83b4ef">PaceLib::Hotspot::GetProp</a></div><div class="ttdeci">HotspotProp * GetProp()</div><div class="ttdef"><b>Definition</b> <a href="Hotspot_8h_source.html#l00049">Hotspot.h:49</a></div></div>
-<div class="ttc" id="aclassPaceLib_1_1Hotspot_html_a29cbecac1b2caad395c97139b5f789d5"><div class="ttname"><a href="classPaceLib_1_1Hotspot.html#a29cbecac1b2caad395c97139b5f789d5">PaceLib::Hotspot::Draw</a></div><div class="ttdeci">void Draw()</div><div class="ttdef"><b>Definition</b> <a href="Hotspot_8cpp_source.html#l00077">Hotspot.cpp:77</a></div></div>
-<div class="ttc" id="aclassPaceLib_1_1Hotspot_html_a401c18b79f4764a5073f1d44dd398c31"><div class="ttname"><a href="classPaceLib_1_1Hotspot.html#a401c18b79f4764a5073f1d44dd398c31">PaceLib::Hotspot::Update</a></div><div class="ttdeci">void Update(SDL_Event *e)</div><div class="ttdef"><b>Definition</b> <a href="Hotspot_8cpp_source.html#l00100">Hotspot.cpp:100</a></div></div>
-<div class="ttc" id="aclassPaceLib_1_1Hotspot_html_a823d3ec901e3ea7e80657fef881bafa9"><div class="ttname"><a href="classPaceLib_1_1Hotspot.html#a823d3ec901e3ea7e80657fef881bafa9">PaceLib::Hotspot::EndBlock</a></div><div class="ttdeci">static void EndBlock()</div><div class="ttdef"><b>Definition</b> <a href="Hotspot_8cpp_source.html#l00068">Hotspot.cpp:68</a></div></div>
-<div class="ttc" id="aclassPaceLib_1_1Hotspot_html_a909a16dd9019f4052715b10c910a3906"><div class="ttname"><a href="classPaceLib_1_1Hotspot.html#a909a16dd9019f4052715b10c910a3906">PaceLib::Hotspot::SetHighlight</a></div><div class="ttdeci">void SetHighlight(bool state)</div><div class="ttdef"><b>Definition</b> <a href="Hotspot_8cpp_source.html#l00124">Hotspot.cpp:124</a></div></div>
-<div class="ttc" id="aclassPaceLib_1_1Hotspot_html_acdf742c044c7b791f3eb6837a650835c"><div class="ttname"><a href="classPaceLib_1_1Hotspot.html#acdf742c044c7b791f3eb6837a650835c">PaceLib::Hotspot::onClickCallback</a></div><div class="ttdeci">std::function&lt; void(void)&gt; onClickCallback</div><div class="ttdef"><b>Definition</b> <a href="Hotspot_8h_source.html#l00051">Hotspot.h:51</a></div></div>
-<div class="ttc" id="aclassPaceLib_1_1Hotspot_html_ad535cc7f4dde2bc098acf5112368fd9e"><div class="ttname"><a href="classPaceLib_1_1Hotspot.html#ad535cc7f4dde2bc098acf5112368fd9e">PaceLib::Hotspot::Begin</a></div><div class="ttdeci">static void Begin(ShapeId sid)</div><div class="ttdef"><b>Definition</b> <a href="Hotspot_8cpp_source.html#l00033">Hotspot.cpp:33</a></div></div>
-<div class="ttc" id="aclassPaceLib_1_1Hotspot_html_ae645cd1a596055b2952cc887d7d2ccc9"><div class="ttname"><a href="classPaceLib_1_1Hotspot.html#ae645cd1a596055b2952cc887d7d2ccc9">PaceLib::Hotspot::~Hotspot</a></div><div class="ttdeci">~Hotspot()</div><div class="ttdef"><b>Definition</b> <a href="Hotspot_8cpp_source.html#l00031">Hotspot.cpp:31</a></div></div>
-<div class="ttc" id="aclassPaceLib_1_1Hotspot_html_ae978732e4259cc1ae9d9d27cb11b233b"><div class="ttname"><a href="classPaceLib_1_1Hotspot.html#ae978732e4259cc1ae9d9d27cb11b233b">PaceLib::Hotspot::SetHighlightColor</a></div><div class="ttdeci">void SetHighlightColor(SDL_Color color)</div><div class="ttdef"><b>Definition</b> <a href="Hotspot_8cpp_source.html#l00126">Hotspot.cpp:126</a></div></div>
-<div class="ttc" id="aclassPaceLib_1_1Shape_html_a11f96e7df5b6894e463ae40aa4cc1c6b"><div class="ttname"><a href="classPaceLib_1_1Shape.html#a11f96e7df5b6894e463ae40aa4cc1c6b">PaceLib::Shape::conf</a></div><div class="ttdeci">Configuration * conf</div><div class="ttdef"><b>Definition</b> <a href="Shape_8hpp_source.html#l00086">Shape.hpp:86</a></div></div>
-<div class="ttc" id="aclassPaceLib_1_1Shape_html_ae34fda2ff3e6deeb164a6a7bb3bfa53a"><div class="ttname"><a href="classPaceLib_1_1Shape.html#ae34fda2ff3e6deeb164a6a7bb3bfa53a">PaceLib::Shape::name</a></div><div class="ttdeci">std::string name</div><div class="ttdef"><b>Definition</b> <a href="Shape_8hpp_source.html#l00031">Shape.hpp:31</a></div></div>
+<div class="ttc" id="aclassPaceLib_1_1Hotspot_html_a29cbecac1b2caad395c97139b5f789d5"><div class="ttname"><a href="classPaceLib_1_1Hotspot.html#a29cbecac1b2caad395c97139b5f789d5">PaceLib::Hotspot::Draw</a></div><div class="ttdeci">void Draw()</div><div class="ttdef"><b>Definition</b> <a href="Hotspot_8cpp_source.html#l00076">Hotspot.cpp:76</a></div></div>
+<div class="ttc" id="aclassPaceLib_1_1Hotspot_html_a401c18b79f4764a5073f1d44dd398c31"><div class="ttname"><a href="classPaceLib_1_1Hotspot.html#a401c18b79f4764a5073f1d44dd398c31">PaceLib::Hotspot::Update</a></div><div class="ttdeci">void Update(SDL_Event *e)</div><div class="ttdef"><b>Definition</b> <a href="Hotspot_8cpp_source.html#l00099">Hotspot.cpp:99</a></div></div>
+<div class="ttc" id="aclassPaceLib_1_1Hotspot_html_a823d3ec901e3ea7e80657fef881bafa9"><div class="ttname"><a href="classPaceLib_1_1Hotspot.html#a823d3ec901e3ea7e80657fef881bafa9">PaceLib::Hotspot::EndBlock</a></div><div class="ttdeci">static void EndBlock()</div><div class="ttdef"><b>Definition</b> <a href="Hotspot_8cpp_source.html#l00067">Hotspot.cpp:67</a></div></div>
+<div class="ttc" id="aclassPaceLib_1_1Hotspot_html_a909a16dd9019f4052715b10c910a3906"><div class="ttname"><a href="classPaceLib_1_1Hotspot.html#a909a16dd9019f4052715b10c910a3906">PaceLib::Hotspot::SetHighlight</a></div><div class="ttdeci">void SetHighlight(bool state)</div><div class="ttdef"><b>Definition</b> <a href="Hotspot_8cpp_source.html#l00116">Hotspot.cpp:116</a></div></div>
+<div class="ttc" id="aclassPaceLib_1_1Hotspot_html_ad535cc7f4dde2bc098acf5112368fd9e"><div class="ttname"><a href="classPaceLib_1_1Hotspot.html#ad535cc7f4dde2bc098acf5112368fd9e">PaceLib::Hotspot::Begin</a></div><div class="ttdeci">static void Begin(ShapeId sid)</div><div class="ttdef"><b>Definition</b> <a href="Hotspot_8cpp_source.html#l00032">Hotspot.cpp:32</a></div></div>
+<div class="ttc" id="aclassPaceLib_1_1Hotspot_html_ae645cd1a596055b2952cc887d7d2ccc9"><div class="ttname"><a href="classPaceLib_1_1Hotspot.html#ae645cd1a596055b2952cc887d7d2ccc9">PaceLib::Hotspot::~Hotspot</a></div><div class="ttdeci">~Hotspot()</div><div class="ttdef"><b>Definition</b> <a href="Hotspot_8cpp_source.html#l00030">Hotspot.cpp:30</a></div></div>
+<div class="ttc" id="aclassPaceLib_1_1Hotspot_html_ae978732e4259cc1ae9d9d27cb11b233b"><div class="ttname"><a href="classPaceLib_1_1Hotspot.html#ae978732e4259cc1ae9d9d27cb11b233b">PaceLib::Hotspot::SetHighlightColor</a></div><div class="ttdeci">void SetHighlightColor(SDL_Color color)</div><div class="ttdef"><b>Definition</b> <a href="Hotspot_8cpp_source.html#l00118">Hotspot.cpp:118</a></div></div>
+<div class="ttc" id="aclassPaceLib_1_1Shape_html_a11f96e7df5b6894e463ae40aa4cc1c6b"><div class="ttname"><a href="classPaceLib_1_1Shape.html#a11f96e7df5b6894e463ae40aa4cc1c6b">PaceLib::Shape::conf</a></div><div class="ttdeci">Configuration * conf</div><div class="ttdef"><b>Definition</b> <a href="Shape_8hpp_source.html#l00099">Shape.hpp:99</a></div></div>
+<div class="ttc" id="aclassPaceLib_1_1Shape_html_ae34fda2ff3e6deeb164a6a7bb3bfa53a"><div class="ttname"><a href="classPaceLib_1_1Shape.html#ae34fda2ff3e6deeb164a6a7bb3bfa53a">PaceLib::Shape::name</a></div><div class="ttdeci">std::string name</div><div class="ttdef"><b>Definition</b> <a href="Shape_8hpp_source.html#l00037">Shape.hpp:37</a></div></div>
 <div class="ttc" id="aclassPaceLib_1_1Widget_html"><div class="ttname"><a href="classPaceLib_1_1Widget.html">PaceLib::Widget</a></div><div class="ttdef"><b>Definition</b> <a href="Widget_8h_source.html#l00010">Widget.h:10</a></div></div>
 <div class="ttc" id="anamespacePaceLib_html"><div class="ttname"><a href="namespacePaceLib.html">PaceLib</a></div><div class="ttdef"><b>Definition</b> <a href="Init_8hpp_source.html#l00005">Init.hpp:5</a></div></div>
 <div class="ttc" id="astructPaceLib_1_1HotspotProp_html"><div class="ttname"><a href="structPaceLib_1_1HotspotProp.html">PaceLib::HotspotProp</a></div><div class="ttdef"><b>Definition</b> <a href="Props_8h_source.html#l00149">Props.h:149</a></div></div>
-<div class="ttc" id="astructPaceLib_1_1ShapeId_html"><div class="ttname"><a href="structPaceLib_1_1ShapeId.html">PaceLib::ShapeId</a></div><div class="ttdef"><b>Definition</b> <a href="Widget_8h_source.html#l00071">Widget.h:71</a></div></div>
+<div class="ttc" id="astructPaceLib_1_1ShapeId_html"><div class="ttname"><a href="structPaceLib_1_1ShapeId.html">PaceLib::ShapeId</a></div><div class="ttdef"><b>Definition</b> <a href="Widget_8h_source.html#l00064">Widget.h:64</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

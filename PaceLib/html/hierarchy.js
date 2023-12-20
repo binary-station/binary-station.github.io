@@ -55,6 +55,9 @@ var hierarchy =
     [ "PaceLib::LabelProp", "structPaceLib_1_1LabelProp.html", null ],
     [ "PaceLib::LineProp", "structPaceLib_1_1LineProp.html", null ],
     [ "PaceLib::Map", "classPaceLib_1_1Map.html", null ],
+    [ "Mouseable", "classMouseable.html", [
+      [ "PaceLib::Shape", "classPaceLib_1_1Shape.html", null ]
+    ] ],
     [ "PaceLib::MultiItemsProp", "structPaceLib_1_1MultiItemsProp.html", null ],
     [ "PaceLib::Place", "classPaceLib_1_1Place.html", null ],
     [ "PaceLib::PropDimColor", "structPaceLib_1_1PropDimColor.html", null ],
@@ -71,6 +74,7 @@ var hierarchy =
     [ "PaceLib::Timer", "classPaceLib_1_1Timer.html", null ],
     [ "PaceLib::TooltipProp", "structPaceLib_1_1TooltipProp.html", null ],
     [ "PaceLib::TriangleProp", "structPaceLib_1_1TriangleProp.html", null ],
+    [ "PaceLib::TtfContainer", "classPaceLib_1_1TtfContainer.html", null ],
     [ "Updateable", "classUpdateable.html", [
       [ "PaceLib::Shape", "classPaceLib_1_1Shape.html", null ]
     ] ],
