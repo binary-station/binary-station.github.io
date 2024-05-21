@@ -11,4 +11,4 @@
 
 ### Manual
 
-&nbsp;&nbsp;&nbsp;&nbsp;[Tomis manual](https://binary-station.github.io/NervaManual)
+&nbsp;&nbsp;&nbsp;&nbsp;[Nerva manual](https://binary-station.github.io/NervaManual)
