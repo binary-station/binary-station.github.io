@@ -1,4 +1,4 @@
 var State_8hpp =
 [
-    [ "State", "classState.html", "classState" ]
+    [ "PaceLib::State", "classPaceLib_1_1State.html", "classPaceLib_1_1State" ]
 ];

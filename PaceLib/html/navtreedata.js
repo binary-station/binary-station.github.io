@@ -47,10 +47,7 @@ var NAVTREE =
       [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],
-        [ "Functions", "globals_func.html", null ],
         [ "Typedefs", "globals_type.html", null ],
-        [ "Enumerations", "globals_enum.html", null ],
-        [ "Enumerator", "globals_eval.html", null ],
         [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
@@ -59,12 +56,12 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"ButtonTex_8cpp.html",
-"SDL__FontCache_8h.html#a7f99a0c3a8cd7dfdd68890f4e7cd62b7",
-"classPaceLib_1_1Hotspot.html#a909a16dd9019f4052715b10c910a3906",
-"classPaceLib_1_1Shape.html#ad092b6add317ed0f59040e5e02112525",
-"classState.html#a4820e12c6ea4d1bb03bfaea8b10c99e6",
-"structPaceLib_1_1PropDimColor.html#a1c5b6dab2816133d530a347272290909"
+"ButtonTexGrid_8cpp.html",
+"classPaceLib_1_1ButtonTexGrid.html",
+"classPaceLib_1_1Root.html#a4f90da0664add1c6707bd63ad8db79b0",
+"classPaceLib_1_1Tex.html#ae95c7586387bedc973fcb2877569777f",
+"namespacePaceLib.html#a1390ffbe2746dddd2d99a9d4dc822d04abc899ea5d6a94a8e4e60c16244919ba0",
+"structPaceLib_1_1TriangleProp.html#a338baad57a0912275b30d01661d1c399"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,4 +1,4 @@
 var Hidable_8hpp =
 [
-    [ "Hidable", "classHidable.html", "classHidable" ]
+    [ "PaceLib::Hidable", "classPaceLib_1_1Hidable.html", "classPaceLib_1_1Hidable" ]
 ];

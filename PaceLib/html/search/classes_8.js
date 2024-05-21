@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['place_0',['Place',['../classPaceLib_1_1Place.html',1,'PaceLib']]],
-  ['polygon_1',['Polygon',['../classPaceLib_1_1Polygon.html',1,'PaceLib']]],
-  ['propdimcolor_2',['PropDimColor',['../structPaceLib_1_1PropDimColor.html',1,'PaceLib']]],
-  ['propfonttext_3',['PropFontText',['../structPaceLib_1_1PropFontText.html',1,'PaceLib']]]
+  ['map_0',['Map',['../classPaceLib_1_1Map.html',1,'PaceLib']]],
+  ['mouseable_1',['Mouseable',['../classPaceLib_1_1Mouseable.html',1,'PaceLib']]],
+  ['multiitemsprop_2',['MultiItemsProp',['../structPaceLib_1_1MultiItemsProp.html',1,'PaceLib']]]
 ];

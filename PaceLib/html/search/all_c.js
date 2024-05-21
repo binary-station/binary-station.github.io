@@ -1,15 +1,6 @@
 var searchData=
 [
-  ['map_0',['Map',['../classPaceLib_1_1Map.html#aa2b663a65c30a4432e84d7ad254409d6',1,'PaceLib::Map::Map()'],['../classPaceLib_1_1Map.html',1,'PaceLib::Map']]],
-  ['map_2ecpp_1',['Map.cpp',['../Map_8cpp.html',1,'']]],
-  ['map_2ehpp_2',['Map.hpp',['../Map_8hpp.html',1,'']]],
-  ['maxwidth_3',['maxWidth',['../structFC__Font.html#acbaccef2b6b1f55304216e5b8999eeb8',1,'FC_Font']]],
-  ['mid_4',['MID',['../namespacePaceLib.html#a11c47814b97ccf142840e52efff59a7aa18e48bbdf6d326bd88d3ebb99ad7515d',1,'PaceLib']]],
-  ['mouseable_5',['Mouseable',['../classMouseable.html',1,'']]],
-  ['mouseable_2ehpp_6',['Mouseable.hpp',['../Mouseable_8hpp.html',1,'']]],
-  ['mouseleftbuttondowncallback_7',['mouseLeftButtonDownCallback',['../classMouseable.html#ae4bae679845cb9580dcea28e6465e49a',1,'Mouseable']]],
-  ['mouseleftbuttonupcallback_8',['mouseLeftButtonUpCallback',['../classMouseable.html#a284a554935ee0a991b54f5029eacd3c2',1,'Mouseable']]],
-  ['mouserightbuttondowncallback_9',['mouseRightButtonDownCallback',['../classMouseable.html#a7d41a6c72f207834b8bff4ed3688f32a',1,'Mouseable']]],
-  ['mouserightbuttonupcallback_10',['mouseRightButtonUpCallback',['../classMouseable.html#af8c372da03c5a172211f148fe79333ee',1,'Mouseable']]],
-  ['multiitemsprop_11',['MultiItemsProp',['../structPaceLib_1_1MultiItemsProp.html',1,'PaceLib']]]
+  ['name_0',['name',['../structPaceLib_1_1ShapeId.html#a99aacdbcd1c6251edaf071f444cbbe49',1,'PaceLib::ShapeId::name'],['../classPaceLib_1_1Shape.html#ae34fda2ff3e6deeb164a6a7bb3bfa53a',1,'PaceLib::Shape::name']]],
+  ['normal_1',['normal',['../structPaceLib_1_1ButtonTexProp.html#a9cb020c39500812fcd44f7b3904489b9',1,'PaceLib::ButtonTexProp::normal'],['../structPaceLib_1_1ButtonTexGridProp.html#a09184cfbb8e375b6dc6a02a5d61a4980',1,'PaceLib::ButtonTexGridProp::normal']]],
+  ['nr_2',['nr',['../structPaceLib_1_1SpriteProp.html#a1ca93453e0ba48560d8166f4d547a2f1',1,'PaceLib::SpriteProp::nr'],['../structPaceLib_1_1GridProp.html#a4ffaa2e315edc7d66f412d2927248de1',1,'PaceLib::GridProp::nr']]]
 ];

@@ -1,4 +1,4 @@
 var Drawable_8hpp =
 [
-    [ "Drawable", "classDrawable.html", "classDrawable" ]
+    [ "PaceLib::Drawable", "classPaceLib_1_1Drawable.html", "classPaceLib_1_1Drawable" ]
 ];

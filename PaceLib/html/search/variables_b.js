@@ -1,11 +1,6 @@
 var searchData=
 [
-  ['offset_0',['offset',['../structPaceLib_1_1SpriteProp.html#a14e9ea1f46b1d026efa373af0e70110d',1,'PaceLib::SpriteProp']]],
-  ['ondeinit_1',['onDeinit',['../classPaceLib_1_1Init.html#adc3d42a8ade657df00053e448a566ef5',1,'PaceLib::Init']]],
-  ['ondraw_2',['onDraw',['../classPaceLib_1_1Init.html#aaf9f967b406b9f8afc48a27adf641e04',1,'PaceLib::Init']]],
-  ['onevent_3',['onEvent',['../classPaceLib_1_1Init.html#a83a499bd7ac41f87a1a9dfe560ce3419',1,'PaceLib::Init']]],
-  ['oninit_4',['onInit',['../classPaceLib_1_1Init.html#a4a54a337551a95726bdcefcfe8cd35d5',1,'PaceLib::Init']]],
-  ['onupdate_5',['onUpdate',['../classPaceLib_1_1Init.html#aa9be55674efdf75a8076a67f4532412c',1,'PaceLib::Init']]],
-  ['over_6',['over',['../structPaceLib_1_1ButtonTexProp.html#af5e7f3fbfc1c50704d3eeacd0b26b83a',1,'PaceLib::ButtonTexProp']]],
-  ['owns_5fttf_5fsource_7',['owns_ttf_source',['../structFC__Font.html#ad9da764922d86fd550f248aa3f9fe5eb',1,'FC_Font']]]
+  ['scene_0',['scene',['../structPaceLib_1_1LabelProp.html#aa8fccd1b05544ed8e05be800a28ef29e',1,'PaceLib::LabelProp::scene'],['../structPaceLib_1_1TabberProp.html#a51d4eb8bfbf606e6b004ee4b301a2b8c',1,'PaceLib::TabberProp::scene'],['../structPaceLib_1_1TextProp.html#a4afae775bcf08f2d0a4ccaeac198a3b1',1,'PaceLib::TextProp::scene'],['../structPaceLib_1_1MultiItemsProp.html#a89061ef79e5e3840e896a04780b7bc83',1,'PaceLib::MultiItemsProp::scene'],['../structPaceLib_1_1TooltipProp.html#ac25d052215e4ee6ea0d7ca5b3fe1a144',1,'PaceLib::TooltipProp::scene'],['../structPaceLib_1_1ButtonTexGridProp.html#a8219702bb7f87c12151257d904813fe9',1,'PaceLib::ButtonTexGridProp::scene']]],
+  ['shapes_1',['shapes',['../classPaceLib_1_1Shape.html#a38946976810dff3f30acf75c3ba90060',1,'PaceLib::Shape']]],
+  ['shapesnames_2',['shapesNames',['../classPaceLib_1_1Shape.html#aa966afb7fd7dd4ea9b9e5cf0c6cdd139',1,'PaceLib::Shape']]]
 ];

@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['hidable_0',['Hidable',['../classHidable.html',1,'']]],
-  ['horizontalalign_1',['HorizontalAlign',['../structPaceLib_1_1HorizontalAlign.html',1,'PaceLib']]],
-  ['hotspot_2',['Hotspot',['../classPaceLib_1_1Hotspot.html',1,'PaceLib']]],
-  ['hotspotprop_3',['HotspotProp',['../structPaceLib_1_1HotspotProp.html',1,'PaceLib']]]
+  ['grid_0',['Grid',['../classPaceLib_1_1Grid.html',1,'PaceLib']]],
+  ['gridprop_1',['GridProp',['../structPaceLib_1_1GridProp.html',1,'PaceLib']]]
 ];

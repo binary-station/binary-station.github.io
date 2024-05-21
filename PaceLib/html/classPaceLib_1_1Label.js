@@ -2,7 +2,7 @@ var classPaceLib_1_1Label =
 [
     [ "Label", "classPaceLib_1_1Label.html#af8f2bccf9faadcb2ca964bd2347dde24", null ],
     [ "~Label", "classPaceLib_1_1Label.html#a39e1167a9b5827afd888780973d88894", null ],
-    [ "Label", "classPaceLib_1_1Label.html#ad103f3ed08352d016f256b892d7377c1", null ],
+    [ "Label", "classPaceLib_1_1Label.html#a1dfa382f27237e4a96dca248f04fd9e0", null ],
     [ "Draw", "classPaceLib_1_1Label.html#a184df028b3aa8c7f8dec8ecb90533319", null ],
     [ "GetProp", "classPaceLib_1_1Label.html#a0e653d0d46e34eb591f5a4770b9934ab", null ],
     [ "GetTextSize", "classPaceLib_1_1Label.html#a22a5e9c48039e402e4e3196b2996e869", null ],

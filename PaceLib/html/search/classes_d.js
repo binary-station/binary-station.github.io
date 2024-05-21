@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['widget_0',['Widget',['../classPaceLib_1_1Widget.html',1,'PaceLib']]],
-  ['window_1',['Window',['../classWindow.html',1,'']]]
+  ['updateable_0',['Updateable',['../classPaceLib_1_1Updateable.html',1,'PaceLib']]]
 ];

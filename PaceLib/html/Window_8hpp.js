@@ -1,4 +1,4 @@
 var Window_8hpp =
 [
-    [ "Window", "classWindow.html", "classWindow" ]
+    [ "PaceLib::Window", "classPaceLib_1_1Window.html", "classPaceLib_1_1Window" ]
 ];

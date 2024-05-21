@@ -16,7 +16,7 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<link href="doxygen-awesome.css" rel="stylesheet" type="text/css" />
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -96,16 +96,20 @@ $(document).ready(function(){initNavTree('structPaceLib_1_1TextProp.html',''); i
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="Props_8h_source.html">Props.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="Props_8hpp_source.html">Props.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:a4afae775bcf08f2d0a4ccaeac198a3b1"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPaceLib_1_1TextProp.html#a4afae775bcf08f2d0a4ccaeac198a3b1">scene</a></td></tr>
+<tr class="separator:a4afae775bcf08f2d0a4ccaeac198a3b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1814facbd4ab916476000a4224bc0cb"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPaceLib_1_1TextProp.html#ab1814facbd4ab916476000a4224bc0cb">font</a></td></tr>
+<tr class="separator:ab1814facbd4ab916476000a4224bc0cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1b8b95e7074493a8a9b150b7c0e02a9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPaceLib_1_1TextProp.html#ad1b8b95e7074493a8a9b150b7c0e02a9">x</a></td></tr>
 <tr class="separator:ad1b8b95e7074493a8a9b150b7c0e02a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf8ddc72bb8b6e29ae07d0cab0dc2988"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPaceLib_1_1TextProp.html#adf8ddc72bb8b6e29ae07d0cab0dc2988">y</a></td></tr>
 <tr class="separator:adf8ddc72bb8b6e29ae07d0cab0dc2988"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a744c61ce507c3c80f2e0210512ea4a97"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structFC__Font.html">FC_Font</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPaceLib_1_1TextProp.html#a744c61ce507c3c80f2e0210512ea4a97">font</a></td></tr>
-<tr class="separator:a744c61ce507c3c80f2e0210512ea4a97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a151bf69ea30d906e79b6f7d5ce71d1e1"><td class="memItemLeft" align="right" valign="top">SDL_Texture *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPaceLib_1_1TextProp.html#a151bf69ea30d906e79b6f7d5ce71d1e1">tex</a></td></tr>
+<tr class="separator:a151bf69ea30d906e79b6f7d5ce71d1e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53ce04de292772234880a41c5edad933"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPaceLib_1_1TextProp.html#a53ce04de292772234880a41c5edad933">text</a></td></tr>
 <tr class="separator:a53ce04de292772234880a41c5edad933"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a059826f9f6772cdda81ef00b1737f512"><td class="memItemLeft" align="right" valign="top">SDL_Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPaceLib_1_1TextProp.html#a059826f9f6772cdda81ef00b1737f512">color</a></td></tr>
@@ -113,7 +117,7 @@ Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="Props_8h_source.html#l00110">110</a> of file <a class="el" href="Props_8h_source.html">Props.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Props_8hpp_source.html#l00120">120</a> of file <a class="el" href="Props_8hpp_source.html">Props.hpp</a>.</p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="a059826f9f6772cdda81ef00b1737f512" name="a059826f9f6772cdda81ef00b1737f512"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a059826f9f6772cdda81ef00b1737f512">&#9670;&#160;</a></span>color</h2>
@@ -127,23 +131,55 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Props_8h_source.html#l00114">114</a> of file <a class="el" href="Props_8h_source.html">Props.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Props_8hpp_source.html#l00126">126</a> of file <a class="el" href="Props_8hpp_source.html">Props.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a744c61ce507c3c80f2e0210512ea4a97" name="a744c61ce507c3c80f2e0210512ea4a97"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a744c61ce507c3c80f2e0210512ea4a97">&#9670;&#160;</a></span>font</h2>
+<a id="ab1814facbd4ab916476000a4224bc0cb" name="ab1814facbd4ab916476000a4224bc0cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1814facbd4ab916476000a4224bc0cb">&#9670;&#160;</a></span>font</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structFC__Font.html">FC_Font</a>* PaceLib::TextProp::font</td>
+          <td class="memname">std::string PaceLib::TextProp::font</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Props_8h_source.html#l00112">112</a> of file <a class="el" href="Props_8h_source.html">Props.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Props_8hpp_source.html#l00122">122</a> of file <a class="el" href="Props_8hpp_source.html">Props.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a4afae775bcf08f2d0a4ccaeac198a3b1" name="a4afae775bcf08f2d0a4ccaeac198a3b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4afae775bcf08f2d0a4ccaeac198a3b1">&#9670;&#160;</a></span>scene</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string PaceLib::TextProp::scene</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Props_8hpp_source.html#l00121">121</a> of file <a class="el" href="Props_8hpp_source.html">Props.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a151bf69ea30d906e79b6f7d5ce71d1e1" name="a151bf69ea30d906e79b6f7d5ce71d1e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a151bf69ea30d906e79b6f7d5ce71d1e1">&#9670;&#160;</a></span>tex</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SDL_Texture* PaceLib::TextProp::tex</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Props_8hpp_source.html#l00124">124</a> of file <a class="el" href="Props_8hpp_source.html">Props.hpp</a>.</p>
 
 </div>
 </div>
@@ -159,7 +195,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Props_8h_source.html#l00113">113</a> of file <a class="el" href="Props_8h_source.html">Props.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Props_8hpp_source.html#l00125">125</a> of file <a class="el" href="Props_8hpp_source.html">Props.hpp</a>.</p>
 
 </div>
 </div>
@@ -175,7 +211,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Props_8h_source.html#l00111">111</a> of file <a class="el" href="Props_8h_source.html">Props.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Props_8hpp_source.html#l00123">123</a> of file <a class="el" href="Props_8hpp_source.html">Props.hpp</a>.</p>
 
 </div>
 </div>
@@ -191,12 +227,12 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Props_8h_source.html#l00111">111</a> of file <a class="el" href="Props_8h_source.html">Props.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Props_8hpp_source.html#l00123">123</a> of file <a class="el" href="Props_8hpp_source.html">Props.hpp</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>include/PaceLib/graphics/gui/<a class="el" href="Props_8h_source.html">Props.h</a></li>
+<li>include/PaceLib/graphics/gui/<a class="el" href="Props_8hpp_source.html">Props.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

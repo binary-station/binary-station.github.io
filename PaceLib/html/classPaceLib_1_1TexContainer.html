@@ -16,7 +16,7 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<link href="doxygen-awesome.css" rel="stylesheet" type="text/css" />
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -127,7 +127,7 @@ Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="TexContainer_8hpp_source.html#l00013">13</a> of file <a class="el" href="TexContainer_8hpp_source.html">TexContainer.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TexContainer_8hpp_source.html#l00014">14</a> of file <a class="el" href="TexContainer_8hpp_source.html">TexContainer.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a42ec722edb4ee3d51f63259f29a92393" name="a42ec722edb4ee3d51f63259f29a92393"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a42ec722edb4ee3d51f63259f29a92393">&#9670;&#160;</a></span>TexContainer()</h2>
@@ -220,9 +220,9 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno">   34</span> </div>
 <div class="line"><span class="lineno">   35</span>  <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><span class="lineno">   36</span>}</div>
-<div class="ttc" id="astructPaceLib_1_1TexProp_html"><div class="ttname"><a href="structPaceLib_1_1TexProp.html">PaceLib::TexProp</a></div><div class="ttdef"><b>Definition</b> <a href="Props_8h_source.html#l00117">Props.h:117</a></div></div>
-<div class="ttc" id="astructPaceLib_1_1TexProp_html_a3ed570ae60d28e1528ef27e2cd6ea854"><div class="ttname"><a href="structPaceLib_1_1TexProp.html#a3ed570ae60d28e1528ef27e2cd6ea854">PaceLib::TexProp::tex</a></div><div class="ttdeci">SDL_Texture * tex</div><div class="ttdef"><b>Definition</b> <a href="Props_8h_source.html#l00118">Props.h:118</a></div></div>
-<div class="ttc" id="astructPaceLib_1_1TexProp_html_a562afb0fa3b558b0b728c1029344d922"><div class="ttname"><a href="structPaceLib_1_1TexProp.html#a562afb0fa3b558b0b728c1029344d922">PaceLib::TexProp::rect</a></div><div class="ttdeci">SDL_Rect rect</div><div class="ttdef"><b>Definition</b> <a href="Props_8h_source.html#l00119">Props.h:119</a></div></div>
+<div class="ttc" id="astructPaceLib_1_1TexProp_html"><div class="ttname"><a href="structPaceLib_1_1TexProp.html">PaceLib::TexProp</a></div><div class="ttdef"><b>Definition</b> <a href="Props_8hpp_source.html#l00129">Props.hpp:129</a></div></div>
+<div class="ttc" id="astructPaceLib_1_1TexProp_html_a3ed570ae60d28e1528ef27e2cd6ea854"><div class="ttname"><a href="structPaceLib_1_1TexProp.html#a3ed570ae60d28e1528ef27e2cd6ea854">PaceLib::TexProp::tex</a></div><div class="ttdeci">SDL_Texture * tex</div><div class="ttdef"><b>Definition</b> <a href="Props_8hpp_source.html#l00130">Props.hpp:130</a></div></div>
+<div class="ttc" id="astructPaceLib_1_1TexProp_html_a562afb0fa3b558b0b728c1029344d922"><div class="ttname"><a href="structPaceLib_1_1TexProp.html#a562afb0fa3b558b0b728c1029344d922">PaceLib::TexProp::rect</a></div><div class="ttdeci">SDL_Rect rect</div><div class="ttdef"><b>Definition</b> <a href="Props_8hpp_source.html#l00131">Props.hpp:131</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -270,15 +270,15 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="TexContainer_8cpp_source.html#l00052">52</a> of file <a class="el" href="TexContainer_8cpp_source.html">TexContainer.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   53</span>                              {</div>
-<div class="line"><span class="lineno">   54</span>  <span class="keywordtype">int</span> ret = <a class="code hl_function" href="classPaceLib_1_1TexContainer.html#ac090bec60aa2bd761f38b1afbd76daf5">Add</a>(file_path);</div>
-<div class="line"><span class="lineno">   55</span>  <a class="code hl_function" href="classPaceLib_1_1TexContainer.html#adbc4403d9d0b61e07e51a6e01b4563cb">SetRect</a>(file_path.filename(), x, y, w, h);</div>
-<div class="line"><span class="lineno">   56</span> </div>
-<div class="line"><span class="lineno">   57</span>  <span class="keywordflow">return</span> ret;</div>
-<div class="line"><span class="lineno">   58</span>}</div>
+<p class="definition">Definition at line <a class="el" href="TexContainer_8cpp_source.html#l00048">48</a> of file <a class="el" href="TexContainer_8cpp_source.html">TexContainer.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   49</span>                              {</div>
+<div class="line"><span class="lineno">   50</span>  <span class="keywordtype">int</span> ret = <a class="code hl_function" href="classPaceLib_1_1TexContainer.html#ac090bec60aa2bd761f38b1afbd76daf5">Add</a>(file_path);</div>
+<div class="line"><span class="lineno">   51</span>  <a class="code hl_function" href="classPaceLib_1_1TexContainer.html#adbc4403d9d0b61e07e51a6e01b4563cb">SetRect</a>(file_path.filename(), x, y, w, h);</div>
+<div class="line"><span class="lineno">   52</span> </div>
+<div class="line"><span class="lineno">   53</span>  <span class="keywordflow">return</span> ret;</div>
+<div class="line"><span class="lineno">   54</span>}</div>
 <div class="ttc" id="aclassPaceLib_1_1TexContainer_html_ac090bec60aa2bd761f38b1afbd76daf5"><div class="ttname"><a href="classPaceLib_1_1TexContainer.html#ac090bec60aa2bd761f38b1afbd76daf5">PaceLib::TexContainer::Add</a></div><div class="ttdeci">bool Add(std::filesystem::path file_path)</div><div class="ttdef"><b>Definition</b> <a href="TexContainer_8cpp_source.html#l00023">TexContainer.cpp:23</a></div></div>
-<div class="ttc" id="aclassPaceLib_1_1TexContainer_html_adbc4403d9d0b61e07e51a6e01b4563cb"><div class="ttname"><a href="classPaceLib_1_1TexContainer.html#adbc4403d9d0b61e07e51a6e01b4563cb">PaceLib::TexContainer::SetRect</a></div><div class="ttdeci">void SetRect(std::string name, int x, int y, int w, int h)</div><div class="ttdef"><b>Definition</b> <a href="TexContainer_8cpp_source.html#l00060">TexContainer.cpp:60</a></div></div>
+<div class="ttc" id="aclassPaceLib_1_1TexContainer_html_adbc4403d9d0b61e07e51a6e01b4563cb"><div class="ttname"><a href="classPaceLib_1_1TexContainer.html#adbc4403d9d0b61e07e51a6e01b4563cb">PaceLib::TexContainer::SetRect</a></div><div class="ttdeci">void SetRect(std::string name, int x, int y, int w, int h)</div><div class="ttdef"><b>Definition</b> <a href="TexContainer_8cpp_source.html#l00056">TexContainer.cpp:56</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -310,18 +310,14 @@ Public Member Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="TexContainer_8cpp_source.html#l00038">38</a> of file <a class="el" href="TexContainer_8cpp_source.html">TexContainer.cpp</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">   38</span>                                                       {</div>
-<div class="line"><span class="lineno">   39</span>  <span class="keywordflow">if</span> (tex == <span class="keyword">nullptr</span>) {</div>
-<div class="line"><span class="lineno">   40</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">   41</span>  }</div>
+<div class="line"><span class="lineno">   39</span>  <a class="code hl_struct" href="structPaceLib_1_1TexProp.html">TexProp</a> *pt = <span class="keyword">new</span> <a class="code hl_struct" href="structPaceLib_1_1TexProp.html">TexProp</a>();</div>
+<div class="line"><span class="lineno">   40</span>  pt-&gt;<a class="code hl_variable" href="structPaceLib_1_1TexProp.html#a3ed570ae60d28e1528ef27e2cd6ea854">tex</a> = tex;</div>
+<div class="line"><span class="lineno">   41</span>  pt-&gt;<a class="code hl_variable" href="structPaceLib_1_1TexProp.html#a562afb0fa3b558b0b728c1029344d922">rect</a> = {0, 0, 0, 0};</div>
 <div class="line"><span class="lineno">   42</span> </div>
-<div class="line"><span class="lineno">   43</span>  <a class="code hl_struct" href="structPaceLib_1_1TexProp.html">TexProp</a> *pt = <span class="keyword">new</span> <a class="code hl_struct" href="structPaceLib_1_1TexProp.html">TexProp</a>();</div>
-<div class="line"><span class="lineno">   44</span>  pt-&gt;<a class="code hl_variable" href="structPaceLib_1_1TexProp.html#a3ed570ae60d28e1528ef27e2cd6ea854">tex</a> = tex;</div>
-<div class="line"><span class="lineno">   45</span>  pt-&gt;<a class="code hl_variable" href="structPaceLib_1_1TexProp.html#a562afb0fa3b558b0b728c1029344d922">rect</a> = {0, 0, 0, 0};</div>
-<div class="line"><span class="lineno">   46</span> </div>
-<div class="line"><span class="lineno">   47</span>  ntr[name] = pt;</div>
-<div class="line"><span class="lineno">   48</span> </div>
-<div class="line"><span class="lineno">   49</span>  <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">   50</span>}</div>
+<div class="line"><span class="lineno">   43</span>  ntr[name] = pt;</div>
+<div class="line"><span class="lineno">   44</span> </div>
+<div class="line"><span class="lineno">   45</span>  <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   46</span>}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -362,8 +358,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="TexContainer_8cpp_source.html#l00069">69</a> of file <a class="el" href="TexContainer_8cpp_source.html">TexContainer.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   69</span>{ <span class="keywordflow">return</span> ntr[name]-&gt;tex; }</div>
+<p class="definition">Definition at line <a class="el" href="TexContainer_8cpp_source.html#l00065">65</a> of file <a class="el" href="TexContainer_8cpp_source.html">TexContainer.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   65</span>{ <span class="keywordflow">return</span> ntr[name]-&gt;tex; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -402,8 +398,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="TexContainer_8cpp_source.html#l00071">71</a> of file <a class="el" href="TexContainer_8cpp_source.html">TexContainer.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   71</span>{ <span class="keywordflow">return</span> ntr.size(); }</div>
+<p class="definition">Definition at line <a class="el" href="TexContainer_8cpp_source.html#l00067">67</a> of file <a class="el" href="TexContainer_8cpp_source.html">TexContainer.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   67</span>{ <span class="keywordflow">return</span> ntr.size(); }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -423,8 +419,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="TexContainer_8cpp_source.html#l00067">67</a> of file <a class="el" href="TexContainer_8cpp_source.html">TexContainer.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   67</span>{ <span class="keywordflow">return</span> &amp;ntr[name]-&gt;rect; }</div>
+<p class="definition">Definition at line <a class="el" href="TexContainer_8cpp_source.html#l00063">63</a> of file <a class="el" href="TexContainer_8cpp_source.html">TexContainer.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   63</span>{ <span class="keywordflow">return</span> &amp;ntr[name]-&gt;rect; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -444,11 +440,11 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="TexContainer_8cpp_source.html#l00073">73</a> of file <a class="el" href="TexContainer_8cpp_source.html">TexContainer.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   73</span>                                        {</div>
-<div class="line"><span class="lineno">   74</span>  SDL_DestroyTexture(ntr[name]-&gt;tex);</div>
-<div class="line"><span class="lineno">   75</span>  ntr.erase(name);</div>
-<div class="line"><span class="lineno">   76</span>}</div>
+<p class="definition">Definition at line <a class="el" href="TexContainer_8cpp_source.html#l00069">69</a> of file <a class="el" href="TexContainer_8cpp_source.html">TexContainer.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   69</span>                                        {</div>
+<div class="line"><span class="lineno">   70</span>  SDL_DestroyTexture(ntr[name]-&gt;tex);</div>
+<div class="line"><span class="lineno">   71</span>  ntr.erase(name);</div>
+<div class="line"><span class="lineno">   72</span>}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -496,13 +492,13 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="TexContainer_8cpp_source.html#l00060">60</a> of file <a class="el" href="TexContainer_8cpp_source.html">TexContainer.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   60</span>                                                                     {</div>
-<div class="line"><span class="lineno">   61</span>  ntr[name]-&gt;rect.x = x;</div>
-<div class="line"><span class="lineno">   62</span>  ntr[name]-&gt;rect.y = y;</div>
-<div class="line"><span class="lineno">   63</span>  ntr[name]-&gt;rect.w = w;</div>
-<div class="line"><span class="lineno">   64</span>  ntr[name]-&gt;rect.h = h;</div>
-<div class="line"><span class="lineno">   65</span>}</div>
+<p class="definition">Definition at line <a class="el" href="TexContainer_8cpp_source.html#l00056">56</a> of file <a class="el" href="TexContainer_8cpp_source.html">TexContainer.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   56</span>                                                                     {</div>
+<div class="line"><span class="lineno">   57</span>  ntr[name]-&gt;rect.x = x;</div>
+<div class="line"><span class="lineno">   58</span>  ntr[name]-&gt;rect.y = y;</div>
+<div class="line"><span class="lineno">   59</span>  ntr[name]-&gt;rect.w = w;</div>
+<div class="line"><span class="lineno">   60</span>  ntr[name]-&gt;rect.h = h;</div>
+<div class="line"><span class="lineno">   61</span>}</div>
 </div><!-- fragment -->
 </div>
 </div>

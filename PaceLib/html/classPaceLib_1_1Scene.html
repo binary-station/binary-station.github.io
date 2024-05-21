@@ -16,7 +16,7 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<link href="doxygen-awesome.css" rel="stylesheet" type="text/css" />
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -103,7 +103,7 @@ Inheritance diagram for PaceLib::Scene:</div>
  <div class="center">
   <img src="classPaceLib_1_1Scene.png" usemap="#PaceLib::Scene_map" alt=""/>
   <map id="PaceLib::Scene_map" name="PaceLib::Scene_map">
-<area href="classDrawable.html" alt="Drawable" shape="rect" coords="0,0,100,24"/>
+<area href="classPaceLib_1_1Drawable.html" alt="PaceLib::Drawable" shape="rect" coords="0,0,118,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -125,24 +125,30 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9e9a34dac332188ecf50165dc6f0af11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c1d533e25c9c21351af78a747c3dbff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPaceLib_1_1TexContainer.html">PaceLib::TexContainer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPaceLib_1_1Scene.html#a5c1d533e25c9c21351af78a747c3dbff">GetTexContainer</a> ()</td></tr>
 <tr class="separator:a5c1d533e25c9c21351af78a747c3dbff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37f14e9f76fc3ccb5f5a864c0101ad77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPaceLib_1_1FontContainer.html">PaceLib::FontContainer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPaceLib_1_1Scene.html#a37f14e9f76fc3ccb5f5a864c0101ad77">GetFontContainer</a> ()</td></tr>
-<tr class="separator:a37f14e9f76fc3ccb5f5a864c0101ad77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ba59d8670bab215aad14560c5275d72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPaceLib_1_1TexContainer.html">PaceLib::TexContainer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPaceLib_1_1Scene.html#a6ba59d8670bab215aad14560c5275d72">GetFontContainer</a> ()</td></tr>
+<tr class="separator:a6ba59d8670bab215aad14560c5275d72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1e266063d4d8405472ba54dee0f3755"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPaceLib_1_1TtfContainer.html">PaceLib::TtfContainer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPaceLib_1_1Scene.html#ab1e266063d4d8405472ba54dee0f3755">GetTtfContainer</a> ()</td></tr>
+<tr class="separator:ab1e266063d4d8405472ba54dee0f3755"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab051843d0a0dcaa13239fbc1af65b3bf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPaceLib_1_1Scene.html#ab051843d0a0dcaa13239fbc1af65b3bf">AddTex</a> (std::filesystem::path file_path, int x, int y, int w, int h)</td></tr>
 <tr class="separator:ab051843d0a0dcaa13239fbc1af65b3bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79a3e87bb91f98aa86007f7783cf3a19"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPaceLib_1_1Scene.html#a79a3e87bb91f98aa86007f7783cf3a19">AddFont</a> (std::string name, std::filesystem::path file_path, int size, SDL_Color color)</td></tr>
-<tr class="separator:a79a3e87bb91f98aa86007f7783cf3a19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd208086241b55d00aa8a42392ca2ce4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPaceLib_1_1Scene.html#afd208086241b55d00aa8a42392ca2ce4">AddFont</a> (std::string name, std::string font, std::string text, SDL_Color color)</td></tr>
+<tr class="separator:afd208086241b55d00aa8a42392ca2ce4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada665b1cafa41aedf797c26de67981b7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPaceLib_1_1Scene.html#ada665b1cafa41aedf797c26de67981b7">AddTtf</a> (std::string name, std::filesystem::path file_path, int size, int style, int outline)</td></tr>
+<tr class="separator:ada665b1cafa41aedf797c26de67981b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aecbf086fe6d9f5f0b9d70735405648d2"><td class="memItemLeft" align="right" valign="top">SDL_Texture *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPaceLib_1_1Scene.html#aecbf086fe6d9f5f0b9d70735405648d2">GetTex</a> (std::string name)</td></tr>
 <tr class="separator:aecbf086fe6d9f5f0b9d70735405648d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d75ca1d2c3023fc33c4ca4d04e5aa0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structFC__Font.html">FC_Font</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPaceLib_1_1Scene.html#a7d75ca1d2c3023fc33c4ca4d04e5aa0a">GetFont</a> (std::string name)</td></tr>
-<tr class="separator:a7d75ca1d2c3023fc33c4ca4d04e5aa0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade40bef02ce4fb92a6e7cdd18786247c"><td class="memItemLeft" align="right" valign="top">SDL_Texture *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPaceLib_1_1Scene.html#ade40bef02ce4fb92a6e7cdd18786247c">GetFont</a> (std::string name)</td></tr>
+<tr class="separator:ade40bef02ce4fb92a6e7cdd18786247c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab48cebac715e00c5a12d7cb923e1f7bb"><td class="memItemLeft" align="right" valign="top">TTF_Font *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPaceLib_1_1Scene.html#ab48cebac715e00c5a12d7cb923e1f7bb">GetTtf</a> (std::string name)</td></tr>
+<tr class="separator:ab48cebac715e00c5a12d7cb923e1f7bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12fbfab3b3197db146eb78e232b2a7a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPaceLib_1_1Scene.html#a12fbfab3b3197db146eb78e232b2a7a6">Update</a> (SDL_Event *event)</td></tr>
 <tr class="separator:a12fbfab3b3197db146eb78e232b2a7a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1084c9e57e1903e0be4ce402f14608c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDrawable.html#ac1084c9e57e1903e0be4ce402f14608c">Draw</a> ()=0</td></tr>
-<tr class="separator:ac1084c9e57e1903e0be4ce402f14608c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a264ae02e8337d6daa09e2a58ba9efb52"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPaceLib_1_1Drawable.html#a264ae02e8337d6daa09e2a58ba9efb52">Draw</a> ()=0</td></tr>
+<tr class="separator:a264ae02e8337d6daa09e2a58ba9efb52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="Scene_8hpp_source.html#l00012">12</a> of file <a class="el" href="Scene_8hpp_source.html">Scene.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scene_8hpp_source.html#l00013">13</a> of file <a class="el" href="Scene_8hpp_source.html">Scene.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a038638d5e1693a9f29d46cd8da42b4b9" name="a038638d5e1693a9f29d46cd8da42b4b9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a038638d5e1693a9f29d46cd8da42b4b9">&#9670;&#160;</a></span>Scene()</h2>
@@ -184,10 +190,11 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno">    9</span>  this-&gt;renderer = renderer;</div>
 <div class="line"><span class="lineno">   10</span> </div>
 <div class="line"><span class="lineno">   11</span>  tex_atlas = <span class="keyword">new</span> <a class="code hl_class" href="classPaceLib_1_1TexContainer.html">TexContainer</a>(name, renderer);</div>
-<div class="line"><span class="lineno">   12</span>  font_atlas = <span class="keyword">new</span> <a class="code hl_class" href="classPaceLib_1_1FontContainer.html">FontContainer</a>(name);</div>
-<div class="line"><span class="lineno">   13</span>}</div>
-<div class="ttc" id="aclassPaceLib_1_1FontContainer_html"><div class="ttname"><a href="classPaceLib_1_1FontContainer.html">PaceLib::FontContainer</a></div><div class="ttdef"><b>Definition</b> <a href="FontContainer_8hpp_source.html#l00012">FontContainer.hpp:12</a></div></div>
-<div class="ttc" id="aclassPaceLib_1_1TexContainer_html"><div class="ttname"><a href="classPaceLib_1_1TexContainer.html">PaceLib::TexContainer</a></div><div class="ttdef"><b>Definition</b> <a href="TexContainer_8hpp_source.html#l00013">TexContainer.hpp:13</a></div></div>
+<div class="line"><span class="lineno">   12</span>  font_atlas = <span class="keyword">new</span> <a class="code hl_class" href="classPaceLib_1_1TexContainer.html">TexContainer</a>(name, renderer);</div>
+<div class="line"><span class="lineno">   13</span>  ttf_atlas = <span class="keyword">new</span> <a class="code hl_class" href="classPaceLib_1_1TtfContainer.html">TtfContainer</a>(name);</div>
+<div class="line"><span class="lineno">   14</span>}</div>
+<div class="ttc" id="aclassPaceLib_1_1TexContainer_html"><div class="ttname"><a href="classPaceLib_1_1TexContainer.html">PaceLib::TexContainer</a></div><div class="ttdef"><b>Definition</b> <a href="TexContainer_8hpp_source.html#l00014">TexContainer.hpp:14</a></div></div>
+<div class="ttc" id="aclassPaceLib_1_1TtfContainer_html"><div class="ttname"><a href="classPaceLib_1_1TtfContainer.html">PaceLib::TtfContainer</a></div><div class="ttdef"><b>Definition</b> <a href="TtfContainer_8hpp_source.html#l00012">TtfContainer.hpp:12</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -206,17 +213,18 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Scene_8cpp_source.html#l00015">15</a> of file <a class="el" href="Scene_8cpp_source.html">Scene.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   15</span>              {</div>
-<div class="line"><span class="lineno">   16</span>  <span class="keyword">delete</span> font_atlas;</div>
-<div class="line"><span class="lineno">   17</span>  <span class="keyword">delete</span> tex_atlas;</div>
-<div class="line"><span class="lineno">   18</span>}</div>
+<p class="definition">Definition at line <a class="el" href="Scene_8cpp_source.html#l00016">16</a> of file <a class="el" href="Scene_8cpp_source.html">Scene.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   16</span>              {</div>
+<div class="line"><span class="lineno">   17</span>  <span class="keyword">delete</span> font_atlas;</div>
+<div class="line"><span class="lineno">   18</span>  <span class="keyword">delete</span> tex_atlas;</div>
+<div class="line"><span class="lineno">   19</span>  <span class="keyword">delete</span> ttf_atlas;</div>
+<div class="line"><span class="lineno">   20</span>}</div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a79a3e87bb91f98aa86007f7783cf3a19" name="a79a3e87bb91f98aa86007f7783cf3a19"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79a3e87bb91f98aa86007f7783cf3a19">&#9670;&#160;</a></span>AddFont()</h2>
+<a id="afd208086241b55d00aa8a42392ca2ce4" name="afd208086241b55d00aa8a42392ca2ce4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd208086241b55d00aa8a42392ca2ce4">&#9670;&#160;</a></span>AddFont()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -230,14 +238,14 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::filesystem::path&#160;</td>
-          <td class="paramname"><em>file_path</em>, </td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>font</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>size</em>, </td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -253,11 +261,17 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Scene_8cpp_source.html#l00032">32</a> of file <a class="el" href="Scene_8cpp_source.html">Scene.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   33</span>                                     {</div>
-<div class="line"><span class="lineno">   34</span>  <span class="keywordflow">return</span> font_atlas-&gt;<a class="code hl_function" href="classPaceLib_1_1FontContainer.html#aaeacaa209ffbc22453e42fed9793ec26">Add</a>(name, file_path, size, color);</div>
-<div class="line"><span class="lineno">   35</span>}</div>
-<div class="ttc" id="aclassPaceLib_1_1FontContainer_html_aaeacaa209ffbc22453e42fed9793ec26"><div class="ttname"><a href="classPaceLib_1_1FontContainer.html#aaeacaa209ffbc22453e42fed9793ec26">PaceLib::FontContainer::Add</a></div><div class="ttdeci">bool Add(std::string name, std::filesystem::path file_path, int size, SDL_Color color)</div><div class="ttdef"><b>Definition</b> <a href="FontContainer_8cpp_source.html#l00027">FontContainer.cpp:27</a></div></div>
+<p class="definition">Definition at line <a class="el" href="Scene_8cpp_source.html#l00035">35</a> of file <a class="el" href="Scene_8cpp_source.html">Scene.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   36</span>                                     {</div>
+<div class="line"><span class="lineno">   37</span>  SDL_Surface *surface =</div>
+<div class="line"><span class="lineno">   38</span>      TTF_RenderText_Solid(<a class="code hl_function" href="classPaceLib_1_1Scene.html#ab1e266063d4d8405472ba54dee0f3755">GetTtfContainer</a>()-&gt;Get(font), text.c_str(), color);</div>
+<div class="line"><span class="lineno">   39</span>  SDL_Texture *tex = SDL_CreateTextureFromSurface(renderer, surface);</div>
+<div class="line"><span class="lineno">   40</span>  font_atlas-&gt;<a class="code hl_function" href="classPaceLib_1_1TexContainer.html#ac090bec60aa2bd761f38b1afbd76daf5">Add</a>(name, tex);</div>
+<div class="line"><span class="lineno">   41</span> </div>
+<div class="line"><span class="lineno">   42</span>  <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   43</span>}</div>
+<div class="ttc" id="aclassPaceLib_1_1Scene_html_ab1e266063d4d8405472ba54dee0f3755"><div class="ttname"><a href="classPaceLib_1_1Scene.html#ab1e266063d4d8405472ba54dee0f3755">PaceLib::Scene::GetTtfContainer</a></div><div class="ttdeci">PaceLib::TtfContainer * GetTtfContainer()</div><div class="ttdef"><b>Definition</b> <a href="Scene_8cpp_source.html#l00028">Scene.cpp:28</a></div></div>
+<div class="ttc" id="aclassPaceLib_1_1TexContainer_html_ac090bec60aa2bd761f38b1afbd76daf5"><div class="ttname"><a href="classPaceLib_1_1TexContainer.html#ac090bec60aa2bd761f38b1afbd76daf5">PaceLib::TexContainer::Add</a></div><div class="ttdeci">bool Add(std::filesystem::path file_path)</div><div class="ttdef"><b>Definition</b> <a href="TexContainer_8cpp_source.html#l00023">TexContainer.cpp:23</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -305,12 +319,62 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Scene_8cpp_source.html#l00026">26</a> of file <a class="el" href="Scene_8cpp_source.html">Scene.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   27</span>                          {</div>
-<div class="line"><span class="lineno">   28</span>  tex_atlas-&gt;<a class="code hl_function" href="classPaceLib_1_1TexContainer.html#ac090bec60aa2bd761f38b1afbd76daf5">Add</a>(file_path, x, y, w, h);</div>
-<div class="line"><span class="lineno">   29</span>  <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">   30</span>}</div>
-<div class="ttc" id="aclassPaceLib_1_1TexContainer_html_ac090bec60aa2bd761f38b1afbd76daf5"><div class="ttname"><a href="classPaceLib_1_1TexContainer.html#ac090bec60aa2bd761f38b1afbd76daf5">PaceLib::TexContainer::Add</a></div><div class="ttdeci">bool Add(std::filesystem::path file_path)</div><div class="ttdef"><b>Definition</b> <a href="TexContainer_8cpp_source.html#l00023">TexContainer.cpp:23</a></div></div>
+<p class="definition">Definition at line <a class="el" href="Scene_8cpp_source.html#l00030">30</a> of file <a class="el" href="Scene_8cpp_source.html">Scene.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   31</span>                          {</div>
+<div class="line"><span class="lineno">   32</span>  <span class="keywordflow">return</span> tex_atlas-&gt;<a class="code hl_function" href="classPaceLib_1_1TexContainer.html#ac090bec60aa2bd761f38b1afbd76daf5">Add</a>(file_path, x, y, w, h);</div>
+<div class="line"><span class="lineno">   33</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ada665b1cafa41aedf797c26de67981b7" name="ada665b1cafa41aedf797c26de67981b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada665b1cafa41aedf797c26de67981b7">&#9670;&#160;</a></span>AddTtf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Scene::AddTtf </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::filesystem::path&#160;</td>
+          <td class="paramname"><em>file_path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>style</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>outline</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Scene_8cpp_source.html#l00045">45</a> of file <a class="el" href="Scene_8cpp_source.html">Scene.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   46</span>                                           {</div>
+<div class="line"><span class="lineno">   47</span>  <span class="keywordflow">return</span> ttf_atlas-&gt;<a class="code hl_function" href="classPaceLib_1_1TtfContainer.html#a5626d372aad9fe5d06e69b77b0dc2283">Add</a>(name, file_path, size, style, outline);</div>
+<div class="line"><span class="lineno">   48</span>}</div>
+<div class="ttc" id="aclassPaceLib_1_1TtfContainer_html_a5626d372aad9fe5d06e69b77b0dc2283"><div class="ttname"><a href="classPaceLib_1_1TtfContainer.html#a5626d372aad9fe5d06e69b77b0dc2283">PaceLib::TtfContainer::Add</a></div><div class="ttdeci">bool Add(std::string name, std::filesystem::path file_path, int size, int style, int outline)</div><div class="ttdef"><b>Definition</b> <a href="TtfContainer_8cpp_source.html#l00027">TtfContainer.cpp:27</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -337,23 +401,23 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classDrawable.html#ac1084c9e57e1903e0be4ce402f14608c">Drawable</a>.</p>
+<p>Implements <a class="el" href="classPaceLib_1_1Drawable.html#a264ae02e8337d6daa09e2a58ba9efb52">PaceLib::Drawable</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="Scene_8cpp_source.html#l00043">43</a> of file <a class="el" href="Scene_8cpp_source.html">Scene.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   43</span>                 {</div>
-<div class="line"><span class="lineno">   44</span>  <span class="comment">// SDL_RenderCopy(renderer, tex_atlas-&gt;Get(0), NULL, tex_atlas-&gt;GetRect(0));</span></div>
-<div class="line"><span class="lineno">   45</span>}</div>
+<p class="definition">Definition at line <a class="el" href="Scene_8cpp_source.html#l00058">58</a> of file <a class="el" href="Scene_8cpp_source.html">Scene.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   58</span>                 {</div>
+<div class="line"><span class="lineno">   59</span>  <span class="comment">// SDL_RenderCopy(renderer, tex_atlas-&gt;Get(0), NULL, tex_atlas-&gt;GetRect(0));</span></div>
+<div class="line"><span class="lineno">   60</span>}</div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a7d75ca1d2c3023fc33c4ca4d04e5aa0a" name="a7d75ca1d2c3023fc33c4ca4d04e5aa0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d75ca1d2c3023fc33c4ca4d04e5aa0a">&#9670;&#160;</a></span>GetFont()</h2>
+<a id="ade40bef02ce4fb92a6e7cdd18786247c" name="ade40bef02ce4fb92a6e7cdd18786247c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade40bef02ce4fb92a6e7cdd18786247c">&#9670;&#160;</a></span>GetFont()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structFC__Font.html">FC_Font</a> * Scene::GetFont </td>
+          <td class="memname">SDL_Texture * Scene::GetFont </td>
           <td>(</td>
           <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>name</em></td><td>)</td>
@@ -362,20 +426,20 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Scene_8cpp_source.html#l00039">39</a> of file <a class="el" href="Scene_8cpp_source.html">Scene.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   39</span>{ <span class="keywordflow">return</span> font_atlas-&gt;<a class="code hl_function" href="classPaceLib_1_1FontContainer.html#a4c491c2b7998f63cac87ae6dbe9a59d1">Get</a>(name); }</div>
-<div class="ttc" id="aclassPaceLib_1_1FontContainer_html_a4c491c2b7998f63cac87ae6dbe9a59d1"><div class="ttname"><a href="classPaceLib_1_1FontContainer.html#a4c491c2b7998f63cac87ae6dbe9a59d1">PaceLib::FontContainer::Get</a></div><div class="ttdeci">FC_Font * Get(std::string name)</div><div class="ttdef"><b>Definition</b> <a href="FontContainer_8cpp_source.html#l00020">FontContainer.cpp:20</a></div></div>
+<p class="definition">Definition at line <a class="el" href="Scene_8cpp_source.html#l00052">52</a> of file <a class="el" href="Scene_8cpp_source.html">Scene.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   52</span>{ <span class="keywordflow">return</span> font_atlas-&gt;<a class="code hl_function" href="classPaceLib_1_1TexContainer.html#a044d82d4a1902f89147ed2047d17dfbe">Get</a>(name); }</div>
+<div class="ttc" id="aclassPaceLib_1_1TexContainer_html_a044d82d4a1902f89147ed2047d17dfbe"><div class="ttname"><a href="classPaceLib_1_1TexContainer.html#a044d82d4a1902f89147ed2047d17dfbe">PaceLib::TexContainer::Get</a></div><div class="ttdeci">SDL_Texture * Get(std::string name)</div><div class="ttdef"><b>Definition</b> <a href="TexContainer_8cpp_source.html#l00065">TexContainer.cpp:65</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a37f14e9f76fc3ccb5f5a864c0101ad77" name="a37f14e9f76fc3ccb5f5a864c0101ad77"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a37f14e9f76fc3ccb5f5a864c0101ad77">&#9670;&#160;</a></span>GetFontContainer()</h2>
+<a id="a6ba59d8670bab215aad14560c5275d72" name="a6ba59d8670bab215aad14560c5275d72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ba59d8670bab215aad14560c5275d72">&#9670;&#160;</a></span>GetFontContainer()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPaceLib_1_1FontContainer.html">FontContainer</a> * Scene::GetFontContainer </td>
+          <td class="memname"><a class="el" href="classPaceLib_1_1TexContainer.html">TexContainer</a> * Scene::GetFontContainer </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -383,8 +447,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Scene_8cpp_source.html#l00024">24</a> of file <a class="el" href="Scene_8cpp_source.html">Scene.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   24</span>{ <span class="keywordflow">return</span> font_atlas; }</div>
+<p class="definition">Definition at line <a class="el" href="Scene_8cpp_source.html#l00026">26</a> of file <a class="el" href="Scene_8cpp_source.html">Scene.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   26</span>{ <span class="keywordflow">return</span> font_atlas; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -403,8 +467,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Scene_8cpp_source.html#l00067">67</a> of file <a class="el" href="Scene_8cpp_source.html">Scene.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   67</span>{ <span class="keywordflow">return</span> name; }</div>
+<p class="definition">Definition at line <a class="el" href="Scene_8cpp_source.html#l00082">82</a> of file <a class="el" href="Scene_8cpp_source.html">Scene.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   82</span>{ <span class="keywordflow">return</span> name; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -424,9 +488,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Scene_8cpp_source.html#l00037">37</a> of file <a class="el" href="Scene_8cpp_source.html">Scene.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   37</span>{ <span class="keywordflow">return</span> tex_atlas-&gt;<a class="code hl_function" href="classPaceLib_1_1TexContainer.html#a044d82d4a1902f89147ed2047d17dfbe">Get</a>(name); }</div>
-<div class="ttc" id="aclassPaceLib_1_1TexContainer_html_a044d82d4a1902f89147ed2047d17dfbe"><div class="ttname"><a href="classPaceLib_1_1TexContainer.html#a044d82d4a1902f89147ed2047d17dfbe">PaceLib::TexContainer::Get</a></div><div class="ttdeci">SDL_Texture * Get(std::string name)</div><div class="ttdef"><b>Definition</b> <a href="TexContainer_8cpp_source.html#l00069">TexContainer.cpp:69</a></div></div>
+<p class="definition">Definition at line <a class="el" href="Scene_8cpp_source.html#l00050">50</a> of file <a class="el" href="Scene_8cpp_source.html">Scene.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   50</span>{ <span class="keywordflow">return</span> tex_atlas-&gt;<a class="code hl_function" href="classPaceLib_1_1TexContainer.html#a044d82d4a1902f89147ed2047d17dfbe">Get</a>(name); }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -445,8 +508,50 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Scene_8cpp_source.html#l00022">22</a> of file <a class="el" href="Scene_8cpp_source.html">Scene.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   22</span>{ <span class="keywordflow">return</span> tex_atlas; }</div>
+<p class="definition">Definition at line <a class="el" href="Scene_8cpp_source.html#l00024">24</a> of file <a class="el" href="Scene_8cpp_source.html">Scene.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   24</span>{ <span class="keywordflow">return</span> tex_atlas; }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ab48cebac715e00c5a12d7cb923e1f7bb" name="ab48cebac715e00c5a12d7cb923e1f7bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab48cebac715e00c5a12d7cb923e1f7bb">&#9670;&#160;</a></span>GetTtf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TTF_Font * Scene::GetTtf </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Scene_8cpp_source.html#l00054">54</a> of file <a class="el" href="Scene_8cpp_source.html">Scene.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   54</span>{ <span class="keywordflow">return</span> ttf_atlas-&gt;<a class="code hl_function" href="classPaceLib_1_1TtfContainer.html#a035ada2dfdf1a917c6b693ecf6847c66">Get</a>(name); }</div>
+<div class="ttc" id="aclassPaceLib_1_1TtfContainer_html_a035ada2dfdf1a917c6b693ecf6847c66"><div class="ttname"><a href="classPaceLib_1_1TtfContainer.html#a035ada2dfdf1a917c6b693ecf6847c66">PaceLib::TtfContainer::Get</a></div><div class="ttdeci">TTF_Font * Get(std::string name)</div><div class="ttdef"><b>Definition</b> <a href="TtfContainer_8cpp_source.html#l00020">TtfContainer.cpp:20</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ab1e266063d4d8405472ba54dee0f3755" name="ab1e266063d4d8405472ba54dee0f3755"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1e266063d4d8405472ba54dee0f3755">&#9670;&#160;</a></span>GetTtfContainer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPaceLib_1_1TtfContainer.html">TtfContainer</a> * Scene::GetTtfContainer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Scene_8cpp_source.html#l00028">28</a> of file <a class="el" href="Scene_8cpp_source.html">Scene.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   28</span>{ <span class="keywordflow">return</span> ttf_atlas; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -466,8 +571,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Scene_8cpp_source.html#l00020">20</a> of file <a class="el" href="Scene_8cpp_source.html">Scene.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   20</span>{ this-&gt;name = name; }</div>
+<p class="definition">Definition at line <a class="el" href="Scene_8cpp_source.html#l00022">22</a> of file <a class="el" href="Scene_8cpp_source.html">Scene.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   22</span>{ this-&gt;name = name; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -486,8 +591,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Scene_8cpp_source.html#l00041">41</a> of file <a class="el" href="Scene_8cpp_source.html">Scene.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   41</span>{}</div>
+<p class="definition">Definition at line <a class="el" href="Scene_8cpp_source.html#l00056">56</a> of file <a class="el" href="Scene_8cpp_source.html">Scene.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   56</span>{}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -506,8 +611,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Scene_8cpp_source.html#l00047">47</a> of file <a class="el" href="Scene_8cpp_source.html">Scene.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   47</span>{}</div>
+<p class="definition">Definition at line <a class="el" href="Scene_8cpp_source.html#l00062">62</a> of file <a class="el" href="Scene_8cpp_source.html">Scene.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   62</span>{}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -527,24 +632,24 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Scene_8cpp_source.html#l00049">49</a> of file <a class="el" href="Scene_8cpp_source.html">Scene.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   49</span>                               {</div>
-<div class="line"><span class="lineno">   50</span>  <span class="keywordflow">if</span> ((*e).type == SDL_KEYDOWN) {</div>
-<div class="line"><span class="lineno">   51</span>    <span class="keywordflow">switch</span> ((*e).key.keysym.sym) {</div>
-<div class="line"><span class="lineno">   52</span>    <span class="keywordflow">case</span> SDLK_LEFT:</div>
-<div class="line"><span class="lineno">   53</span>      <span class="comment">// if(current_tex_index&gt;0)</span></div>
-<div class="line"><span class="lineno">   54</span>      <span class="comment">//    current_tex_index--;</span></div>
-<div class="line"><span class="lineno">   55</span>      <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">   56</span>    <span class="keywordflow">case</span> SDLK_RIGHT:</div>
-<div class="line"><span class="lineno">   57</span>      <span class="comment">// if(current_tex_index&lt;tex_counter)</span></div>
-<div class="line"><span class="lineno">   58</span>      <span class="comment">//     current_tex_index++;</span></div>
-<div class="line"><span class="lineno">   59</span>      <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">   60</span> </div>
-<div class="line"><span class="lineno">   61</span>    <span class="keywordflow">default</span>:</div>
-<div class="line"><span class="lineno">   62</span>      <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">   63</span>    }</div>
-<div class="line"><span class="lineno">   64</span>  }</div>
-<div class="line"><span class="lineno">   65</span>}</div>
+<p class="definition">Definition at line <a class="el" href="Scene_8cpp_source.html#l00064">64</a> of file <a class="el" href="Scene_8cpp_source.html">Scene.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   64</span>                               {</div>
+<div class="line"><span class="lineno">   65</span>  <span class="keywordflow">if</span> ((*e).type == SDL_KEYDOWN) {</div>
+<div class="line"><span class="lineno">   66</span>    <span class="keywordflow">switch</span> ((*e).key.keysym.sym) {</div>
+<div class="line"><span class="lineno">   67</span>      <span class="keywordflow">case</span> SDLK_LEFT:</div>
+<div class="line"><span class="lineno">   68</span>        <span class="comment">// if(current_tex_index&gt;0)</span></div>
+<div class="line"><span class="lineno">   69</span>        <span class="comment">//    current_tex_index--;</span></div>
+<div class="line"><span class="lineno">   70</span>        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   71</span>      <span class="keywordflow">case</span> SDLK_RIGHT:</div>
+<div class="line"><span class="lineno">   72</span>        <span class="comment">// if(current_tex_index&lt;tex_counter)</span></div>
+<div class="line"><span class="lineno">   73</span>        <span class="comment">//     current_tex_index++;</span></div>
+<div class="line"><span class="lineno">   74</span>        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   75</span> </div>
+<div class="line"><span class="lineno">   76</span>      <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">   77</span>        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   78</span>    }</div>
+<div class="line"><span class="lineno">   79</span>  }</div>
+<div class="line"><span class="lineno">   80</span>}</div>
 </div><!-- fragment -->
 </div>
 </div>

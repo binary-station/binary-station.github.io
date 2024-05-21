@@ -1,10 +1,6 @@
 var searchData=
 [
-  ['fc_5fcache_5fpadding_0',['FC_CACHE_PADDING',['../SDL__FontCache_8cpp.html#a2659ffdff998eaafd758c41f731fe898',1,'SDL_FontCache.cpp']]],
-  ['fc_5fdefault_5fnum_5fbuckets_1',['FC_DEFAULT_NUM_BUCKETS',['../SDL__FontCache_8cpp.html#a5a88e4d6d1e4cc4406c59ceeadf17904',1,'SDL_FontCache.cpp']]],
-  ['fc_5fextract_5fvarargs_2',['FC_EXTRACT_VARARGS',['../SDL__FontCache_8cpp.html#a5c42e1da184e0f8ae54a1a3b0b1a031c',1,'SDL_FontCache.cpp']]],
-  ['fc_5fget_5falpha_3',['FC_GET_ALPHA',['../SDL__FontCache_8cpp.html#aca69cdbe7cfd41ee946e16e0893618ed',1,'SDL_FontCache.cpp']]],
-  ['fc_5fload_5fmax_5fsurfaces_4',['FC_LOAD_MAX_SURFACES',['../SDL__FontCache_8cpp.html#a28642d7b0c93c86058cc2f7fc861f163',1,'SDL_FontCache.cpp']]],
-  ['fc_5fmax_5',['FC_MAX',['../SDL__FontCache_8cpp.html#a8c2d91437c21a4c7c6be4e24433a6e5c',1,'SDL_FontCache.cpp']]],
-  ['fc_5fmin_6',['FC_MIN',['../SDL__FontCache_8cpp.html#a313b67cfe4dab1a650d84c62f385bd7f',1,'SDL_FontCache.cpp']]]
+  ['pacelib_5fmajor_5fversion_0',['PACELIB_MAJOR_VERSION',['../Version_8h.html#afb40aa23c42fcc3d8d44b0f73db338fd',1,'Version.h']]],
+  ['pacelib_5fminor_5fversion_1',['PACELIB_MINOR_VERSION',['../Version_8h.html#a1d6dbd408f880067b294b069387a8ed8',1,'Version.h']]],
+  ['pacelib_5fpatchlevel_2',['PACELIB_PATCHLEVEL',['../Version_8h.html#aae33c53b30a3a054ee4268832627eae0',1,'Version.h']]]
 ];

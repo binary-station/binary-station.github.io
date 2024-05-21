@@ -16,7 +16,7 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<link href="doxygen-awesome.css" rel="stylesheet" type="text/css" />
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -96,7 +96,7 @@ $(document).ready(function(){initNavTree('classPaceLib_1_1Timer.html',''); initR
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="Timer_8h_source.html">Timer.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="Timer_8hpp_source.html">Timer.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -121,7 +121,7 @@ Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="Timer_8h_source.html#l00005">5</a> of file <a class="el" href="Timer_8h_source.html">Timer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Timer_8hpp_source.html#l00005">5</a> of file <a class="el" href="Timer_8hpp_source.html">Timer.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5f16e8da27d2a5a5242dead46de05d97" name="a5f16e8da27d2a5a5242dead46de05d97"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5f16e8da27d2a5a5242dead46de05d97">&#9670;&#160;</a></span>Timer()</h2>
@@ -138,14 +138,14 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Timer_8cpp_source.html#l00005">5</a> of file <a class="el" href="Timer_8cpp_source.html">Timer.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">    5</span>             {</div>
-<div class="line"><span class="lineno">    6</span>  start_ticks = 0;</div>
-<div class="line"><span class="lineno">    7</span>  paused_ticks = 0;</div>
-<div class="line"><span class="lineno">    8</span> </div>
-<div class="line"><span class="lineno">    9</span>  paused = <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">   10</span>  started = <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">   11</span>}</div>
+<p class="definition">Definition at line <a class="el" href="Timer_8cpp_source.html#l00007">7</a> of file <a class="el" href="Timer_8cpp_source.html">Timer.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">    7</span>             {</div>
+<div class="line"><span class="lineno">    8</span>  start_ticks = 0;</div>
+<div class="line"><span class="lineno">    9</span>  paused_ticks = 0;</div>
+<div class="line"><span class="lineno">   10</span> </div>
+<div class="line"><span class="lineno">   11</span>  paused = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   12</span>  started = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   13</span>}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -164,8 +164,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Timer_8cpp_source.html#l00013">13</a> of file <a class="el" href="Timer_8cpp_source.html">Timer.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   13</span>{}</div>
+<p class="definition">Definition at line <a class="el" href="Timer_8cpp_source.html#l00015">15</a> of file <a class="el" href="Timer_8cpp_source.html">Timer.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   15</span>{}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -185,20 +185,20 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Timer_8cpp_source.html#l00052">52</a> of file <a class="el" href="Timer_8cpp_source.html">Timer.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   52</span>                       {</div>
-<div class="line"><span class="lineno">   53</span>  Uint32 time = 0;</div>
-<div class="line"><span class="lineno">   54</span> </div>
-<div class="line"><span class="lineno">   55</span>  <span class="keywordflow">if</span> (started) {</div>
-<div class="line"><span class="lineno">   56</span>    <span class="keywordflow">if</span> (paused) {</div>
-<div class="line"><span class="lineno">   57</span>      time = paused_ticks;</div>
-<div class="line"><span class="lineno">   58</span>    } <span class="keywordflow">else</span> {</div>
-<div class="line"><span class="lineno">   59</span>      time = SDL_GetTicks() - start_ticks;</div>
-<div class="line"><span class="lineno">   60</span>    }</div>
-<div class="line"><span class="lineno">   61</span>  }</div>
-<div class="line"><span class="lineno">   62</span> </div>
-<div class="line"><span class="lineno">   63</span>  <span class="keywordflow">return</span> time;</div>
-<div class="line"><span class="lineno">   64</span>}</div>
+<p class="definition">Definition at line <a class="el" href="Timer_8cpp_source.html#l00054">54</a> of file <a class="el" href="Timer_8cpp_source.html">Timer.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   54</span>                       {</div>
+<div class="line"><span class="lineno">   55</span>  Uint32 time = 0;</div>
+<div class="line"><span class="lineno">   56</span> </div>
+<div class="line"><span class="lineno">   57</span>  <span class="keywordflow">if</span> (started) {</div>
+<div class="line"><span class="lineno">   58</span>    <span class="keywordflow">if</span> (paused) {</div>
+<div class="line"><span class="lineno">   59</span>      time = paused_ticks;</div>
+<div class="line"><span class="lineno">   60</span>    } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">   61</span>      time = SDL_GetTicks() - start_ticks;</div>
+<div class="line"><span class="lineno">   62</span>    }</div>
+<div class="line"><span class="lineno">   63</span>  }</div>
+<div class="line"><span class="lineno">   64</span> </div>
+<div class="line"><span class="lineno">   65</span>  <span class="keywordflow">return</span> time;</div>
+<div class="line"><span class="lineno">   66</span>}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -217,8 +217,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Timer_8cpp_source.html#l00068">68</a> of file <a class="el" href="Timer_8cpp_source.html">Timer.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   68</span>{ <span class="keywordflow">return</span> paused &amp;&amp; started; }</div>
+<p class="definition">Definition at line <a class="el" href="Timer_8cpp_source.html#l00070">70</a> of file <a class="el" href="Timer_8cpp_source.html">Timer.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   70</span>{ <span class="keywordflow">return</span> paused &amp;&amp; started; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -237,8 +237,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Timer_8cpp_source.html#l00066">66</a> of file <a class="el" href="Timer_8cpp_source.html">Timer.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   66</span>{ <span class="keywordflow">return</span> started; }</div>
+<p class="definition">Definition at line <a class="el" href="Timer_8cpp_source.html#l00068">68</a> of file <a class="el" href="Timer_8cpp_source.html">Timer.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   68</span>{ <span class="keywordflow">return</span> started; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -257,15 +257,15 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Timer_8cpp_source.html#l00033">33</a> of file <a class="el" href="Timer_8cpp_source.html">Timer.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   33</span>                  {</div>
-<div class="line"><span class="lineno">   34</span>  <span class="keywordflow">if</span> (started &amp;&amp; !paused) {</div>
-<div class="line"><span class="lineno">   35</span>    paused = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">   36</span> </div>
-<div class="line"><span class="lineno">   37</span>    paused_ticks = SDL_GetTicks() - start_ticks;</div>
-<div class="line"><span class="lineno">   38</span>    start_ticks = 0;</div>
-<div class="line"><span class="lineno">   39</span>  }</div>
-<div class="line"><span class="lineno">   40</span>}</div>
+<p class="definition">Definition at line <a class="el" href="Timer_8cpp_source.html#l00035">35</a> of file <a class="el" href="Timer_8cpp_source.html">Timer.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   35</span>                  {</div>
+<div class="line"><span class="lineno">   36</span>  <span class="keywordflow">if</span> (started &amp;&amp; !paused) {</div>
+<div class="line"><span class="lineno">   37</span>    paused = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   38</span> </div>
+<div class="line"><span class="lineno">   39</span>    paused_ticks = SDL_GetTicks() - start_ticks;</div>
+<div class="line"><span class="lineno">   40</span>    start_ticks = 0;</div>
+<div class="line"><span class="lineno">   41</span>  }</div>
+<div class="line"><span class="lineno">   42</span>}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -284,15 +284,15 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Timer_8cpp_source.html#l00015">15</a> of file <a class="el" href="Timer_8cpp_source.html">Timer.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   15</span>                  {</div>
-<div class="line"><span class="lineno">   16</span>  started = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">   17</span> </div>
-<div class="line"><span class="lineno">   18</span>  paused = <span class="keyword">false</span>;</div>
+<p class="definition">Definition at line <a class="el" href="Timer_8cpp_source.html#l00017">17</a> of file <a class="el" href="Timer_8cpp_source.html">Timer.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   17</span>                  {</div>
+<div class="line"><span class="lineno">   18</span>  started = <span class="keyword">true</span>;</div>
 <div class="line"><span class="lineno">   19</span> </div>
-<div class="line"><span class="lineno">   20</span>  start_ticks = SDL_GetTicks();</div>
-<div class="line"><span class="lineno">   21</span>  paused_ticks = 0;</div>
-<div class="line"><span class="lineno">   22</span>}</div>
+<div class="line"><span class="lineno">   20</span>  paused = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   21</span> </div>
+<div class="line"><span class="lineno">   22</span>  start_ticks = SDL_GetTicks();</div>
+<div class="line"><span class="lineno">   23</span>  paused_ticks = 0;</div>
+<div class="line"><span class="lineno">   24</span>}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -311,15 +311,15 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Timer_8cpp_source.html#l00024">24</a> of file <a class="el" href="Timer_8cpp_source.html">Timer.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   24</span>                 {</div>
-<div class="line"><span class="lineno">   25</span>  started = <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">   26</span> </div>
-<div class="line"><span class="lineno">   27</span>  paused = <span class="keyword">false</span>;</div>
+<p class="definition">Definition at line <a class="el" href="Timer_8cpp_source.html#l00026">26</a> of file <a class="el" href="Timer_8cpp_source.html">Timer.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   26</span>                 {</div>
+<div class="line"><span class="lineno">   27</span>  started = <span class="keyword">false</span>;</div>
 <div class="line"><span class="lineno">   28</span> </div>
-<div class="line"><span class="lineno">   29</span>  start_ticks = 0;</div>
-<div class="line"><span class="lineno">   30</span>  paused_ticks = 0;</div>
-<div class="line"><span class="lineno">   31</span>}</div>
+<div class="line"><span class="lineno">   29</span>  paused = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   30</span> </div>
+<div class="line"><span class="lineno">   31</span>  start_ticks = 0;</div>
+<div class="line"><span class="lineno">   32</span>  paused_ticks = 0;</div>
+<div class="line"><span class="lineno">   33</span>}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -338,21 +338,21 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Timer_8cpp_source.html#l00042">42</a> of file <a class="el" href="Timer_8cpp_source.html">Timer.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   42</span>                    {</div>
-<div class="line"><span class="lineno">   43</span>  <span class="keywordflow">if</span> (started &amp;&amp; paused) {</div>
-<div class="line"><span class="lineno">   44</span>    paused = <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">   45</span> </div>
-<div class="line"><span class="lineno">   46</span>    start_ticks = SDL_GetTicks() - paused_ticks;</div>
+<p class="definition">Definition at line <a class="el" href="Timer_8cpp_source.html#l00044">44</a> of file <a class="el" href="Timer_8cpp_source.html">Timer.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   44</span>                    {</div>
+<div class="line"><span class="lineno">   45</span>  <span class="keywordflow">if</span> (started &amp;&amp; paused) {</div>
+<div class="line"><span class="lineno">   46</span>    paused = <span class="keyword">false</span>;</div>
 <div class="line"><span class="lineno">   47</span> </div>
-<div class="line"><span class="lineno">   48</span>    paused_ticks = 0;</div>
-<div class="line"><span class="lineno">   49</span>  }</div>
-<div class="line"><span class="lineno">   50</span>}</div>
+<div class="line"><span class="lineno">   48</span>    start_ticks = SDL_GetTicks() - paused_ticks;</div>
+<div class="line"><span class="lineno">   49</span> </div>
+<div class="line"><span class="lineno">   50</span>    paused_ticks = 0;</div>
+<div class="line"><span class="lineno">   51</span>  }</div>
+<div class="line"><span class="lineno">   52</span>}</div>
 </div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>include/PaceLib/utils/<a class="el" href="Timer_8h_source.html">Timer.h</a></li>
+<li>include/PaceLib/utils/<a class="el" href="Timer_8hpp_source.html">Timer.hpp</a></li>
 <li>src/<a class="el" href="Timer_8cpp_source.html">Timer.cpp</a></li>
 </ul>
 </div><!-- contents -->

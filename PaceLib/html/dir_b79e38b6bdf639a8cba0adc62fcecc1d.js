@@ -1,5 +1,5 @@
 var dir_b79e38b6bdf639a8cba0adc62fcecc1d =
 [
-    [ "Line.h", "Line_8h.html", "Line_8h" ],
-    [ "Lines.h", "Lines_8h.html", "Lines_8h" ]
+    [ "Line.hpp", "Line_8hpp.html", "Line_8hpp" ],
+    [ "Lines.hpp", "Lines_8hpp.html", "Lines_8hpp" ]
 ];

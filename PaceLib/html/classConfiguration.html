@@ -16,7 +16,7 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<link href="doxygen-awesome.css" rel="stylesheet" type="text/css" />
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -121,7 +121,7 @@ Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="Configuration_8hpp_source.html#l00010">10</a> of file <a class="el" href="Configuration_8hpp_source.html">Configuration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Configuration_8hpp_source.html#l00011">11</a> of file <a class="el" href="Configuration_8hpp_source.html">Configuration.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad3e87b84192cc17bad78694872d8ea28" name="ad3e87b84192cc17bad78694872d8ea28"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad3e87b84192cc17bad78694872d8ea28">&#9670;&#160;</a></span>Configuration()</h2>
@@ -139,17 +139,17 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Configuration_8cpp_source.html#l00007">7</a> of file <a class="el" href="Configuration_8cpp_source.html">Configuration.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">    7</span>                                            {</div>
-<div class="line"><span class="lineno">    8</span>  this-&gt;fname = fname;</div>
-<div class="line"><span class="lineno">    9</span> </div>
-<div class="line"><span class="lineno">   10</span>  ifs.open(fname);</div>
-<div class="line"><span class="lineno">   11</span>  jsons.assign(std::istreambuf_iterator&lt;char&gt;(ifs),</div>
-<div class="line"><span class="lineno">   12</span>               std::istreambuf_iterator&lt;char&gt;());</div>
-<div class="line"><span class="lineno">   13</span> </div>
-<div class="line"><span class="lineno">   14</span>  j = json::parse(jsons);</div>
-<div class="line"><span class="lineno">   15</span>  ifs.close();</div>
-<div class="line"><span class="lineno">   16</span>}</div>
+<p class="definition">Definition at line <a class="el" href="Configuration_8cpp_source.html#l00009">9</a> of file <a class="el" href="Configuration_8cpp_source.html">Configuration.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">    9</span>                                            {</div>
+<div class="line"><span class="lineno">   10</span>  this-&gt;fname = fname;</div>
+<div class="line"><span class="lineno">   11</span> </div>
+<div class="line"><span class="lineno">   12</span>  ifs.open(fname);</div>
+<div class="line"><span class="lineno">   13</span>  jsons.assign(std::istreambuf_iterator&lt;char&gt;(ifs),</div>
+<div class="line"><span class="lineno">   14</span>               std::istreambuf_iterator&lt;char&gt;());</div>
+<div class="line"><span class="lineno">   15</span> </div>
+<div class="line"><span class="lineno">   16</span>  j = json::parse(jsons);</div>
+<div class="line"><span class="lineno">   17</span>  ifs.close();</div>
+<div class="line"><span class="lineno">   18</span>}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -168,8 +168,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Configuration_8cpp_source.html#l00018">18</a> of file <a class="el" href="Configuration_8cpp_source.html">Configuration.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   18</span>{}</div>
+<p class="definition">Definition at line <a class="el" href="Configuration_8cpp_source.html#l00020">20</a> of file <a class="el" href="Configuration_8cpp_source.html">Configuration.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   20</span>{}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -189,14 +189,14 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Configuration_8cpp_source.html#l00036">36</a> of file <a class="el" href="Configuration_8cpp_source.html">Configuration.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   36</span>                         {</div>
-<div class="line"><span class="lineno">   37</span>  std::ofstream ofs(fname, std::ofstream::out);</div>
-<div class="line"><span class="lineno">   38</span>  ofs &lt;&lt; j.dump();</div>
-<div class="line"><span class="lineno">   39</span>  ofs.close();</div>
-<div class="line"><span class="lineno">   40</span>  <a class="code hl_function" href="classConfiguration.html#a67fc502741b329e7257479e5b41cb506">Reload</a>();</div>
-<div class="line"><span class="lineno">   41</span>}</div>
-<div class="ttc" id="aclassConfiguration_html_a67fc502741b329e7257479e5b41cb506"><div class="ttname"><a href="classConfiguration.html#a67fc502741b329e7257479e5b41cb506">Configuration::Reload</a></div><div class="ttdeci">void Reload()</div><div class="ttdef"><b>Definition</b> <a href="Configuration_8cpp_source.html#l00020">Configuration.cpp:20</a></div></div>
+<p class="definition">Definition at line <a class="el" href="Configuration_8cpp_source.html#l00038">38</a> of file <a class="el" href="Configuration_8cpp_source.html">Configuration.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   38</span>                         {</div>
+<div class="line"><span class="lineno">   39</span>  std::ofstream ofs(fname, std::ofstream::out);</div>
+<div class="line"><span class="lineno">   40</span>  ofs &lt;&lt; j.dump();</div>
+<div class="line"><span class="lineno">   41</span>  ofs.close();</div>
+<div class="line"><span class="lineno">   42</span>  <a class="code hl_function" href="classConfiguration.html#a67fc502741b329e7257479e5b41cb506">Reload</a>();</div>
+<div class="line"><span class="lineno">   43</span>}</div>
+<div class="ttc" id="aclassConfiguration_html_a67fc502741b329e7257479e5b41cb506"><div class="ttname"><a href="classConfiguration.html#a67fc502741b329e7257479e5b41cb506">Configuration::Reload</a></div><div class="ttdeci">void Reload()</div><div class="ttdef"><b>Definition</b> <a href="Configuration_8cpp_source.html#l00022">Configuration.cpp:22</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -224,8 +224,8 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Configuration_8hpp_source.html#l00015">15</a> of file <a class="el" href="Configuration_8hpp_source.html">Configuration.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   15</span>{ <span class="keywordflow">return</span> j[name]; }</div>
+<p class="definition">Definition at line <a class="el" href="Configuration_8hpp_source.html#l00016">16</a> of file <a class="el" href="Configuration_8hpp_source.html">Configuration.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   16</span>{ <span class="keywordflow">return</span> j[name]; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -244,14 +244,14 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Configuration_8cpp_source.html#l00020">20</a> of file <a class="el" href="Configuration_8cpp_source.html">Configuration.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   20</span>                           {</div>
-<div class="line"><span class="lineno">   21</span>  ifs.open(fname);</div>
-<div class="line"><span class="lineno">   22</span>  jsons.assign(std::istreambuf_iterator&lt;char&gt;(ifs),</div>
-<div class="line"><span class="lineno">   23</span>               std::istreambuf_iterator&lt;char&gt;());</div>
-<div class="line"><span class="lineno">   24</span>  j = json::parse(jsons);</div>
-<div class="line"><span class="lineno">   25</span>  ifs.close();</div>
-<div class="line"><span class="lineno">   26</span>}</div>
+<p class="definition">Definition at line <a class="el" href="Configuration_8cpp_source.html#l00022">22</a> of file <a class="el" href="Configuration_8cpp_source.html">Configuration.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   22</span>                           {</div>
+<div class="line"><span class="lineno">   23</span>  ifs.open(fname);</div>
+<div class="line"><span class="lineno">   24</span>  jsons.assign(std::istreambuf_iterator&lt;char&gt;(ifs),</div>
+<div class="line"><span class="lineno">   25</span>               std::istreambuf_iterator&lt;char&gt;());</div>
+<div class="line"><span class="lineno">   26</span>  j = json::parse(jsons);</div>
+<div class="line"><span class="lineno">   27</span>  ifs.close();</div>
+<div class="line"><span class="lineno">   28</span>}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -281,8 +281,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Configuration_8cpp_source.html#l00032">32</a> of file <a class="el" href="Configuration_8cpp_source.html">Configuration.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   32</span>{ j[key] = val; }</div>
+<p class="definition">Definition at line <a class="el" href="Configuration_8cpp_source.html#l00034">34</a> of file <a class="el" href="Configuration_8cpp_source.html">Configuration.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   34</span>{ j[key] = val; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -312,8 +312,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Configuration_8cpp_source.html#l00030">30</a> of file <a class="el" href="Configuration_8cpp_source.html">Configuration.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   30</span>{ j[key] = val; }</div>
+<p class="definition">Definition at line <a class="el" href="Configuration_8cpp_source.html#l00032">32</a> of file <a class="el" href="Configuration_8cpp_source.html">Configuration.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   32</span>{ j[key] = val; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -343,8 +343,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Configuration_8cpp_source.html#l00034">34</a> of file <a class="el" href="Configuration_8cpp_source.html">Configuration.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   34</span>{ j[key] = j; }</div>
+<p class="definition">Definition at line <a class="el" href="Configuration_8cpp_source.html#l00036">36</a> of file <a class="el" href="Configuration_8cpp_source.html">Configuration.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   36</span>{ j[key] = j; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -374,8 +374,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Configuration_8cpp_source.html#l00028">28</a> of file <a class="el" href="Configuration_8cpp_source.html">Configuration.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   28</span>{ j[key] = val; }</div>
+<p class="definition">Definition at line <a class="el" href="Configuration_8cpp_source.html#l00030">30</a> of file <a class="el" href="Configuration_8cpp_source.html">Configuration.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   30</span>{ j[key] = val; }</div>
 </div><!-- fragment -->
 </div>
 </div>

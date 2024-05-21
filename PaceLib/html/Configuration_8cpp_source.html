@@ -16,7 +16,7 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<link href="doxygen-awesome.css" rel="stylesheet" type="text/css" />
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -92,54 +92,56 @@ $(document).ready(function(){initNavTree('Configuration_8cpp_source.html',''); i
   <div class="headertitle"><div class="title">Configuration.cpp</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="Configuration_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#include &lt;map&gt;</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="Configuration_8hpp.html">Configuration.hpp</a>&quot;</span></div>
+<a href="Configuration_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#include &quot;<a class="code" href="Configuration_8hpp.html">Configuration.hpp</a>&quot;</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno"><a class="line" href="Configuration_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">    5</a></span><span class="keyword">using </span><a class="code hl_typedef" href="Configuration_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> = nlohmann::json;</div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;map&gt;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="classConfiguration.html#ad3e87b84192cc17bad78694872d8ea28">    7</a></span><a class="code hl_function" href="classConfiguration.html#ad3e87b84192cc17bad78694872d8ea28">Configuration::Configuration</a>(std::string fname) {</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>  this-&gt;fname = fname;</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>  ifs.open(fname);</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>  jsons.assign(std::istreambuf_iterator&lt;char&gt;(ifs),</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>               std::istreambuf_iterator&lt;char&gt;());</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>  j = json::parse(jsons);</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>  ifs.close();</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>}</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="classConfiguration.html#a0dd0fa189e239f4c9a036303f641441e">   18</a></span><a class="code hl_function" href="classConfiguration.html#a0dd0fa189e239f4c9a036303f641441e">Configuration::~Configuration</a>() {}</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="Configuration_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">    7</a></span><span class="keyword">using </span><a class="code hl_typedef" href="Configuration_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> = nlohmann::json;</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="classConfiguration.html#ad3e87b84192cc17bad78694872d8ea28">    9</a></span><a class="code hl_function" href="classConfiguration.html#ad3e87b84192cc17bad78694872d8ea28">Configuration::Configuration</a>(std::string fname) {</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>  this-&gt;fname = fname;</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>  ifs.open(fname);</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>  jsons.assign(std::istreambuf_iterator&lt;char&gt;(ifs),</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>               std::istreambuf_iterator&lt;char&gt;());</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>  j = json::parse(jsons);</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>  ifs.close();</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>}</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="classConfiguration.html#a67fc502741b329e7257479e5b41cb506">   20</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="classConfiguration.html#a67fc502741b329e7257479e5b41cb506">Configuration::Reload</a>() {</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>  ifs.open(fname);</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>  jsons.assign(std::istreambuf_iterator&lt;char&gt;(ifs),</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>               std::istreambuf_iterator&lt;char&gt;());</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>  j = json::parse(jsons);</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>  ifs.close();</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>}</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="classConfiguration.html#aac7c618aa7cc035a6503ad56c275788d">   28</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="classConfiguration.html#aac7c618aa7cc035a6503ad56c275788d">Configuration::Set</a>(std::string key, std::string val) { j[key] = val; }</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="classConfiguration.html#a0dd0fa189e239f4c9a036303f641441e">   20</a></span><a class="code hl_function" href="classConfiguration.html#a0dd0fa189e239f4c9a036303f641441e">Configuration::~Configuration</a>() {}</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="classConfiguration.html#a67fc502741b329e7257479e5b41cb506">   22</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="classConfiguration.html#a67fc502741b329e7257479e5b41cb506">Configuration::Reload</a>() {</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>  ifs.open(fname);</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>  jsons.assign(std::istreambuf_iterator&lt;char&gt;(ifs),</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>               std::istreambuf_iterator&lt;char&gt;());</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>  j = json::parse(jsons);</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>  ifs.close();</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>}</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="classConfiguration.html#a63d981ad44c1fcdf928b095d9501007e">   30</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="classConfiguration.html#aac7c618aa7cc035a6503ad56c275788d">Configuration::Set</a>(std::string key, <span class="keywordtype">int</span> val) { j[key] = val; }</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="classConfiguration.html#aac7c618aa7cc035a6503ad56c275788d">   30</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="classConfiguration.html#aac7c618aa7cc035a6503ad56c275788d">Configuration::Set</a>(std::string key, std::string val) { j[key] = val; }</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="classConfiguration.html#a8a3c50b1fb3abdb1f3e255e176f2b1d8">   32</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="classConfiguration.html#aac7c618aa7cc035a6503ad56c275788d">Configuration::Set</a>(std::string key, <span class="keywordtype">bool</span> val) { j[key] = val; }</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="classConfiguration.html#a63d981ad44c1fcdf928b095d9501007e">   32</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="classConfiguration.html#aac7c618aa7cc035a6503ad56c275788d">Configuration::Set</a>(std::string key, <span class="keywordtype">int</span> val) { j[key] = val; }</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="classConfiguration.html#af976677c5c9eb7f9e2ef150ad18893ed">   34</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="classConfiguration.html#aac7c618aa7cc035a6503ad56c275788d">Configuration::Set</a>(std::string key, <a class="code hl_typedef" href="Configuration_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> j) { j[key] = j; }</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="classConfiguration.html#a8a3c50b1fb3abdb1f3e255e176f2b1d8">   34</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="classConfiguration.html#aac7c618aa7cc035a6503ad56c275788d">Configuration::Set</a>(std::string key, <span class="keywordtype">bool</span> val) { j[key] = val; }</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="classConfiguration.html#ab3f2daa6e70720567ea28f119cef3727">   36</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="classConfiguration.html#ab3f2daa6e70720567ea28f119cef3727">Configuration::Dump</a>() {</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>  std::ofstream ofs(fname, std::ofstream::out);</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>  ofs &lt;&lt; j.dump();</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>  ofs.close();</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>  <a class="code hl_function" href="classConfiguration.html#a67fc502741b329e7257479e5b41cb506">Reload</a>();</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>}</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="classConfiguration.html#af976677c5c9eb7f9e2ef150ad18893ed">   36</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="classConfiguration.html#aac7c618aa7cc035a6503ad56c275788d">Configuration::Set</a>(std::string key, <a class="code hl_typedef" href="Configuration_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> j) { j[key] = j; }</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="classConfiguration.html#ab3f2daa6e70720567ea28f119cef3727">   38</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="classConfiguration.html#ab3f2daa6e70720567ea28f119cef3727">Configuration::Dump</a>() {</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>  std::ofstream ofs(fname, std::ofstream::out);</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>  ofs &lt;&lt; j.dump();</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>  ofs.close();</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>  <a class="code hl_function" href="classConfiguration.html#a67fc502741b329e7257479e5b41cb506">Reload</a>();</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>}</div>
 <div class="ttc" id="aConfiguration_8hpp_html"><div class="ttname"><a href="Configuration_8hpp.html">Configuration.hpp</a></div></div>
-<div class="ttc" id="aConfiguration_8hpp_html_ab701e3ac61a85b337ec5c1abaad6742d"><div class="ttname"><a href="Configuration_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a></div><div class="ttdeci">nlohmann::json json</div><div class="ttdef"><b>Definition</b> <a href="Configuration_8hpp_source.html#l00008">Configuration.hpp:8</a></div></div>
-<div class="ttc" id="aclassConfiguration_html_a0dd0fa189e239f4c9a036303f641441e"><div class="ttname"><a href="classConfiguration.html#a0dd0fa189e239f4c9a036303f641441e">Configuration::~Configuration</a></div><div class="ttdeci">~Configuration()</div><div class="ttdef"><b>Definition</b> <a href="Configuration_8cpp_source.html#l00018">Configuration.cpp:18</a></div></div>
-<div class="ttc" id="aclassConfiguration_html_a67fc502741b329e7257479e5b41cb506"><div class="ttname"><a href="classConfiguration.html#a67fc502741b329e7257479e5b41cb506">Configuration::Reload</a></div><div class="ttdeci">void Reload()</div><div class="ttdef"><b>Definition</b> <a href="Configuration_8cpp_source.html#l00020">Configuration.cpp:20</a></div></div>
-<div class="ttc" id="aclassConfiguration_html_aac7c618aa7cc035a6503ad56c275788d"><div class="ttname"><a href="classConfiguration.html#aac7c618aa7cc035a6503ad56c275788d">Configuration::Set</a></div><div class="ttdeci">void Set(std::string key, std::string val)</div><div class="ttdef"><b>Definition</b> <a href="Configuration_8cpp_source.html#l00028">Configuration.cpp:28</a></div></div>
-<div class="ttc" id="aclassConfiguration_html_ab3f2daa6e70720567ea28f119cef3727"><div class="ttname"><a href="classConfiguration.html#ab3f2daa6e70720567ea28f119cef3727">Configuration::Dump</a></div><div class="ttdeci">void Dump()</div><div class="ttdef"><b>Definition</b> <a href="Configuration_8cpp_source.html#l00036">Configuration.cpp:36</a></div></div>
-<div class="ttc" id="aclassConfiguration_html_ad3e87b84192cc17bad78694872d8ea28"><div class="ttname"><a href="classConfiguration.html#ad3e87b84192cc17bad78694872d8ea28">Configuration::Configuration</a></div><div class="ttdeci">Configuration(std::string fname)</div><div class="ttdef"><b>Definition</b> <a href="Configuration_8cpp_source.html#l00007">Configuration.cpp:7</a></div></div>
+<div class="ttc" id="aConfiguration_8hpp_html_ab701e3ac61a85b337ec5c1abaad6742d"><div class="ttname"><a href="Configuration_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a></div><div class="ttdeci">nlohmann::json json</div><div class="ttdef"><b>Definition</b> <a href="Configuration_8hpp_source.html#l00009">Configuration.hpp:9</a></div></div>
+<div class="ttc" id="aclassConfiguration_html_a0dd0fa189e239f4c9a036303f641441e"><div class="ttname"><a href="classConfiguration.html#a0dd0fa189e239f4c9a036303f641441e">Configuration::~Configuration</a></div><div class="ttdeci">~Configuration()</div><div class="ttdef"><b>Definition</b> <a href="Configuration_8cpp_source.html#l00020">Configuration.cpp:20</a></div></div>
+<div class="ttc" id="aclassConfiguration_html_a67fc502741b329e7257479e5b41cb506"><div class="ttname"><a href="classConfiguration.html#a67fc502741b329e7257479e5b41cb506">Configuration::Reload</a></div><div class="ttdeci">void Reload()</div><div class="ttdef"><b>Definition</b> <a href="Configuration_8cpp_source.html#l00022">Configuration.cpp:22</a></div></div>
+<div class="ttc" id="aclassConfiguration_html_aac7c618aa7cc035a6503ad56c275788d"><div class="ttname"><a href="classConfiguration.html#aac7c618aa7cc035a6503ad56c275788d">Configuration::Set</a></div><div class="ttdeci">void Set(std::string key, std::string val)</div><div class="ttdef"><b>Definition</b> <a href="Configuration_8cpp_source.html#l00030">Configuration.cpp:30</a></div></div>
+<div class="ttc" id="aclassConfiguration_html_ab3f2daa6e70720567ea28f119cef3727"><div class="ttname"><a href="classConfiguration.html#ab3f2daa6e70720567ea28f119cef3727">Configuration::Dump</a></div><div class="ttdeci">void Dump()</div><div class="ttdef"><b>Definition</b> <a href="Configuration_8cpp_source.html#l00038">Configuration.cpp:38</a></div></div>
+<div class="ttc" id="aclassConfiguration_html_ad3e87b84192cc17bad78694872d8ea28"><div class="ttname"><a href="classConfiguration.html#ad3e87b84192cc17bad78694872d8ea28">Configuration::Configuration</a></div><div class="ttdeci">Configuration(std::string fname)</div><div class="ttdef"><b>Definition</b> <a href="Configuration_8cpp_source.html#l00009">Configuration.cpp:9</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

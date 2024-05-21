@@ -16,7 +16,7 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<link href="doxygen-awesome.css" rel="stylesheet" type="text/css" />
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -104,8 +104,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aecc052dbfb75f43ef6151f6e626ce904"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f7ef4e6005529985140af2e4bfc1a30"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPaceLib_1_1TtfContainer.html#a9f7ef4e6005529985140af2e4bfc1a30">~TtfContainer</a> ()</td></tr>
 <tr class="separator:a9f7ef4e6005529985140af2e4bfc1a30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39319c36f3004b02b2b427cdd03cb8a6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPaceLib_1_1TtfContainer.html#a39319c36f3004b02b2b427cdd03cb8a6">Add</a> (std::string name, std::filesystem::path file_path, int size, SDL_Color color)</td></tr>
-<tr class="separator:a39319c36f3004b02b2b427cdd03cb8a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5626d372aad9fe5d06e69b77b0dc2283"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPaceLib_1_1TtfContainer.html#a5626d372aad9fe5d06e69b77b0dc2283">Add</a> (std::string name, std::filesystem::path file_path, int size, int style, int outline)</td></tr>
+<tr class="separator:a5626d372aad9fe5d06e69b77b0dc2283"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2886e57b24390e7727ab2ad82ec51b5d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPaceLib_1_1TtfContainer.html#a2886e57b24390e7727ab2ad82ec51b5d">Remove</a> (std::string name)</td></tr>
 <tr class="separator:a2886e57b24390e7727ab2ad82ec51b5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a035ada2dfdf1a917c6b693ecf6847c66"><td class="memItemLeft" align="right" valign="top">TTF_Font *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPaceLib_1_1TtfContainer.html#a035ada2dfdf1a917c6b693ecf6847c66">Get</a> (std::string name)</td></tr>
@@ -157,17 +157,17 @@ Public Member Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="TtfContainer_8cpp_source.html#l00009">9</a> of file <a class="el" href="TtfContainer_8cpp_source.html">TtfContainer.cpp</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">    9</span>                            {</div>
-<div class="line"><span class="lineno">   10</span>  <span class="comment">//for (auto pair : fnm) {</span></div>
-<div class="line"><span class="lineno">   11</span>  <span class="comment">//  FC_FreeFont(pair.second);</span></div>
-<div class="line"><span class="lineno">   12</span>  <span class="comment">//}</span></div>
+<div class="line"><span class="lineno">   10</span>  <span class="keywordflow">for</span> (<span class="keyword">auto</span> pair : container) {</div>
+<div class="line"><span class="lineno">   11</span>    TTF_CloseFont(pair.second);</div>
+<div class="line"><span class="lineno">   12</span>  }</div>
 <div class="line"><span class="lineno">   13</span>  container.clear();</div>
 <div class="line"><span class="lineno">   14</span>}</div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a39319c36f3004b02b2b427cdd03cb8a6" name="a39319c36f3004b02b2b427cdd03cb8a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39319c36f3004b02b2b427cdd03cb8a6">&#9670;&#160;</a></span>Add()</h2>
+<a id="a5626d372aad9fe5d06e69b77b0dc2283" name="a5626d372aad9fe5d06e69b77b0dc2283"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5626d372aad9fe5d06e69b77b0dc2283">&#9670;&#160;</a></span>Add()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -193,8 +193,14 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">SDL_Color&#160;</td>
-          <td class="paramname"><em>color</em>&#160;</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>style</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>outline</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -205,10 +211,22 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="TtfContainer_8cpp_source.html#l00027">27</a> of file <a class="el" href="TtfContainer_8cpp_source.html">TtfContainer.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   28</span>                                                   {</div>
-<div class="line"><span class="lineno">   29</span> </div>
-<div class="line"><span class="lineno">   30</span>  <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">   31</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">   28</span>                                                         {</div>
+<div class="line"><span class="lineno">   29</span>  TTF_Font *ttf = TTF_OpenFont(file_path.c_str(), size);</div>
+<div class="line"><span class="lineno">   30</span> </div>
+<div class="line"><span class="lineno">   31</span>  <span class="keywordflow">if</span> (ttf == <span class="keyword">nullptr</span>) {</div>
+<div class="line"><span class="lineno">   32</span>    SDL_Log(<span class="stringliteral">&quot;Failed to load font %s error: %s&quot;</span>, file_path.filename().c_str(),</div>
+<div class="line"><span class="lineno">   33</span>            TTF_GetError());</div>
+<div class="line"><span class="lineno">   34</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   35</span>  }</div>
+<div class="line"><span class="lineno">   36</span> </div>
+<div class="line"><span class="lineno">   37</span>  TTF_SetFontOutline(ttf, outline);</div>
+<div class="line"><span class="lineno">   38</span>  TTF_SetFontStyle(ttf, style);</div>
+<div class="line"><span class="lineno">   39</span> </div>
+<div class="line"><span class="lineno">   40</span>  container[name] = ttf;</div>
+<div class="line"><span class="lineno">   41</span> </div>
+<div class="line"><span class="lineno">   42</span>  <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   43</span>}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -292,7 +310,7 @@ Public Member Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="TtfContainer_8cpp_source.html#l00022">22</a> of file <a class="el" href="TtfContainer_8cpp_source.html">TtfContainer.cpp</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">   22</span>                                        {</div>
-<div class="line"><span class="lineno">   23</span>  <span class="comment">//FC_FreeFont(fnm[name]);</span></div>
+<div class="line"><span class="lineno">   23</span>  TTF_CloseFont(container[name]);</div>
 <div class="line"><span class="lineno">   24</span>  container.erase(name);</div>
 <div class="line"><span class="lineno">   25</span>}</div>
 </div><!-- fragment -->

@@ -1,12 +1,7 @@
 var searchData=
 [
-  ['warn_0',['Warn',['../classConLog.html#a16bc340fcb2cd7b38f2bd60b7a3551af',1,'ConLog']]],
-  ['widget_1',['Widget',['../classPaceLib_1_1Widget.html',1,'PaceLib']]],
-  ['widget_2eh_2',['Widget.h',['../Widget_8h.html',1,'']]],
-  ['widgettype_3',['WidgetType',['../namespacePaceLib.html#a1390ffbe2746dddd2d99a9d4dc822d04',1,'PaceLib']]],
-  ['width_4',['width',['../classWindow.html#af5b1c436782cc9752d386493fbc5dc8c',1,'Window']]],
-  ['window_5',['Window',['../classWindow.html',1,'Window'],['../classWindow.html#a021ff7b5335d6f16a8daff4b512f2c66',1,'Window::Window()']]],
-  ['window_2ecpp_6',['Window.cpp',['../Window_8cpp.html',1,'']]],
-  ['window_2ehpp_7',['Window.hpp',['../Window_8hpp.html',1,'']]],
-  ['wtype_8',['wtype',['../classPaceLib_1_1Widget.html#a323b0aa4c00564807de472e5763bbe4f',1,'PaceLib::Widget']]]
+  ['x_0',['x',['../structPaceLib_1_1CircleProp.html#a4f282d2b5a828d3931f169f15847ec8d',1,'PaceLib::CircleProp::x'],['../structPaceLib_1_1PointProp.html#a4925973720b16379f4b2a83c00582deb',1,'PaceLib::PointProp::x'],['../structPaceLib_1_1TextProp.html#ad1b8b95e7074493a8a9b150b7c0e02a9',1,'PaceLib::TextProp::x'],['../structPaceLib_1_1GridProp.html#a9fadbb9cb8172cc2fedb42782dc0944b',1,'PaceLib::GridProp::x']]],
+  ['x1_1',['x1',['../structPaceLib_1_1TriangleProp.html#ae0e59f3a1e636e9d2d1709f7a59b3890',1,'PaceLib::TriangleProp::x1'],['../structPaceLib_1_1LineProp.html#ae91ad90f08a8d18c12e6414703158e7a',1,'PaceLib::LineProp::x1']]],
+  ['x2_2',['x2',['../structPaceLib_1_1TriangleProp.html#af3a1e73b5ba791a862cd9023cc28325f',1,'PaceLib::TriangleProp::x2'],['../structPaceLib_1_1LineProp.html#a545acb22fa7faa602cfa800d5ce38101',1,'PaceLib::LineProp::x2']]],
+  ['x3_3',['x3',['../structPaceLib_1_1TriangleProp.html#a26741178db01f279cedc20ffc1b9df78',1,'PaceLib::TriangleProp']]]
 ];

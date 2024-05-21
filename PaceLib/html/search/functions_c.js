@@ -8,6 +8,6 @@ var searchData=
   ['place_5',['Place',['../classPaceLib_1_1Place.html#a3a08242b8652fbec319602dc7eca5e9f',1,'PaceLib::Place']]],
   ['pointinrect_6',['PointInRect',['../classPaceLib_1_1Shape.html#ad180ad5193522fa6b0f5fd2f51fc0f3b',1,'PaceLib::Shape']]],
   ['popabsolutecoords_7',['PopAbsoluteCoords',['../classPaceLib_1_1Root.html#a95f96fc7801ff6d4345c8efb1594544a',1,'PaceLib::Root']]],
-  ['present_8',['Present',['../classWindow.html#aca0d8246c2fbf1bdf0a0ae04eab73809',1,'Window']]],
+  ['present_8',['Present',['../classPaceLib_1_1Window.html#aca0d8246c2fbf1bdf0a0ae04eab73809',1,'PaceLib::Window']]],
   ['pushabsolutecoords_9',['PushAbsoluteCoords',['../classPaceLib_1_1Root.html#a3d82136a625c46c15d2717fd3df08447',1,'PaceLib::Root']]]
 ];

@@ -16,7 +16,7 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<link href="doxygen-awesome.css" rel="stylesheet" type="text/css" />
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -97,19 +97,19 @@ $(document).ready(function(){initNavTree('TtfContainer_8hpp_source.html',''); in
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;filesystem&gt;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="TexContainer_8hpp.html">TexContainer.hpp</a>&quot;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="Platform_8hpp.html">utils/Platform.hpp</a>&quot;</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;<a class="code" href="SDL__FontCache_8h.html">utils/SDL2/SDL_FontCache.h</a>&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="TexContainer_8hpp.html">TexContainer.hpp</a>&quot;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;<a class="code" href="Platform_8hpp.html">utils/Platform.hpp</a>&quot;</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacePaceLib.html">PaceLib</a> {</div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="classPaceLib_1_1TtfContainer.html">   12</a></span><span class="keyword">class </span><a class="code hl_class" href="classPaceLib_1_1TtfContainer.html">TtfContainer</a> {</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> <span class="keyword">public</span>:</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>  <a class="code hl_class" href="classPaceLib_1_1TtfContainer.html">TtfContainer</a>(std::string name);</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>  <a class="code hl_function" href="classPaceLib_1_1TtfContainer.html#a9f7ef4e6005529985140af2e4bfc1a30">~TtfContainer</a>();</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>  <span class="keywordtype">bool</span> <a class="code hl_function" href="classPaceLib_1_1TtfContainer.html#a39319c36f3004b02b2b427cdd03cb8a6">Add</a>(std::string name, std::filesystem::path file_path, <span class="keywordtype">int</span> size,</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>           SDL_Color color);</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>  <span class="keywordtype">bool</span> <a class="code hl_function" href="classPaceLib_1_1TtfContainer.html#a5626d372aad9fe5d06e69b77b0dc2283">Add</a>(std::string name, std::filesystem::path file_path, <span class="keywordtype">int</span> size,</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>           <span class="keywordtype">int</span> style, <span class="keywordtype">int</span> outline);</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="classPaceLib_1_1TtfContainer.html#a2886e57b24390e7727ab2ad82ec51b5d">Remove</a>(std::string name);</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
@@ -118,20 +118,19 @@ $(document).ready(function(){initNavTree('TtfContainer_8hpp_source.html',''); in
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>  std::string <a class="code hl_function" href="classPaceLib_1_1TtfContainer.html#aeb4c549ab4bdfe995b557f6f9a13ec61">GetName</a>();</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="classPaceLib_1_1TtfContainer.html#ae887c214af9cfd1737d156054b018e17">ChangeName</a>(std::string name);</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> <span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> <span class="keyword">private</span>:</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>  std::map&lt;std::string, TTF_Font *&gt; container;</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>  std::string name;</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>};</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>} <span class="comment">// namespace PaceLib</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>}  <span class="comment">// namespace PaceLib</span></div>
 <div class="ttc" id="aPlatform_8hpp_html"><div class="ttname"><a href="Platform_8hpp.html">Platform.hpp</a></div></div>
-<div class="ttc" id="aSDL__FontCache_8h_html"><div class="ttname"><a href="SDL__FontCache_8h.html">SDL_FontCache.h</a></div></div>
 <div class="ttc" id="aTexContainer_8hpp_html"><div class="ttname"><a href="TexContainer_8hpp.html">TexContainer.hpp</a></div></div>
 <div class="ttc" id="aclassPaceLib_1_1TtfContainer_html"><div class="ttname"><a href="classPaceLib_1_1TtfContainer.html">PaceLib::TtfContainer</a></div><div class="ttdef"><b>Definition</b> <a href="TtfContainer_8hpp_source.html#l00012">TtfContainer.hpp:12</a></div></div>
 <div class="ttc" id="aclassPaceLib_1_1TtfContainer_html_a035ada2dfdf1a917c6b693ecf6847c66"><div class="ttname"><a href="classPaceLib_1_1TtfContainer.html#a035ada2dfdf1a917c6b693ecf6847c66">PaceLib::TtfContainer::Get</a></div><div class="ttdeci">TTF_Font * Get(std::string name)</div><div class="ttdef"><b>Definition</b> <a href="TtfContainer_8cpp_source.html#l00020">TtfContainer.cpp:20</a></div></div>
 <div class="ttc" id="aclassPaceLib_1_1TtfContainer_html_a2886e57b24390e7727ab2ad82ec51b5d"><div class="ttname"><a href="classPaceLib_1_1TtfContainer.html#a2886e57b24390e7727ab2ad82ec51b5d">PaceLib::TtfContainer::Remove</a></div><div class="ttdeci">void Remove(std::string name)</div><div class="ttdef"><b>Definition</b> <a href="TtfContainer_8cpp_source.html#l00022">TtfContainer.cpp:22</a></div></div>
-<div class="ttc" id="aclassPaceLib_1_1TtfContainer_html_a39319c36f3004b02b2b427cdd03cb8a6"><div class="ttname"><a href="classPaceLib_1_1TtfContainer.html#a39319c36f3004b02b2b427cdd03cb8a6">PaceLib::TtfContainer::Add</a></div><div class="ttdeci">bool Add(std::string name, std::filesystem::path file_path, int size, SDL_Color color)</div><div class="ttdef"><b>Definition</b> <a href="TtfContainer_8cpp_source.html#l00027">TtfContainer.cpp:27</a></div></div>
+<div class="ttc" id="aclassPaceLib_1_1TtfContainer_html_a5626d372aad9fe5d06e69b77b0dc2283"><div class="ttname"><a href="classPaceLib_1_1TtfContainer.html#a5626d372aad9fe5d06e69b77b0dc2283">PaceLib::TtfContainer::Add</a></div><div class="ttdeci">bool Add(std::string name, std::filesystem::path file_path, int size, int style, int outline)</div><div class="ttdef"><b>Definition</b> <a href="TtfContainer_8cpp_source.html#l00027">TtfContainer.cpp:27</a></div></div>
 <div class="ttc" id="aclassPaceLib_1_1TtfContainer_html_a9f7ef4e6005529985140af2e4bfc1a30"><div class="ttname"><a href="classPaceLib_1_1TtfContainer.html#a9f7ef4e6005529985140af2e4bfc1a30">PaceLib::TtfContainer::~TtfContainer</a></div><div class="ttdeci">~TtfContainer()</div><div class="ttdef"><b>Definition</b> <a href="TtfContainer_8cpp_source.html#l00009">TtfContainer.cpp:9</a></div></div>
 <div class="ttc" id="aclassPaceLib_1_1TtfContainer_html_ae887c214af9cfd1737d156054b018e17"><div class="ttname"><a href="classPaceLib_1_1TtfContainer.html#ae887c214af9cfd1737d156054b018e17">PaceLib::TtfContainer::ChangeName</a></div><div class="ttdeci">void ChangeName(std::string name)</div><div class="ttdef"><b>Definition</b> <a href="TtfContainer_8cpp_source.html#l00018">TtfContainer.cpp:18</a></div></div>
 <div class="ttc" id="aclassPaceLib_1_1TtfContainer_html_aeb4c549ab4bdfe995b557f6f9a13ec61"><div class="ttname"><a href="classPaceLib_1_1TtfContainer.html#aeb4c549ab4bdfe995b557f6f9a13ec61">PaceLib::TtfContainer::GetName</a></div><div class="ttdeci">std::string GetName()</div><div class="ttdef"><b>Definition</b> <a href="TtfContainer_8cpp_source.html#l00016">TtfContainer.cpp:16</a></div></div>
