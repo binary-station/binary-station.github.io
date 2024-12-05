@@ -1,9 +1,13 @@
 [Back](https://binary-station.github.io)
 <hr>
 <br>
-## Nerva
+## Nerva (boardgame)
 
 ### Details
+
+Nerva is a board game that utilizes a standard chess board and backgammon pieces.
+
+In Nerva, 
 
 ### Github
 
