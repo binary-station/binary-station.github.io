@@ -40,3 +40,6 @@ The game developed started in 2015 and it will be released in December 2020.
 &nbsp;&nbsp;&nbsp;&nbsp;[Game Manual](https://binary-station.github.io/StructuraManual)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[Howtos](https://binary-station.github.io/StructuraHowtos)<br>
 
+### Discord
+
+&nbsp;&nbsp;&nbsp;&nbsp;[Join forum](https://discord.gg/xQmygsyg)

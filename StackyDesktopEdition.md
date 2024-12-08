@@ -25,3 +25,6 @@ So will not run out of puzzles.
 
 &nbsp;&nbsp;&nbsp;&nbsp;[Game Manual](https://binary-station.github.io/StackyDesktopEditionManual)
 
+### Discord
+
+&nbsp;&nbsp;&nbsp;&nbsp;[Join forum](https://discord.gg/xQmygsyg)

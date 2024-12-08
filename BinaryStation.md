@@ -20,3 +20,7 @@ The game is educational at its core with a first person controller and simple in
 ### Manual, Howtos
 
 &nbsp;&nbsp;&nbsp;&nbsp;[Game Manual](https://binary-station.github.io/BinaryStationManual)<br>
+
+### Discord
+
+&nbsp;&nbsp;&nbsp;&nbsp;[Join forum](https://discord.gg/xQmygsyg)
