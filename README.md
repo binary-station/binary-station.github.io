@@ -13,6 +13,19 @@ I created this site to show my work, and hope people will find my creations inte
 
 <br>
 
+### Contact
+
+&nbsp;&nbsp;&nbsp;&nbsp;<binary.station.studio@gmail.com>
+&nbsp;&nbsp;&nbsp;&nbsp;[join the discord forum](https://discord.gg/xQmygsyg)
+
+### Videos
+
+&nbsp;&nbsp;&nbsp;&nbsp;You tube game trailers and videos:
+&nbsp;&nbsp;&nbsp;&nbsp;[BinaryStationStudio](https://www.youtube.com/@binarystationstudio)
+ 
+
+https://www.youtube.com/@binarystationstudio
+
 ### Computer games
 
 | [Structura](https://binary-station.github.io/Structura) | [Stacky Desktop Edition](https://binary-station.github.io/StackyDesktopEdition) |
@@ -35,6 +48,3 @@ I created this site to show my work, and hope people will find my creations inte
 | --- | --- |
 | [![image](images/pacelib_library.png)](https://binary-station.github.io/PaceLib) | [![image](images/unknown_library.png)](https://binary-station.github.io/Unknown)
 
-### Contact
-
-&nbsp;&nbsp;&nbsp;&nbsp;<alexandruafrasinei@gmail.com>

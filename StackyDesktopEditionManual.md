@@ -51,9 +51,9 @@
 
 ----------
 
-A game by Binary Station
+A game by Binary Station Studio
 <br>
 Contact:
 
-<alexandruafrasinei@gmail.com>
+<binary.station.studio@gmail.com>
 
