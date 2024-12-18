@@ -17,7 +17,7 @@ I created this site to show my work, and hope people will find my creations inte
 
 &nbsp;&nbsp;&nbsp;&nbsp;<binary.station.studio@gmail.com>
 
-&nbsp;&nbsp;&nbsp;&nbsp;[join the discord forum](https://discord.gg/xQmygsyg)
+&nbsp;&nbsp;&nbsp;&nbsp;[join the discord forum](https://discord.com/invite/VnKhjvsRVr)
 
 ### Videos
 

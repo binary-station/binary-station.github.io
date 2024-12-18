@@ -13,6 +13,8 @@ The game is educational at its core with a first person controller and simple in
 
 ### Buy
 
+&nbsp;&nbsp;&nbsp;&nbsp;[BinaryStation steam page](https://store.steampowered.com/app/3299360/Binary_Station/)
+
 ### Trailers
 
 &nbsp;&nbsp;&nbsp;&nbsp;[Trailer](https://www.youtube.com/watch?v=akYSqkAVgc4)<br>
@@ -23,4 +25,4 @@ The game is educational at its core with a first person controller and simple in
 
 ### Discord
 
-&nbsp;&nbsp;&nbsp;&nbsp;[Join forum](https://discord.gg/xQmygsyg)
+&nbsp;&nbsp;&nbsp;&nbsp;[Join forum](https://discord.com/invite/VnKhjvsRVr)

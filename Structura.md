@@ -42,4 +42,4 @@ The game developed started in 2015 and it will be released in December 2020.
 
 ### Discord
 
-&nbsp;&nbsp;&nbsp;&nbsp;[Join forum](https://discord.gg/xQmygsyg)
+&nbsp;&nbsp;&nbsp;&nbsp;[Join forum](https://discord.com/invite/VnKhjvsRVr)

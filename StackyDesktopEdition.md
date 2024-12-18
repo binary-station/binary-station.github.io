@@ -27,4 +27,4 @@ So will not run out of puzzles.
 
 ### Discord
 
-&nbsp;&nbsp;&nbsp;&nbsp;[Join forum](https://discord.gg/xQmygsyg)
+&nbsp;&nbsp;&nbsp;&nbsp;[Join forum](https://discord.com/invite/VnKhjvsRVr)
