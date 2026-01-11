@@ -27,7 +27,7 @@ I created this site to show my work, and hope people will find my creations inte
 
 <br>
 
-### Computer games
+### Games on Steam
 
 | [Structura](https://binary-station.github.io/Structura) | [Stacky Desktop Edition](https://binary-station.github.io/StackyDesktopEdition) |
 | --- | --- |
@@ -37,11 +37,17 @@ I created this site to show my work, and hope people will find my creations inte
 | --- | --- |
 | [![image](images/binarystation_library.png)](https://binary-station.github.io/BinaryStation) | [![image](images/tbps_library.png)](https://binary-station.github.io/TheBasicPreservationSociety)
 
+### Free games
+
+| [Nerva](https://binary-station.github.io/Nerva) | [Unknown](https://binary-station.github.io/Unknown)
+| --- | --- |
+| [![image](images/nerva_library.png)](https://binary-station.github.io/Nerva) | [![image](images/unknown_library.png)](https://binary-station.github.io/Unknown)
+
 ### Board games
 
-| [Nerva](https://binary-station.github.io/Nerva) | [Tomis](https://binary-station.github.io/Tomis)
+| [Nerva](https://binary-station.github.io/NervaBoardGame) | [Tomis](https://binary-station.github.io/Tomis)
 | --- | --- |
-| [![image](images/nerva_library.png)](https://binary-station.github.io/Nerva) | [![image](images/tomis_library.png)](https://binary-station.github.io/Tomis)
+| [![image](images/nerva_boardgame_library.png)](https://binary-station.github.io/NervaBoardGame) | [![image](images/tomis_library.png)](https://binary-station.github.io/Tomis)
 
 ### Apps/Libs
 

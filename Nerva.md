@@ -1,18 +1,28 @@
 [Back](https://binary-station.github.io)
 <hr>
 <br>
-## Nerva (boardgame)
+## Nerva
+
+### Intro
+
+In Nerva, two powers collide across the battlefield. Players must expand their influence by capturing
+
+neutral territory, strengthening their positions through geometric connections, and hunting for the
+
+enemy’s hidden King. Strategy is key: do you spread thin to find the King, or build a fortified tower
+
+that cannot be breached? 
 
 ### Details
 
-Nerva is a board game that utilizes a standard chess board and backgammon pieces.
+Nerva is a computer implementation of the Nerva boardgame on this site , with some diffrences.
 
-In Nerva, 
+### Download
 
-### Github
+Available for windows, linux.
 
-&nbsp;&nbsp;&nbsp;&nbsp;[Github project](https://github.com/aiafrasinei/Nerva)
+&nbsp;&nbsp;&nbsp;&nbsp;[Nerva](https://www.leadwerks.com/community/files/file/3642-nerva/)
 
 ### Manual
 
-&nbsp;&nbsp;&nbsp;&nbsp;[Nerva manual](https://binary-station.github.io/NervaManual)
+Manual is available as pdf or in game.
