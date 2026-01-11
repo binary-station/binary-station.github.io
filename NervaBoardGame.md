@@ -5,9 +5,7 @@
 
 ### Details
 
-Nerva is a board game that utilizes a standard chess board and backgammon pieces.
-
-In Nerva, 
+Nerva is a board game that utilizes three chess boards and backgammon pieces.
 
 ### Github
 
@@ -15,4 +13,4 @@ In Nerva,
 
 ### Manual
 
-&nbsp;&nbsp;&nbsp;&nbsp;[Nerva manual](https://binary-station.github.io/NervaManual)
+&nbsp;&nbsp;&nbsp;&nbsp;[Nerva manual](https://binary-station.github.io/NervaBoardGameManual)
