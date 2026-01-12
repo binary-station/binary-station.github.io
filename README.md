@@ -39,9 +39,9 @@ I created this site to show my work, and hope people will find my creations inte
 
 ### Free games
 
-| [Nerva](https://binary-station.github.io/Nerva) | [Unknown](https://binary-station.github.io/Unknown)
+| [Nerva](https://binary-station.github.io/Nerva) | [Constanta](https://binary-station.github.io/Constanta)
 | --- | --- |
-| [![image](images/nerva_library.png)](https://binary-station.github.io/Nerva) | [![image](images/unknown_library.png)](https://binary-station.github.io/Unknown)
+| [![image](images/nerva_library.png)](https://binary-station.github.io/Nerva) | [![image](images/constanta_library.png)](https://binary-station.github.io/Constanta)
 
 ### Board games
 
@@ -59,4 +59,4 @@ I created this site to show my work, and hope people will find my creations inte
 
 | [Godot 4](https://binary-station.github.io/Godot4) | [SDL3](https://binary-station.github.io/SDL3)
 | --- | --- |
-| [![image](images/unknown_library.png)](https://binary-station.github.io/Godot4) | [![image](images/unknown_library.png)](https://binary-station.github.io/SDL3)
+| [![image](images/godot_tutorials_library.png)](https://binary-station.github.io/Godot4) | [![image](images/sdl3_tutorials_library.png)](https://binary-station.github.io/SDL3)
