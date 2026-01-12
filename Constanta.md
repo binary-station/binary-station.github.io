@@ -36,6 +36,7 @@ Red player select a cube in world 0.
 To capture that, you need to capture the same territory in adjacent worlds -1 and 1.
 
 Cube 0 (white) Cube 0 (red) Cube 0 (white)
+
 world -1        world 0      world 1
 
 Territory 0 from world 0 is captured by white.
@@ -49,19 +50,31 @@ Client remembers any number of local players,
 so you can actually use multiple clients but only one at the same time on same computer (because it captures mouse movement).
 
 Input reference:
+
 w - up
+
 s - down
+
 a - strafe left
+
 d - strafe right
+
 e - fly up
+
 q - fly down
 
+
 left - move left world
+
 right - move right world
+
 esc - menu
 
+
 mouse look
+
 left click - capture free cube
+
 right click - neutralize enemy cube
 
 
