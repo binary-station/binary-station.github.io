@@ -59,4 +59,4 @@ I created this site to show my work, and hope people will find my creations inte
 
 | [Godot 4](https://binary-station.github.io/Godot4) | [SDL3](https://binary-station.github.io/SDL3)
 | --- | --- |
-| [![image](images/godot_tutorials_library.png)](https://binary-station.github.io/Godot4) | [![image](images/sdl3_tutorials_library.png)](https://binary-station.github.io/SDL3)
+| [![image](images/godot_examples_library.png)](https://binary-station.github.io/Godot4) | [![image](images/sdl3_examples_library.png)](https://binary-station.github.io/SDL3)
