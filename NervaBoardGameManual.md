@@ -3,8 +3,6 @@
 <br>
 ## Nerva manual<br><br>
 
-# Nerva
-
 by Afrasinei Alexandru Iulian
 
 ## Introduction
@@ -177,6 +175,12 @@ When a player places a pawn on the king position the king will be revealed.
 
 The player will place his king on the board.
 
+In the unlikely event of both player chosing the same king location:
+
+* place the white king in the location when revealed
+
+* play normally as if both kings are in that location 
+
 Example:
 
 ![Revealed Kings](imgs/NervaBoard400Kings.png)
@@ -229,7 +233,10 @@ There is no addition of existing points, so be careful with this.
 
 Example:
 
-c3_1 c3_2 c3_3
+![Stacks](imgs/NervaBoard400Stacks.png)
+
+* Notation
+1. f4_1 2. e5_1 3. f4_2 4. e5_2 5. f4_3 6. e5_3
 
 ## Goal 
 
@@ -243,7 +250,4 @@ Email:
 
 alexandruafrasinei@gmail.com
 
-GitHub website:
-
-https://github.com/aiafrasinei/Nerva
 
