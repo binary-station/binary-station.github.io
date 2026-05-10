@@ -3,101 +3,247 @@
 <br>
 ## Nerva manual<br><br>
 
-## Description
+# Nerva
 
-Nerva is a board game that utilizes three chess boards and backgammon pieces.
+by Afrasinei Alexandru Iulian
 
-## Game pieces (per player)
+## Introduction
 
-Three chess boards and backgammon pieces.
+Nerva is a board game that utilizes a standard chess board and 192 pawns + 2 kings.
 
-Total 192 backgammon pieces
+Two opposing forces (White and Black) face each other in battle on the game board.
 
-96 white 
+It is a turn-based wargame in the spirit of chess with different rules.
 
-96 black
+The goal is to capture the enemy king.
 
-1 white king
+## The elements of Nerva
 
-1 black king
+* one chess board (8x8)
 
-## Scope/Story
+* White
 
-In Nerva, two powers collide across the battlefield. Players must expand their influence by 
+   * Piece shapes
+     
+       Pawns (Boxes), King (Cylinder)
 
-capturing neutral territory, strengthening their positions through geometric connections, and 
+        ![White Pieces](imgs/WhitePieces.png)
+    
+    * 96 White pawns
+        * 32 large pawns
+        * 32 medium pawns
+        * 32 small pawns
 
-hunting for the enemy’s hidden King.
+    * the White king
 
-## Initial placement
+* Black
 
-Align the three boards horizontally (Left, Middle, Right).
+    * Piece shapes
 
-No pieces are placed initially. The empty places are considered neutral.
+        Pawns (Boxes), King (Cylinder)
 
-A player can capture a neutral teritory by placing a piece.
+        ![Black Pieces](imgs/BlackPieces.png)
 
-When the game begin each player decide a place for their king,
+    * 96 Black pawns
+        * 32 large pawns
+        * 32 medium pawns
+        * 32 small pawns
 
-note it on a paper and keep it for yourself.
+    * the Black king
 
-The kings are hidden until a player try to capture their location on the board.
+## The board
 
-In this case the player that knows the position will place the king on the board.
+A standard chess board (8x8).
 
-## Attacks
+![Empty board](imgs/EmptyBoard.png)
 
-Every piece strength is determined by its relationship to other pieces of the same color.
+### The battle environment
 
-| Connection Type | Bonus | Applied To |
-| :--- | :--- | :--- |
-| Orthogonal (Sides/Front/Back) | +1 | Defense |
-| Diagonal (Corner-to-corner) | +1 | Attack |
-| Stacked (2 Boards) | +2 | Attack & Defense |
-| Stacked (3 Boards) | +3 | Attack & Defense |
+A maximum of 3 pawns can be placed on top of each other anywhere on the board.
 
-## Actions
+Think of the board as 3 stacked boards on top of each other.
 
-On your turn, you perform one primary action: The Capture.
+### Game notation
 
-* Place a piece on neutral territory on any of the three boards.
+Chess notation is used to identify board locations.
 
-* By attacking a enemy piece calculate your Attack Power against that piece Defense Rating.
+This is extended for Nerva by using the following syntax to identify the stacked boards:
 
-* If your Attack exceeds the Defense, you can replace the enemy piece with your own, capturing it.
+[row][column]_[board] - A pawn is placed on the board.
 
-## Win condition
+* [row]
+  
+  From a to h
 
-Reveal and then kill the enemy king.
+* [column]
 
-## Notation
+    From 1 to 8
 
-How to record games, use the following:
+* [board]
 
-[BOARD IDENTIFIER]_[POSITION]
+    From 1 to 3
 
-board identifier:
+    Board 1 is the normal chess board
 
-* B1 - for the right board
-* B2 - for the middle board
-* B3 - for the left board
+    This is how we identify the pieces on the 3 stacked boards
 
-position:
+[K]_[row][column]_[board] - King reveal.
 
-use the algebraic notation in chess
+[-K]_[row][column]_[board] - King is captured, game over.
 
-examples:
+Examples:
 
-1. B1_A3 2. B2_F5 3. B1 B5 etc
+![Early game notation](imgs/NervaBoard400PawnsEarlyGame.png)
 
-<br>
+* Notation:
 
-**Credits**
+ 1. h7_1 2. g2_1 3. e4_2 4. e5_2 5. a7_3 6. b6_3
 
-----------
+## The pieces
 
-A game by Binary Station Studio
-<br>
-Contact:
+### The pawns
 
-<binary.station.studio@gmail.com>
+On a board tile, stack the pieces in this order: Large pawn, Medium pawn, Small pawn.
+
+Thinking in terms of stacked boards:
+
+Board 1 uses the large pawns, board 2 uses the medium pawns, and board 3 uses the small pawns.
+
+Examples:
+
+![Pawns not stacked](imgs/NervaBoard400Pawns.png)
+
+* Notation:
+
+1. d2_2 2. c3_2 3. h7_1 4. g2_1 5. b5_3 6.c6_3
+
+![Stacked Pawns](imgs/NervaBoard400PawnsStacked.png)
+
+* Notation:
+
+1. b8_1 2. f4_1 3. b8_2 4. f4_2 5. b8_3 6. f4_3 7. f6_2 8. f6_3 9. e7_3 10. e7_2 11. e7_1 12. d4_1 13. d4_2 14. d4_3
+
+#### White
+
+96 pawns and the white king.
+
+#### Black
+
+96 pawns and the black king.
+
+#### Properties
+
+Each pawn has 1 attack point and 1 defense point.
+
+If a pawn is at c3, the adjacent tiles are:
+
+b2 c2 d2 d3 d4 b4 c4 b3
+
+The attack and defense will happen on these adjacent tiles.
+
+![PawnAttacks](imgs/NervaPawnAttack.png)
+
+More details in the rules of defending, attacking, stacking sections. 
+
+### The king
+
+The king has no attack/defense points.
+
+## The rules of placement
+
+### Setup
+
+The game starts with an empty board.
+
+Each player gets their 96 pawns and their king.
+
+The White player places the first pawn on the board. 
+
+The pawns can be placed on any empty tile.
+
+A maximum of 3 pawns can be stacked on a tile.
+
+### King location
+
+The king's location is hidden from the enemy player.
+
+Each player decides at the beginning where their king will be located and keeps the information to themselves.
+
+The chosen location can by anywhere on the 3 boards, use the game notation.
+
+Each player will write the position on a piece of paper.
+
+When a player places a pawn on the king position the king will be revealed.
+
+The player will place his king on the board.
+
+Example:
+
+![Revealed Kings](imgs/NervaBoard400Kings.png)
+
+Both kings are revealed.
+
+* Notation:
+
+1. K_c4_2 2. K_f6_1
+
+### Game started
+
+The White player places a pawn, and then the players take turns placing pawns.
+
+The game is over when one king is captured or all pawns are placed. 
+
+## The rules of defending
+
+A pawn will add a defense point to all adjacent friendly pawns (or king).
+
+Example:
+
+If a pawn is at c3, the adjacent tiles are:
+
+b2 c2 d2 d3 d4 b4 c4 b3
+
+Any friendly pawn on these positions will receive an additional defense point from the c3 pawn.
+
+## The rules of attacking
+
+A pawn will add an attack point to all adjacent enemy pawns (or king).
+
+Adjacent enemy pawns can be attacked.
+
+An attack will be declared by the player, each attack takes a turn.
+
+If the attack points are higher than the defense points on a particular pawn, the attack will be successful.
+
+The pawn will be removed from the board and replaced by another pawn from the attacker.
+
+If you make a mistake and make an unsuccessful attack, the turn will change.
+
+## The rules of stacking
+
+When 3 pawns from the same player occupy the same position on all 3 boards (a stack of 3 pawns), then each receives 3 defense points and 3 attack points.
+
+When such a stack is formed, the existing pawn attack/defense points will be replaced with 3.
+
+There is no addition of existing points, so be careful with this.
+
+Example:
+
+c3_1 c3_2 c3_3
+
+## Goal 
+
+The goal is to reveal and capture the enemy king.
+
+## Credits, contact
+
+Afrasinei Alexandru Iulian
+
+Email:
+
+alexandruafrasinei@gmail.com
+
+GitHub website:
+
+https://github.com/aiafrasinei/Nerva
+

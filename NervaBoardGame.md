@@ -5,7 +5,13 @@
 
 ### Details
 
-Nerva is a board game that utilizes three chess boards and backgammon pieces.
+Nerva is a board game that utilizes a standard chess board and 192 pawns + 2 kings.
+
+Two opposing forces (White and Black) face each other in battle on the game board.
+
+It is a turn-based wargame in the spirit of chess with different rules.
+
+The goal is to capture the enemy king.
 
 ### Github
 
