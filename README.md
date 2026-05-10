@@ -33,9 +33,9 @@ I created this site to show my work, and hope people will find my creations inte
 | --- | --- |
 | [![image](images/structura_library.jpg)](https://binary-station.github.io/Structura)  | [![image](images/stackydesktopedition_library.png)](https://binary-station.github.io/StackyDesktopEdition) |
 
-| [Binary Station](https://binary-station.github.io/BinaryStation) | [The BASIC Preservation Society](https://binary-station.github.io/Unknown)
+| [Binary Station](https://binary-station.github.io/BinaryStation) | [The Forth Preservation Society](https://binary-station.github.io/Unknown)
 | --- | --- |
-| [![image](images/binarystation_library.png)](https://binary-station.github.io/BinaryStation) | [![image](images/tbps_library.png)](https://binary-station.github.io/TheBasicPreservationSociety)
+| [![image](images/binarystation_library.png)](https://binary-station.github.io/BinaryStation) | [![image](images/tbps_library.png)](https://binary-station.github.io/TheForthPreservationSociety)
 
 ### Free games
 
