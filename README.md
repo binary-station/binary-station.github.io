@@ -35,7 +35,7 @@ I created this site to show my work, and hope people will find my creations inte
 
 | [Binary Station](https://binary-station.github.io/BinaryStation) | [The Forth Preservation Society](https://binary-station.github.io/Unknown)
 | --- | --- |
-| [![image](images/binarystation_library.png)](https://binary-station.github.io/BinaryStation) | [![image](images/tbps_library.png)](https://binary-station.github.io/TheForthPreservationSociety)
+| [![image](images/binarystation_library.png)](https://binary-station.github.io/BinaryStation) | [![image](images/tfps_library.png)](https://binary-station.github.io/TheForthPreservationSociety)
 
 ### Free games
 
@@ -60,3 +60,7 @@ I created this site to show my work, and hope people will find my creations inte
 | [Godot 4](https://binary-station.github.io/Godot4) | [SDL3](https://binary-station.github.io/SDL3)
 | --- | --- |
 | [![image](images/godot_examples_library.png)](https://binary-station.github.io/Godot4) | [![image](images/sdl3_examples_library.png)](https://binary-station.github.io/SDL3)
+
+| [raylib](https://binary-station.github.io/Raylib) |
+| --- | --- |
+| [![image](images/raylib_examples_library.png)](https://binary-station.github.io/Raylib) |
