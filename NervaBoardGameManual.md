@@ -7,13 +7,17 @@ by Afrasinei Alexandru Iulian
 
 ## Introduction
 
-Nerva is a board game that utilizes a standard chess board and 192 pawns + 2 kings.
+Nerva is a board game that uses a standard chess board and 192 pawns + 2 kings.
 
 Two opposing forces (White and Black) face each other in battle on the game board.
 
 It is a turn-based wargame in the spirit of chess with different rules.
 
-The goal is to capture the enemy king.
+Pawns can be stacked three levels high, linked for bonuses, and kings remain hidden until discovered.
+
+The goal is to reveal the enemy king's location and capture it to claim victory.
+
+Have fun!
 
 ## The elements of Nerva
 
@@ -57,9 +61,9 @@ A standard chess board (8x8).
 
 ### The battle environment
 
-A maximum of 3 pawns can be placed on top of each other anywhere on the board.
+A maximum of three pawns can be placed on top of each other anywhere on the board.
 
-Think of the board as 3 stacked boards on top of each other.
+Think of the environment as three boards stacked on top of each other.
 
 ### Game notation
 
@@ -69,25 +73,22 @@ This is extended for Nerva by using the following syntax to identify the stacked
 
 [row][column]_[board] - A pawn is placed on the board.
 
-* [row]
-  
-  From a to h
+* [row] From a to h
 
-* [column]
+* [column] From 1 to 8
 
-    From 1 to 8
-
-* [board]
-
-    From 1 to 3
+* [board] From 1 to 3
 
     Board 1 is the normal chess board
 
     This is how we identify the pieces on the 3 stacked boards
 
+[row][column]_[board] -> [row][column]_[board] - Attack notation
+
 [K]_[row][column]_[board] - King reveal.
 
 [-K]_[row][column]_[board] - King is captured, game over.
+
 
 Examples:
 
@@ -137,11 +138,11 @@ If a pawn is at c3, the adjacent tiles are:
 
 b2 c2 d2 d3 d4 b4 c4 b3
 
-The attack and defense will happen on these adjacent tiles.
+The attack will happen on these adjacent tiles on the same board.
 
-![PawnAttacks](imgs/NervaPawnAttack.png)
+![Pawn Attacks](imgs/NervaPawnAttack.png)
 
-More details in the rules of defending, attacking, stacking sections. 
+More details in the rules of linking, defending, attacking, stacking sections. 
 
 ### The king
 
@@ -167,15 +168,15 @@ The king's location is hidden from the enemy player.
 
 Each player decides at the beginning where their king will be located and keeps the information to themselves.
 
-The chosen location can by anywhere on the 3 boards, use the game notation.
+The chosen location can be anywhere on the 3 boards, use the game notation.
 
 Each player will write the position on a piece of paper.
 
-When a player places a pawn on the king position the king will be revealed.
+When a player places a pawn on the king's position, the king will be revealed.
 
-The player will place his king on the board.
+The player knows the location and will place his king on the board.
 
-In the unlikely event of both player chosing the same king location:
+In the unlikely event of both players choosing the same king location:
 
 * place the white king in the location when revealed
 
@@ -197,21 +198,123 @@ The White player places a pawn, and then the players take turns placing pawns.
 
 The game is over when one king is captured or all pawns are placed. 
 
+## The rules of linking
+
+Any two adjacent friendly pieces are linked, they share attack or defense points.
+
+There are 2 types of linking:
+
+* Attack
+
+  A pawn will share an attack point to any diagonal friendly pawn.
+
+  ![Rules of linking attack](imgs/NervaLinkingAttack.png)
+
+  Notation:
+
+  1. e3_1 2. d4_1 3. f4_1 4. f2_1 5. d2_1
+
+  Properties:
+
+  | Position | Attack Points | Defense Points |
+  | :--- | :--- | :--- |
+  | e3_1 | 5 | 1 |
+  | d4_1 | 2 | 1 |
+  | f4_1 | 2 | 1 |
+  | f2_1 | 2 | 1 |
+  | d2_1 | 2 | 1 |
+  
+* Defense
+  
+  A pawn will share a defense point to any friendly pawns placed on the horizontal, vertical positions.
+
+  ![Rules of linking defense](imgs/NervaLinkingDefense.png)
+
+  Notation:
+
+  1. e3_1 2. e4_1 3. f3_1 4. e2_1 5. d3_1
+
+  Properties:
+
+  | Position | Attack Points | Defense Points |
+  | :--- | :--- | :--- |
+  | e3_1 | 1 | 5 |
+  | d4_1 | 1 | 2 |
+  | f4_1 | 1 | 2 |
+  | f2_1 | 1 | 2 |
+  | d2_1 | 1 | 2 |
+
 ## The rules of defending
 
-A pawn will add a defense point to all adjacent friendly pawns (or king).
-
-Example:
+A pawn will add a defense point to adjacent horizontal, vertical friendly piece on the same board.
 
 If a pawn is at c3, the adjacent tiles are:
 
-b2 c2 d2 d3 d4 b4 c4 b3
+c4 d3 c2 b3
 
 Any friendly pawn on these positions will receive an additional defense point from the c3 pawn.
 
+c3_1 and d3_1 pawns both have 2 defense points.
+
+Examples:
+
+![Rules of defending 1](imgs/NervaRulesOfDefending1.png)
+
+* Case 1
+
+  | Position | Attack Points | Defense Points |
+  | :--- | :--- | :--- |
+  | f3_2 | 1 | 1 |
+  | g2_2 | 1 | 1 |
+  | h1_2 | 1 | 1 |
+
+  h1_2 -> g2_2 : attack successful (2 vs 1)
+
+* Case 2
+
+  | Position | Attack Points | Defense Points |
+  | :--- | :--- | :--- |
+  | d2_1 | 1 | 1 |
+  | d3_1 | 1 | 2 |
+  | c3_1 | 1 | 2 |
+
+  d2_1 -> d3_1 : failed attack (1 vs 2)
+
+
+![Rules of defending 2](imgs/NervaRulesOfDefending2.png)
+
+* Case 1
+
+  | Position | Attack Points | Defense Points |
+  | :--- | :--- | :--- |
+  | a1_3 | 1 | 1 |
+  | b1_3 | 2 | 1 |
+  | a2_3 | 2 | 1 |
+
+  a1_3 -> b1_3 : failed attack (1 vs 1)
+
+* Case 2
+
+  | Position | Attack Points | Defense Points |
+  | :--- | :--- | :--- |
+  | a8_2 | 1 | 2 |
+  | a7_2 | 1 | 3 |
+  | a6_2 | 1 | 2 |
+  | c8_2 | 1 | 1 |
+  | b7_2 | 3 | 1 |
+  | c6_2 | 1 | 1 |
+
+  b7_2 -> a7_2 : failed attack (3 vs 3)
+
+  b7_2 -> a8_2 : successful attack (3 vs 2)
+
+  a6_2 -> b7_2 : failed attack (1 vs 3)
+
 ## The rules of attacking
 
-A pawn will add an attack point to all adjacent enemy pawns (or king).
+The rules of linking apply to all pawns.
+
+A pawn will add an attack point to all adjacent enemy pawns (or king) on the same board.
 
 Adjacent enemy pawns can be attacked.
 
@@ -223,13 +326,69 @@ The pawn will be removed from the board and replaced by another pawn from the at
 
 If you make a mistake and make an unsuccessful attack, the turn will change.
 
+Examples:
+
+![Rules of attacking 1](imgs/NervaRulesOfAttacking1.png)
+
+* Case 1
+
+  | Position | Attack Points | Defense Points |
+  | :--- | :--- | :--- |
+  | f5_2 | 1 | 1 |
+  | e6_2 | 1 | 1 |
+  | g6_1 | 1 | 1 |
+
+  e6_2 -> f5_2 : failed attack (1 vs 1)
+
+  g6_1 Black pawn is on another board, cannot attack.
+
+* Case 2
+
+  | Position | Attack Points | Defense Points |
+  | :--- | :--- | :--- |
+  | d2_1 | 1 | 1 |
+  | d3_1 | 2 | 2 |
+  | c3_1 | 1 | 3 |
+  | c4_1 | 2 | 2 |
+
+  d3_1 -> d2_1 : successful attack (2 vs 1)
+
+![Rules of attacking 2](imgs/NervaRulesOfAttacking2.png)
+
+* Case 1
+
+  | Position | Attack Points | Defense Points |
+  | :--- | :--- | :--- |
+  | a1_3 | 1 | 1 |
+  | b1_3 | 2 | 1 |
+  | a2_3 | 2 | 1 |
+
+  b1_3 -> a1_3 : successful attack (2 vs 1)
+
+* Case 2
+
+  | Position | Attack Points | Defense Points |
+  | :--- | :--- | :--- |
+  | a8_2 | 1 | 1 |
+  | c8_2 | 2 | 1 |
+  | b7_2 | 3 | 1 |
+  | c6_2 | 2 | 1 |
+
+  b7_2 -> a8_2 : successful attack (3 vs 1)
+
 ## The rules of stacking
 
-When 3 pawns from the same player occupy the same position on all 3 boards (a stack of 3 pawns), then each receives 3 defense points and 3 attack points.
+When 2 pawns of the same player occupy the same position on 2 stacked boards,
 
-When such a stack is formed, the existing pawn attack/defense points will be replaced with 3.
+then each receives 2 defense and 2 attack points.
 
-There is no addition of existing points, so be careful with this.
+For a stack of 3 pawns, each receives 3 defense and 3 attack points.
+
+When such a stack is formed, the existing pawn attack/defense points will be replaced with 3 or 2.
+
+Be careful with this, 
+
+the number of existing attack/defense points could be higher and it will be reset in this case.
 
 Example:
 
@@ -242,6 +401,26 @@ Example:
 
 The goal is to reveal and capture the enemy king.
 
+## Endgame
+
+Once a king is revealed, the player will place the king on the board.
+
+The king has 0 attack and 0 defense points, the rules of linking apply in the same way.
+
+While the king is not yet revealed, the player has the option to add some defenses to the king's location.
+
+The game will be over if an attack is successful on a king (king is captured).
+
+Example:
+
+![Stacks](imgs/NervaBoardEndgame.png)
+
+* Notation
+
+1. K_f6_1 2. g6_1 -> f6_1 3. -K_f6_1
+
+Black king is revealed and then captured, game is over. 
+
 ## Credits, contact
 
 Afrasinei Alexandru Iulian
@@ -249,5 +428,6 @@ Afrasinei Alexandru Iulian
 Email:
 
 alexandruafrasinei@gmail.com
+
 
 
