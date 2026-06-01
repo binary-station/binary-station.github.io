@@ -378,17 +378,13 @@ Examples:
 
 ## The rules of stacking
 
-When 2 pawns of the same player occupy the same position on 2 stacked boards,
+When 3 pawns from the same player occupy the same position on all 3 boards (a stack of 3 pawns),
 
-then each receives 2 defense and 2 attack points.
+then each receives 3 defense and 3 attack points.
 
-For a stack of 3 pawns, each receives 3 defense and 3 attack points.
+When such a stack is formed, the existing pawn attack/defense points will be replaced with 3.
 
-When such a stack is formed, the existing pawn attack/defense points will be replaced with 3 or 2.
-
-Be careful with this, 
-
-the number of existing attack/defense points could be higher and it will be reset in this case.
+Be carefull with this, the number of defense points could be higher and it will be reseted to 3 in this case.
 
 Example:
 

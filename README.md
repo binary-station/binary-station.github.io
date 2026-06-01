@@ -61,6 +61,6 @@ I created this site to show my work, and hope people will find my creations inte
 | --- | --- |
 | [![image](images/godot_examples_library.png)](https://binary-station.github.io/Godot4) | [![image](images/sdl3_examples_library.png)](https://binary-station.github.io/SDL3)
 
-| [raylib](https://binary-station.github.io/Raylib) |
+| [raylib](https://binary-station.github.io/Raylib) | [cairo](https://binary-station.github.io/cairo)
 | --- | --- |
-| [![image](images/raylib_examples_library.png)](https://binary-station.github.io/Raylib) |
+| [![image](images/raylib_examples_library.png)](https://binary-station.github.io/Raylib) | [![image](images/cairo_examples_library.png)](https://binary-station.github.io/cairo)
