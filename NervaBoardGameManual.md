@@ -376,6 +376,30 @@ Examples:
 
   b7_2 -> a8_2 : successful attack (3 vs 1)
 
+## The ambush
+
+An ambush is the situation when a piece is attacked on both diagonals by the enemy.
+
+The attacker receives an +1 attack point bonus.
+
+On succesfull ambush 3 attack points are applied.
+
+The counter is to piece a piece on the upper level.
+
+In this case the ambush will fail and the +1 bonus doesnt apply anymore.
+
+![Ambush example](imgs/NervaAmbushExample.png)
+
+* Case 1
+
+  | Position | Attack Points | Defense Points |
+  | :--- | :--- | :--- |
+  | e7_1 | 1 | 1 |
+  | f6_1 | 1 | 1 |
+  | g5_1 | 1 | 1 |
+
+  e7_1 -> f6_1 : successful attack (3 vs 1) 
+
 ## The rules of stacking
 
 When 3 pawns from the same player occupy the same position on all 3 boards (a stack of 3 pawns),
@@ -424,6 +448,4 @@ Afrasinei Alexandru Iulian
 Email:
 
 alexandruafrasinei@gmail.com
-
-
 
