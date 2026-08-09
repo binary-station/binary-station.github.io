@@ -376,7 +376,7 @@ Examples:
 
   b7_2 -> a8_2 : successful attack (3 vs 1)
 
-## The ambush
+### The ambush
 
 An ambush is the situation when a piece is attacked on both diagonals by the enemy.
 
@@ -384,7 +384,7 @@ The attacker receives an +1 attack point bonus.
 
 On succesfull ambush 3 attack points are applied.
 
-The counter is to piece a piece on the upper level.
+The counter is to place a piece on the upper level.
 
 In this case the ambush will fail and the +1 bonus doesnt apply anymore.
 
