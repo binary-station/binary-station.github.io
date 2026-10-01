@@ -47,7 +47,7 @@ I created this site to show my work, and hope people will find my creations inte
 
 | [Tomis](https://binary-station.github.io/TomisBoardGame) | [Callatis](https://binary-station.github.io/CallatisBoardGame)
 | --- | --- |
-| [![image](images/tomis_boardgame_library.png)](https://binary-station.github.io/TomisBoardGame) | [![image](images/callatis_library.png)](https://binary-station.github.io/CallatisBoardGame) |
+| [![image](images/tomis_boardgame_library.png)](https://binary-station.github.io/TomisBoardGame) | [![image](images/callatis_boardgame_library.png)](https://binary-station.github.io/CallatisBoardGame) |
 
 | [Histria](https://binary-station.github.io/HistriaBoardGame) | |
 | --- | --- |
