@@ -35,19 +35,23 @@ I created this site to show my work, and hope people will find my creations inte
 
 | [Binary Station](https://binary-station.github.io/BinaryStation) | [The Forth Preservation Society](https://binary-station.github.io/Unknown)
 | --- | --- |
-| [![image](images/binarystation_library.png)](https://binary-station.github.io/BinaryStation) | [![image](images/tfps_library.png)](https://binary-station.github.io/TheForthPreservationSociety)
+| [![image](images/binarystation_library.png)](https://binary-station.github.io/BinaryStation) | [![image](images/tfps_library.png)](https://binary-station.github.io/TheForthPreservationSociety) |
 
 ### Free games
 
 | [Nerva](https://binary-station.github.io/Nerva) | [Constanta](https://binary-station.github.io/Constanta)
 | --- | --- |
-| [![image](images/nerva_library.png)](https://binary-station.github.io/Nerva) | [![image](images/constanta_library.png)](https://binary-station.github.io/Constanta)
+| [![image](images/nerva_library.png)](https://binary-station.github.io/Nerva) | [![image](images/constanta_library.png)](https://binary-station.github.io/Constanta) |
 
 ### Board games
 
-| [Nerva](https://binary-station.github.io/NervaBoardGame) | [Tomis](https://binary-station.github.io/Tomis)
+| [Tomis](https://binary-station.github.io/TomisBoardGame) | [Callatis](https://binary-station.github.io/CallatisBoardGame)
 | --- | --- |
-| [![image](images/nerva_boardgame_library.png)](https://binary-station.github.io/NervaBoardGame) | [![image](images/tomis_library.png)](https://binary-station.github.io/Tomis)
+| [![image](images/tomis_boardgame_library.png)](https://binary-station.github.io/TomisBoardGame) | [![image](images/callatis_library.png)](https://binary-station.github.io/CallatisBoardGame) |
+
+| [Histria](https://binary-station.github.io/HistriaBoardGame) | |
+| --- | --- |
+| [![image](images/histria_boardgame_library.png)](https://binary-station.github.io/HistriaBoardGame) | |
 
 ### Apps/Libs
 
@@ -61,6 +65,6 @@ I created this site to show my work, and hope people will find my creations inte
 | --- | --- |
 | [![image](images/godot_examples_library.png)](https://binary-station.github.io/Godot4) | [![image](images/sdl3_examples_library.png)](https://binary-station.github.io/SDL3)
 
-| [raylib](https://binary-station.github.io/Raylib) | [cairo](https://binary-station.github.io/cairo)
+| [raylib](https://binary-station.github.io/Raylib) | [cairo](https://binary-station.github.io/Cairo)
 | --- | --- |
-| [![image](images/raylib_examples_library.png)](https://binary-station.github.io/Raylib) | [![image](images/cairo_examples_library.png)](https://binary-station.github.io/cairo)
+| [![image](images/raylib_examples_library.png)](https://binary-station.github.io/Raylib) | [![image](images/cairo_examples_library.png)](https://binary-station.github.io/Cairo)

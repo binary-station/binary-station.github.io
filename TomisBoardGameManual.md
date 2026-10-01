@@ -1,13 +1,13 @@
 [Back](https://binary-station.github.io)
 <hr>
 <br>
-## Nerva manual<br><br>
+## Tomis manual<br><br>
 
 by Afrasinei Alexandru Iulian
 
 ## Introduction
 
-Nerva is a board game that uses a standard chess board and 192 pawns + 2 kings.
+Tomis is a board game that uses a standard chess board and 192 pawns + 2 kings.
 
 Two opposing forces (White and Black) face each other in battle on the game board.
 
@@ -19,7 +19,7 @@ The goal is to reveal the enemy king's location and capture it to claim victory.
 
 Have fun!
 
-## The elements of Nerva
+## The elements of Tomis
 
 * one chess board (8x8)
 
@@ -69,7 +69,7 @@ Think of the environment as three boards stacked on top of each other.
 
 Chess notation is used to identify board locations.
 
-This is extended for Nerva by using the following syntax to identify the stacked boards:
+This is extended for Tomis by using the following syntax to identify the stacked boards:
 
 [row][column]_[board] - A pawn is placed on the board.
 
@@ -92,7 +92,7 @@ This is extended for Nerva by using the following syntax to identify the stacked
 
 Examples:
 
-![Early game notation](imgs/NervaBoard400PawnsEarlyGame.png)
+![Early game notation](imgs/TomisBoard400PawnsEarlyGame.png)
 
 * Notation:
 
@@ -110,13 +110,13 @@ Board 1 uses the large pawns, board 2 uses the medium pawns, and board 3 uses th
 
 Examples:
 
-![Pawns not stacked](imgs/NervaBoard400Pawns.png)
+![Pawns not stacked](imgs/TomisBoard400Pawns.png)
 
 * Notation:
 
 1. d2_2 2. c3_2 3. h7_1 4. g2_1 5. b5_3 6.c6_3
 
-![Stacked Pawns](imgs/NervaBoard400PawnsStacked.png)
+![Stacked Pawns](imgs/TomisBoard400PawnsStacked.png)
 
 * Notation:
 
@@ -140,7 +140,7 @@ b2 c2 d2 d3 d4 b4 c4 b3
 
 The attack will happen on these adjacent tiles on the same board.
 
-![Pawn Attacks](imgs/NervaPawnAttack.png)
+![Pawn Attacks](imgs/TomisPawnAttack.png)
 
 More details in the rules of linking, defending, attacking, stacking sections. 
 
@@ -184,7 +184,7 @@ In the unlikely event of both players choosing the same king location:
 
 Example:
 
-![Revealed Kings](imgs/NervaBoard400Kings.png)
+![Revealed Kings](imgs/TomisBoard400Kings.png)
 
 Both kings are revealed.
 
@@ -208,7 +208,7 @@ There are 2 types of linking:
 
   A pawn will share an attack point to any diagonal friendly pawn.
 
-  ![Rules of linking attack](imgs/NervaLinkingAttack.png)
+  ![Rules of linking attack](imgs/TomisLinkingAttack.png)
 
   Notation:
 
@@ -228,7 +228,7 @@ There are 2 types of linking:
   
   A pawn will share a defense point to any friendly pawns placed on the horizontal, vertical positions.
 
-  ![Rules of linking defense](imgs/NervaLinkingDefense.png)
+  ![Rules of linking defense](imgs/TomisLinkingDefense.png)
 
   Notation:
 
@@ -258,7 +258,7 @@ c3_1 and d3_1 pawns both have 2 defense points.
 
 Examples:
 
-![Rules of defending 1](imgs/NervaRulesOfDefending1.png)
+![Rules of defending 1](imgs/TomisRulesOfDefending1.png)
 
 * Case 1
 
@@ -281,7 +281,7 @@ Examples:
   d2_1 -> d3_1 : failed attack (1 vs 2)
 
 
-![Rules of defending 2](imgs/NervaRulesOfDefending2.png)
+![Rules of defending 2](imgs/TomisRulesOfDefending2.png)
 
 * Case 1
 
@@ -328,7 +328,7 @@ If you make a mistake and make an unsuccessful attack, the turn will change.
 
 Examples:
 
-![Rules of attacking 1](imgs/NervaRulesOfAttacking1.png)
+![Rules of attacking 1](imgs/TomisRulesOfAttacking1.png)
 
 * Case 1
 
@@ -353,7 +353,7 @@ Examples:
 
   d3_1 -> d2_1 : successful attack (2 vs 1)
 
-![Rules of attacking 2](imgs/NervaRulesOfAttacking2.png)
+![Rules of attacking 2](imgs/TomisRulesOfAttacking2.png)
 
 * Case 1
 
@@ -388,7 +388,7 @@ The counter is to place a piece on the upper level.
 
 In this case the ambush will fail and the +1 bonus doesnt apply anymore.
 
-![Ambush example](imgs/NervaAmbushExample.png)
+![Ambush example](imgs/TomisAmbushExample.png)
 
 * Case 1
 
@@ -412,7 +412,7 @@ Be carefull with this, the number of defense points could be higher and it will 
 
 Example:
 
-![Stacks](imgs/NervaBoard400Stacks.png)
+![Stacks](imgs/TomisBoard400Stacks.png)
 
 * Notation
 1. f4_1 2. e5_1 3. f4_2 4. e5_2 5. f4_3 6. e5_3
@@ -433,7 +433,7 @@ The game will be over if an attack is successful on a king (king is captured).
 
 Example:
 
-![Stacks](imgs/NervaBoardEndgame.png)
+![Stacks](imgs/TomisBoardEndgame.png)
 
 * Notation
 

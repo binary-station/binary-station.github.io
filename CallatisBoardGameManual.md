@@ -1,11 +1,11 @@
 [Back](https://binary-station.github.io)
 <hr>
 <br>
-## Tomis manual<br><br>
+## Callatis manual<br><br>
 
 ## Description
 
-Tomis is a space board game that utilizes a standard chess board and backgammon pieces.
+Callatis is a space board game that utilizes a standard chess board and backgammon pieces.
 
 ## Game pieces (per player)
 
@@ -27,7 +27,7 @@ Tomis is a space board game that utilizes a standard chess board and backgammon 
   
 ## Scope/Story
 
-In Tomis, two fleet commanders engage in a space battle.
+In Callatis, two fleet commanders engage in a space battle.
 
 The objective is to utilize the available structures and ships to defeat the enemy
 
