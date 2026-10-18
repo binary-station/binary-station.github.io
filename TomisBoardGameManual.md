@@ -61,7 +61,9 @@ A standard chess board (8x8).
 
 ### The battle environment
 
-A maximum of three pawns can be placed on top of each other anywhere on the board.
+A maximum of three pawns can be placed on top of each other anywhere on the board,
+
+strictly in order of size from bottom to top: Large, Medium, Small
 
 Think of the environment as three boards stacked on top of each other.
 
@@ -170,7 +172,7 @@ Each player decides at the beginning where their king will be located and keeps 
 
 The chosen location can be anywhere on the 3 boards, use the game notation.
 
-Each player will write the position on a piece of paper.
+Each player will write the position on a piece of paper or electronic means.
 
 When a player places a pawn on the king's position, the king will be revealed.
 
@@ -239,10 +241,10 @@ There are 2 types of linking:
   | Position | Attack Points | Defense Points |
   | :--- | :--- | :--- |
   | e3_1 | 1 | 5 |
-  | d4_1 | 1 | 2 |
-  | f4_1 | 1 | 2 |
-  | f2_1 | 1 | 2 |
-  | d2_1 | 1 | 2 |
+  | e4_1 | 1 | 2 |
+  | f3_1 | 1 | 2 |
+  | e2_1 | 1 | 2 |
+  | d3_1 | 1 | 2 |
 
 ## The rules of defending
 
@@ -266,9 +268,9 @@ Examples:
   | :--- | :--- | :--- |
   | f3_2 | 1 | 1 |
   | g2_2 | 1 | 1 |
-  | h1_2 | 1 | 1 |
+  | h3_2 | 1 | 1 |
 
-  h1_2 -> g2_2 : attack successful (2 vs 1)
+  h3_2 -> g2_2 : attack successful (2 vs 1)
 
 * Case 2
 
@@ -278,7 +280,7 @@ Examples:
   | d3_1 | 1 | 2 |
   | c3_1 | 1 | 2 |
 
-  d2_1 -> d3_1 : failed attack (1 vs 2)
+  d2_1 -> c3_1 : failed attack (1 vs 2)
 
 
 ![Rules of defending 2](imgs/RulesOfDefending2.png)
@@ -287,11 +289,10 @@ Examples:
 
   | Position | Attack Points | Defense Points |
   | :--- | :--- | :--- |
-  | a1_3 | 1 | 1 |
-  | b1_3 | 2 | 1 |
-  | a2_3 | 2 | 1 |
+  | b2_3 | 1 | 1 |
+  | c3_3 | 1 | 1 |
 
-  a1_3 -> b1_3 : failed attack (1 vs 1)
+  b2_3 -> c3_3 : failed attack (1 vs 1)
 
 * Case 2
 
@@ -328,7 +329,30 @@ If you make a mistake and make an unsuccessful attack, the turn will change.
 
 Examples:
 
-![Rules of attacking 1](imgs/RulesOfAttacking1.png)
+![Rules of attacking 1](imgs/RulesOfAttacking2.png)
+
+* Case 1
+
+  | Position | Attack Points | Defense Points |
+  | :--- | :--- | :--- |
+  | b2_3 | 1 | 1 |
+  | c3_3 | 2 | 1 |
+  | d2_3 | 2 | 1 |
+
+  c3_3 -> b2_3 : successful attack (2 vs 1)
+
+* Case 2
+
+  | Position | Attack Points | Defense Points |
+  | :--- | :--- | :--- |
+  | a8_2 | 1 | 1 |
+  | c8_2 | 2 | 1 |
+  | b7_2 | 3 | 1 |
+  | c6_2 | 2 | 1 |
+
+  b7_2 -> a8_2 : successful attack (3 vs 1)
+
+![Rules of attacking 2](imgs/RulesOfAttacking1.png)
 
 * Case 1
 
@@ -351,30 +375,7 @@ Examples:
   | c3_1 | 1 | 3 |
   | c4_1 | 2 | 2 |
 
-  d3_1 -> d2_1 : successful attack (2 vs 1)
-
-![Rules of attacking 2](imgs/RulesOfAttacking2.png)
-
-* Case 1
-
-  | Position | Attack Points | Defense Points |
-  | :--- | :--- | :--- |
-  | a1_3 | 1 | 1 |
-  | b1_3 | 2 | 1 |
-  | a2_3 | 2 | 1 |
-
-  b1_3 -> a1_3 : successful attack (2 vs 1)
-
-* Case 2
-
-  | Position | Attack Points | Defense Points |
-  | :--- | :--- | :--- |
-  | a8_2 | 1 | 1 |
-  | c8_2 | 2 | 1 |
-  | b7_2 | 3 | 1 |
-  | c6_2 | 2 | 1 |
-
-  b7_2 -> a8_2 : successful attack (3 vs 1)
+  d2_1 -> c3_1 : failed attack (1 vs 3)
 
 ### The ambush
 
@@ -390,15 +391,26 @@ In this case the ambush will fail and the +1 bonus doesnt apply anymore.
 
 ![Ambush example](imgs/AmbushExample.png)
 
-* Case 1
+* Case 1 (successful ambush)
 
   | Position | Attack Points | Defense Points |
   | :--- | :--- | :--- |
-  | e7_1 | 1 | 1 |
+  | e7_1 | 1 (+1 bonus) | 1 |
   | f6_1 | 1 | 1 |
   | g5_1 | 1 | 1 |
 
-  e7_1 -> f6_1 : successful attack (3 vs 1) 
+  e7_1 -> f6_1 : successful attack (3 vs 1)
+
+* Case 2 (ambush prevented)
+
+  | Position | Attack Points | Defense Points |
+  | :--- | :--- | :--- |
+  | c4_1 | 1 | 1 |
+  | d3_1 | 2 | 2 |
+  | e2_1 | 1 | 1 |
+  | d3_2 | 2 | 2 |
+
+  e2_1 -> d3_1 : failed attack (2 vs 2)
 
 ## The rules of stacking
 
@@ -435,11 +447,16 @@ Example:
 
 ![Stacks](imgs/BoardEndgame.png)
 
-* Notation
+  | Position | Attack Points | Defense Points |
+  | :--- | :--- | :--- |
+  | K_f6_1 | 0 | 1 |
+  | e6_1   | 1 | 1 |
+  | g5_1   | 2 | 1 |
+  | h6_1   | 2 | 1 |
 
-1. K_f6_1 2. g6_1 -> f6_1 3. -K_f6_1
+  g5_1 -> f6_1 : successfull attack (2 vs 1)
 
-Black king is revealed and then captured, game is over. 
+  Black king is revealed and then captured, game is over.
 
 ## Credits, contact
 
